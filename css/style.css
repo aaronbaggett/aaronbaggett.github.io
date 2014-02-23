@@ -1,9 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Istok+Web|Roboto+Condensed:400italic,700,400|Merriweather+Sans:400,400italic,700);
 
-body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Georgia, Times; font-size: 16px; }
+body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather Sans', sans-serif; font-size: 16px; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 700;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather Sans', sans-serif; font-weight: 700;}
 
 blockquote p { font-size: 16px; line-height: 1.6; }
 
