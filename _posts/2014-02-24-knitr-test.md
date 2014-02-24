@@ -51,5 +51,5 @@ qplot(price, data = diamonds, geom = "histogram")
 ## this.
 ```
 
-![plot of chunk unnamed-chunk-2](https://github.com/aaronbaggett/aaronbaggett.github.io/tree/master/img/figure/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-2](http://aaronbaggett.com/img/figure/unnamed-chunk-2.png) 
 
