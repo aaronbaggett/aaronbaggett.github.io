@@ -23,13 +23,6 @@ summary(cars)
 ##  Max.   :25.0   Max.   :120
 ```
 
-<pre>
-  <code class="ruby">
-    puts "hello"
-  </code>
-</pre>
-
-
 ```r
 library(ggplot2)
 
