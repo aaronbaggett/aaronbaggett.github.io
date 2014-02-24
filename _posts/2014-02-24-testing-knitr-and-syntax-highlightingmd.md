@@ -26,7 +26,7 @@ summary(cars)
 
 
 {% highlight python %}
-library(ggplot2)
+library(ggplot2) # This will load the library
 
 head(diamonds)
 {% endhighlight %}
