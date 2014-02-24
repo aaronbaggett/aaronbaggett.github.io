@@ -23,11 +23,11 @@ summary(cars)
 ##  Max.   :25.0   Max.   :120
 ```
 
-```r
+{% highlight r %} 
 library(ggplot2)
 
 head(diamonds)
-```
+{% highlight r %} 
 
 ```
 ##   carat       cut color clarity depth table price    x    y    z
