@@ -22,13 +22,11 @@ summary(cars)
 ##  3rd Qu.:19.0   3rd Qu.: 56  
 ##  Max.   :25.0   Max.   :120
 ```
-
 {% highlight r %} 
 library(ggplot2)
 
 head(diamonds)
 {% highlight r %} 
-
 ```
 ##   carat       cut color clarity depth table price    x    y    z
 ## 1  0.23     Ideal     E     SI2  61.5    55   326 3.95 3.98 2.43
@@ -38,9 +36,7 @@ head(diamonds)
 ## 5  0.31      Good     J     SI2  63.3    58   335 4.34 4.35 2.75
 ## 6  0.24 Very Good     J    VVS2  62.8    57   336 3.94 3.96 2.48
 ```
-
 ```r
-
 qplot(price, data = diamonds, geom = "histogram")
 ```
 
