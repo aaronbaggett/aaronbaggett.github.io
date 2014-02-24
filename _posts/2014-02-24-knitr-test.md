@@ -23,6 +23,11 @@ summary(cars)
 ##  Max.   :25.0   Max.   :120
 ```
 
+<pre>
+  <code class="ruby">
+    puts "hello"
+  </code>
+</pre>
 
 
 ```r
@@ -44,11 +49,6 @@ head(diamonds)
 ```r
 
 qplot(price, data = diamonds, geom = "histogram")
-```
-
-```
-## stat_bin: binwidth defaulted to range/30. Use 'binwidth = x' to adjust
-## this.
 ```
 
 ![plot of chunk unnamed-chunk-2](http://aaronbaggett.com/img/figure/unnamed-chunk-2.png) 
