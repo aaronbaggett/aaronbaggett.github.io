@@ -9,11 +9,11 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 
-{% highlight Perl %}
+{% highlight PHP %}
 summary(cars)
 {% endhighlight %}
 
-{% highlight S %}
+{% highlight PHP %}
 ##      speed           dist    
 ##  Min.   : 4.0   Min.   :  2  
 ##  1st Qu.:12.0   1st Qu.: 26  
@@ -25,13 +25,13 @@ summary(cars)
 
 
 
-{% highlight S-Plus %}
+{% highlight PHP %}
 library(ggplot2) # This will load the library
 
 head(diamonds)
 {% endhighlight %}
 
-{% highlight R %}
+{% highlight PHP %}
 ##   carat       cut color clarity depth table price    x    y    z
 ## 1  0.23     Ideal     E     SI2  61.5    55   326 3.95 3.98 2.43
 ## 2  0.21   Premium     E     SI1  59.8    61   326 3.89 3.84 2.31
