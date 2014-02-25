@@ -28,7 +28,7 @@ summary(cars)
 {% highlight s-plus %}
 library(ggplot2) # This will load the library
 
-head(diamonds)
+head(diamonds, 10)
 {% endhighlight %}
 
 {% highlight s-plus %}
