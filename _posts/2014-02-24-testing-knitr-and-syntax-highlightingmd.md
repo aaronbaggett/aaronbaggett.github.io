@@ -43,6 +43,8 @@ head(diamonds)
 
 {% highlight C++ %}
 qplot(price, data = diamonds, geom = "histogram")
+
+nums <- c(1:1000)
 {% endhighlight %}
 
 ![plot of chunk unnamed-chunk-2](http://aaronbaggett.com/img/figure/unnamed-chunk-2.png) 
