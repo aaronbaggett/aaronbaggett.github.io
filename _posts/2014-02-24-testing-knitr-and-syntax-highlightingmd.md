@@ -41,7 +41,7 @@ head(diamonds)
 ## 6  0.24 Very Good     J    VVS2  62.8    57   336 3.94 3.96 2.48
 {% endhighlight %}
 
-{% highlight Python %}
+{% highlight TeX %}
 qplot(price, data = diamonds, geom = "histogram")
 {% endhighlight %}
 
