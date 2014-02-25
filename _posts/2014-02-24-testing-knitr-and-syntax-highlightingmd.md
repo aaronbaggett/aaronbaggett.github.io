@@ -9,11 +9,11 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 
-{% highlight s %}
+{% highlight r %}
 summary(cars)
 {% endhighlight %}
 
-{% highlight s %}
+{% highlight r %}
 ##      speed           dist    
 ##  Min.   : 4.0   Min.   :  2  
 ##  1st Qu.:12.0   1st Qu.: 26  
@@ -25,13 +25,13 @@ summary(cars)
 
 
 
-{% highlight s %}
+{% highlight r %}
 library(ggplot2) # This will load the library
 
 head(diamonds, 10)
 {% endhighlight %}
 
-{% highlight s %}
+{% highlight r %}
 ##   carat       cut color clarity depth table price    x    y    z
 ## 1  0.23     Ideal     E     SI2  61.5    55   326 3.95 3.98 2.43
 ## 2  0.21   Premium     E     SI1  59.8    61   326 3.89 3.84 2.31
@@ -41,10 +41,27 @@ head(diamonds, 10)
 ## 6  0.24 Very Good     J    VVS2  62.8    57   336 3.94 3.96 2.48
 {% endhighlight %}
 
-{% highlight s %}
+{% highlight r %}
 qplot(price, data = diamonds, geom = "histogram")
 
 nums <- c(1:1000)
+{% endhighlight %}
+
+{% highlight r %}
+library(RCurl)
+test_user = function(site = 'https://bitbucket.org/',
+                     candidates = c(0:9, letters)) {
+  for (i in candidates) {
+    if (!url.exists(paste0(site, i))) message(i)
+    Sys.sleep(runif(1, 0, .1)) # be nice
+  }
+}
+# examples
+test_user()
+# two-letter names
+test_user(candidates = as.vector(outer(letters, letters, 'paste0')))
+# check github
+test_user('https://github.com/')
 {% endhighlight %}
 
 ![plot of chunk unnamed-chunk-2](http://aaronbaggett.com/img/figure/unnamed-chunk-2.png) 
