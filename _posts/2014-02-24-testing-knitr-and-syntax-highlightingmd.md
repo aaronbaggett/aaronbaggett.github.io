@@ -9,13 +9,13 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 
-{% highlight r %}
+{% highlight s %}
 summary(cars)
 {% endhighlight %}
 
 When we summarize a data frame, the output includes quartiles, minimum and maximum values, as well as mean and median.
 
-{% highlight r %}
+{% highlight s %}
 ##      speed           dist    
 ##  Min.   : 4.0   Min.   :  2  
 ##  1st Qu.:12.0   1st Qu.: 26  
