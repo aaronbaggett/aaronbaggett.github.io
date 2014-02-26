@@ -13,6 +13,8 @@ When you click the **Knit HTML** button a web page will be generated that includ
 summary(cars)
 {% endhighlight %}
 
+When we summarize a data frame, the output includes quartiles, minimum and maximum values, as well as mean and median.
+
 {% highlight r %}
 ##      speed           dist    
 ##  Min.   : 4.0   Min.   :  2  
@@ -30,6 +32,8 @@ library(ggplot2) # This will load the library
 
 head(diamonds, 10)
 {% endhighlight %}
+
+The head function in R will print the first six rows of the data frame.  We can tell R to print more by simply adding , X, where X is the number of rows we would like to view.
 
 {% highlight r %}
 ##   carat       cut color clarity depth table price    x    y    z
