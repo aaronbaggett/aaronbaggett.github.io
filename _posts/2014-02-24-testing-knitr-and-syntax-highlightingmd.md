@@ -33,7 +33,11 @@ library(ggplot2) # This will load the library
 head(diamonds, 10)
 {% endhighlight %}
 
-The head function in R will print the first six rows of the data frame.  We can tell R to print more by simply adding {% highlight r %}, X {% endhighlight %}, where X is the number of rows we would like to view.
+The head function in R will print the first six rows of the data frame.  We can tell R to print more by simply adding 
+{% highlight r %}
+, X
+{% endhighlight %}
+, where X is the number of rows we would like to view.
 
 {% highlight r %}
 ##   carat       cut color clarity depth table price    x    y    z
