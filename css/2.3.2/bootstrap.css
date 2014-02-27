@@ -969,12 +969,12 @@ address {
   line-height: 20px;
 }
 
-/*code,
+code,
 pre {
   padding: 0 3px 2px;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   font-size: 12px;
-  color: #333333;
+  color: #aa22ff;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
@@ -1022,7 +1022,7 @@ pre code {
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
-}*/
+
 
 form {
   margin: 0 0 20px;
