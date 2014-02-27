@@ -43,13 +43,13 @@ The head function in R will print the first six rows of the data frame.  We can 
 ## 6  0.24 Very Good     J    VVS2  62.8    57   336 3.94 3.96 2.48
 {% endhighlight %}
 
-{% highlight r %}
+{% highlight s %}
 qplot(price, data = diamonds, geom = "histogram")
 
 nums <- c(1:1000)
 {% endhighlight %}
 
-{% highlight r %}
+{% highlight s %}
 library(RCurl)
 test_user = function(site = 'https://bitbucket.org/',
                      candidates = c(0:9, letters)) {
