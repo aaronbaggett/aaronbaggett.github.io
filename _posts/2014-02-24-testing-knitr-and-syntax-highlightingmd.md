@@ -33,7 +33,7 @@ head(diamonds, 10)
 
 The head function in R will print the first six rows of the data frame.  We can tell R to print more by simply adding, where X is the number of rows we would like to view.
 
-{% highlight r %}
+{% highlight python %}
 ##   carat       cut color clarity depth table price    x    y    z
 ## 1  0.23     Ideal     E     SI2  61.5    55   326 3.95 3.98 2.43
 ## 2  0.21   Premium     E     SI1  59.8    61   326 3.89 3.84 2.31
@@ -43,7 +43,7 @@ The head function in R will print the first six rows of the data frame.  We can 
 ## 6  0.24 Very Good     J    VVS2  62.8    57   336 3.94 3.96 2.48
 {% endhighlight %}
 
-{% highlight R %}
+{% highlight python %}
 qplot(price, data = diamonds, geom = "histogram")
 
 nums <- c(1:1000)
