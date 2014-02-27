@@ -9,7 +9,7 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 
-{% highlight python %}
+{% highlight r %}
 summary(cars)
 {% endhighlight %}
 
@@ -25,7 +25,7 @@ When we summarize a data frame, the output includes quartiles, minimum and maxim
 ##  Max.   :25.0   Max.   :120
 {% endhighlight %}
 
-{% highlight python %}
+{% highlight r %}
 library(ggplot2) # This will load the library
 
 head(diamonds, 10)
@@ -33,7 +33,7 @@ head(diamonds, 10)
 
 The head function in R will print the first six rows of the data frame.  We can tell R to print more by simply adding, where X is the number of rows we would like to view.
 
-{% highlight python %}
+{% highlight r %}
 ##   carat       cut color clarity depth table price    x    y    z
 ## 1  0.23     Ideal     E     SI2  61.5    55   326 3.95 3.98 2.43
 ## 2  0.21   Premium     E     SI1  59.8    61   326 3.89 3.84 2.31
@@ -43,13 +43,13 @@ The head function in R will print the first six rows of the data frame.  We can 
 ## 6  0.24 Very Good     J    VVS2  62.8    57   336 3.94 3.96 2.48
 {% endhighlight %}
 
-{% highlight %}
+{% highlight r %}
 qplot(price, data = diamonds, geom = "histogram")
 
 nums <- c(1:1000)
 {% endhighlight %}
 
-{% highlight %}
+{% highlight r %}
 library(RCurl)
 test_user = function(site = 'https://bitbucket.org/',
                      candidates = c(0:9, letters)) {
@@ -66,7 +66,7 @@ test_user(candidates = as.vector(outer(letters, letters, 'paste0')))
 test_user('https://github.com/')
 {% endhighlight %}
 
-{% highlight python %}
+{% highlight r %}
 import re
 for test_string in ['555-1212', 'ILL-EGAL']:
     if re.match(r'^\d{3}-\d{4}$', test_string):
