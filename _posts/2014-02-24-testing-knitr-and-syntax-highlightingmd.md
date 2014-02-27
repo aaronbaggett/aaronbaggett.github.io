@@ -49,7 +49,7 @@ qplot(price, data = diamonds, geom = "histogram")
 nums <- c(1:1000)
 {% endhighlight %}
 
-{% highlight R %}
+{% highlight python %}
 library(RCurl)
 test_user = function(site = 'https://bitbucket.org/',
                      candidates = c(0:9, letters)) {
