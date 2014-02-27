@@ -66,5 +66,14 @@ test_user(candidates = as.vector(outer(letters, letters, 'paste0')))
 test_user('https://github.com/')
 {% endhighlight %}
 
+{% highlight python %}
+import re
+for test_string in ['555-1212', 'ILL-EGAL']:
+    if re.match(r'^\d{3}-\d{4}$', test_string):
+        print test_string, 'is a valid US local phone number'
+    else:
+        print test_string, 'rejected'
+{% endhighlight %}
+
 ![plot of chunk unnamed-chunk-2](http://aaronbaggett.com/img/figure/unnamed-chunk-2.png) 
 
