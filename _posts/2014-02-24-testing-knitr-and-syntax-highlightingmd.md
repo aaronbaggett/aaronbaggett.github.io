@@ -9,7 +9,7 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 
-{% highlight r %}
+{% highlight python %}
 summary(cars)
 {% endhighlight %}
 
@@ -25,7 +25,7 @@ When we summarize a data frame, the output includes quartiles, minimum and maxim
 ##  Max.   :25.0   Max.   :120
 {% endhighlight %}
 
-{% highlight r %}
+{% highlight python %}
 library(ggplot2) # This will load the library
 
 head(diamonds, 10)
