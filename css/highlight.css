@@ -6,7 +6,7 @@
 .highlight .k { color: #008000; font-weight: bold } /* Keyword */
 .highlight .o { color: #0000ff } /* Operator */
 .highlight .n { color: #aa22ff } /* Name */
-.highlight .p { color: #0000ff; font-weight: bold } /* Punctuation */
+.highlight .p { color: #0000ff } /* Punctuation */
 .highlight .cm { color: #6f706f; font-style: italic } /* Comment.Multiline */
 .highlight .cp { color: #BC7A00 } /* Comment.Preproc */
 .highlight .c1 { color: #6f706f; font-style: italic } /* Comment.Single */
