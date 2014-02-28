@@ -737,7 +737,6 @@ pre {
      -moz-border-radius: 4px;
           border-radius: 4px;
 }
-}
 
 pre.prettyprint {
   margin-bottom: 20px;
@@ -756,6 +755,10 @@ pre code {
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
+}
+
+form {
+  margin: 0 0 18px;
 }
 
 .container {
