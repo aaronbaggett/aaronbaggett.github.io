@@ -713,7 +713,7 @@ code {
   border-radius: 4px;
 }
 
-/*pre {
+pre {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
@@ -723,9 +723,9 @@ code {
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f7f7f7;
-  border: 1px solid #cccccc;
+  /*border: 1px solid #cccccc;*/
   border-radius: 4px;
-}*/
+}
 
 pre.prettyprint {
   margin-bottom: 20px;
