@@ -731,7 +731,7 @@ pre {
   white-space: pre;
   white-space: pre-wrap;
   background-color: #f7f7f7;
-  /*border: 1px solid #cccccc;*/
+  border: 1px solid #cccccc;
   border-radius: 4px;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
@@ -756,10 +756,6 @@ pre code {
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
-}
-
-form {
-  margin: 0 0 20px;
 }
 
 .container {
