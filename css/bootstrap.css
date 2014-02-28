@@ -706,7 +706,7 @@ pre {
 
 code {
   padding: 2px 4px;
-  font-size: 90%;
+  font-size: 50%;
   color: #c7254e;
   white-space: nowrap;
   background-color: #f9f2f4;
@@ -717,7 +717,7 @@ pre {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 1.428571429;
   color: #333333;
   word-break: break-all;
