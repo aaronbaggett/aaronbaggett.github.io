@@ -699,7 +699,7 @@ address {
   line-height: 1.428571429;
 }
 
-/*code,
+code,
 pre {
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
 }
@@ -739,8 +739,6 @@ pre code {
   background-color: transparent;
   border: 0;
 }
-
-*/
 
 .pre-scrollable {
   max-height: 340px;
