@@ -3914,13 +3914,13 @@ input[type="submit"].btn.btn-mini {
 }
 
 .alert-info {
-  color: CC5500;
+  color: #CC5500;
   background-color: #d9edf7;
   border-color: #bce8f1;
 }
 
 .alert-info h4 {
-  color: CC5500;
+  color: #CC5500;
 }
 
 .alert-block {
@@ -5693,7 +5693,7 @@ a.badge:focus {
 
 .label-info,
 .badge-info {
-  background-color: CC5500;
+  background-color: #CC5500;
 }
 
 .label-info[href],
