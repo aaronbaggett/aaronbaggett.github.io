@@ -237,7 +237,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #005580;
+  color: #813c00;
   text-decoration: underline;
 }
 
@@ -703,7 +703,7 @@ a.text-error:focus {
 }
 
 .text-info {
-  color: #3a87ad;
+  color: #CC5500;
 }
 
 a.text-info:hover,
