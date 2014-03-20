@@ -1,0 +1,26 @@
+---
+title: "Reading Secure Data Into R from Dropbox"
+author: Aaron R. Baggett
+date: March 17, 2014
+output:
+  html_document:
+    highlight: tango
+---
+
+It's easy to read data into R from an unsecure URL.  The base function ```url``` allows for reading a variety of file types into your current R session.  However, using ```url()``` is limited to unsecure (i.e., http://) URLs.  No problem.  It's just as easy to read in data from an secure (i.e., https://) URL via the ```getURL``` function in the ```RCurl``` package.  However, for some reason, ```getURL()``` doesn't seem to parse data files from Dropbox.  Otherwise, ```getURL``` works nicely.
+
+I ran into this connundrum over the weekend when I had a .csv file that was too large for GitHub
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
