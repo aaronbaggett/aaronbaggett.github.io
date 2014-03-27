@@ -7,20 +7,36 @@ output:
     highlight: tango
 ---
 
-It's easy to read data into R from an unsecure URL.  The base function ```url``` allows for reading a variety of file types into your current R session.  However, using ```url()``` is limited to unsecure (i.e., http://) URLs.  No problem.  It's just as easy to read in data from an secure (i.e., https://) URL via the ```getURL``` function in the ```RCurl``` package.  However, for some reason, ```getURL()``` doesn't seem to parse data files from Dropbox.  Otherwise, ```getURL``` works nicely.
+It's easy to read data into R from an unsecure URL.  The base function ```url``` allows for reading a variety of file types into your current R session.  See ```?url``` for details.  However, using ```url()``` is limited to unsecure (i.e., http://) URLs.  No problem.  It's just as easy to read in data from an secure (i.e., https://) URL via the ```getURL``` function in the ```RCurl``` package.  However, let's say you'd like to read in a data file stored in Dropbox.  That's a problem.  ```getURL()``` will not parse data files from Dropbox.  Otherwise, ```getURL``` works nicely.  I ran into this connundrum over the weekend when I had a .csv file that was too large for GitHub.
 
-I ran into this connundrum over the weekend when I had a .csv file that was too large for GitHub
+### Enter Dropbox
+Since 2013, [files above 50 MB](https://help.github.com/articles/working-with-large-files) are not allowed to be pushed to GitHub.  This is when storing files in Dropbox can be handy.  However, [since 2012](https://www.dropbox.com/help/16/en), Dropbox has made all public links and shared documents secure.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r}
-summary(cars)
+```{r, tidy = FALSE, message = FALSE}
+library(repmis)
+library(ggplot2)
+dealers <- source_DropboxData(file = "dealers.csv", 
+  key = "b3zskf22rz93h67", sep = ",", header = TRUE)
+head(dealers)
 ```
 
 You can also embed plots, for example:
 
-```{r, echo=FALSE}
-plot(cars)
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+#install.packages("devtools")
+devtools::install_github("karthik/wesanderson")
+```
+
+```{r, echo = TRUE, fig.width = 6.5, fig.height = 5, fig.align = 'center'}
+library(wesanderson)
+
+ggplot(data = dealers, aes(x = appearance, y = response_time, 
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + 
+  xlab("\nCustomer Appearance") + 
+  ylab("Salesman Response Time\n") +
+  theme_bw() + scale_fill_manual(values = wes.palette(3, "FantasticFox"))
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
