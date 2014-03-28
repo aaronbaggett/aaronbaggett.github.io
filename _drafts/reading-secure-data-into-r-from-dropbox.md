@@ -24,6 +24,7 @@ baby_wt <- source_DropboxData(file = "baby_wt.csv",
   key = "6gndxisvu2weekk", sep = ",", header = TRUE)
 ```
 
+
 You'll notice the ```source_DropboxData``` function is really straightforward.  In this case, the file I'm reading in is a .csv file called ```dealers.csv```, which is indicated following the ```file = ``` command.  When you generate a shared link, Dropbox will assign an alphanumeric key unique to that file's URL, which, similarly, is indicated following the ```key = ``` command.  After that, simply tell ```source_DropboxData``` what kind of character separation is being used and whether or not the file has a header, and you're set.
 
 ### Step 3: Let's Check it Out!
