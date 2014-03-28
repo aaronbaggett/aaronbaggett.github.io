@@ -19,7 +19,11 @@ dealers <- source_DropboxData(file = "dealers.csv",
 head(dealers)
 ```
 
-The data file I'm reading into my R session is stored on my hard drive in a folder I've set to sync with Dropbox.  You'll notice the ```source_DropboxData``` function is really straightforward.  In this case, the file I'm reading in is a .csv file called ```dealers.csv```, which is indicated following the ```file = ``` command.  When you generate a shared link, Dropbox will assign an alphanumeric key unique to that file's URL, which, similarly, is indicated following the ```key = ``` command.  After that, simply tell ```source_DropboxData``` what kind of character separation is being used and whether or not the file has a header, and you're set.
+The data file I'm reading into my R session is stored on my hard drive in a folder I've set to sync with Dropbox.  If you have Dropbox installed, it's easy to generate a shared link:
+
+![alt text](http://aaronbaggett.com/img/db_screen.png)
+
+You'll notice the ```source_DropboxData``` function is really straightforward.  In this case, the file I'm reading in is a .csv file called ```dealers.csv```, which is indicated following the ```file = ``` command.  When you generate a shared link, Dropbox will assign an alphanumeric key unique to that file's URL, which, similarly, is indicated following the ```key = ``` command.  After that, simply tell ```source_DropboxData``` what kind of character separation is being used and whether or not the file has a header, and you're set.
 
 Let's make sure the ```dealers.csv``` data file was read in properly.
 
