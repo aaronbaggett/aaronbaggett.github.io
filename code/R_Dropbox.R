@@ -13,5 +13,11 @@ ggplot(data = dealers, aes(x = appearance, y = response_time,
   fill = appearance)) + geom_boxplot(color = I("grey35")) + 
   xlab("\nCustomer Appearance") + 
   ylab("Salesman Response Time\n") +
-  theme_bw() + scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+  ggtitle("Response Times of Car Salesmen as a \nFunction of Customer Appearance\n") +
+  theme_bw() + theme(legend.position = "none") +
+  scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+
+ddply(dealers, .(appearance), summarize, 
+  mean_rt = mean(response_time), 
+  sd_rt = sd(response_time))
   
