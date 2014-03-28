@@ -1,5 +1,6 @@
 library(repmis)
 library(ggplot2)
+library(knitr)
 #install.packages("devtools")
 devtools::install_github("karthik/wesanderson")
 
@@ -28,4 +29,5 @@ ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt,
 ddply(baby_wt, .(mom_smokes), summarize, 
   mean_wt = mean(baby_bwt), 
   sd_wt = sd(baby_bwt))
-  
+
+knit("/Users/AB/aaronbaggett.github.io/_drafts/reading-secure-data-into-r-from-dropbox.Rmd")

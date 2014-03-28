@@ -1,0 +1,255 @@
+library(repmis)
+?cite(repmis)
+cite(repmis)
+cite("repmis")
+?cite
+cite(R)
+citation(repmis)
+citation('repmis')
+dealers <- source_DropboxData(file = "dealers.csv", #
+  key = "b3zskf22rz93h67", sep = ",", header = TRUE)#
+head(dealers)
+table(appearance ~ response_time)
+table(dealers)
+table(appearance, response_time)
+with(dealers, table(appearance, response_time))
+with(dealers, table(response_time, appearance))
+library(plyer)
+library(plyr)
+ddply(data = dealers, .(appearance), response_time = mean(response_time), summarize)
+ddply(data = dealers, .(appearance), summarize, response_time = mean(response_time))
+?dply
+?dply
+?ddply
+ddply(dealers, .(appearance), summarize, rt = mean(response_time))
+ddply(dealers, .(appearance), summarize, mean_rt = mean(response_time), sd_rt = sd(response_time))
+round(ddply(dealers, .(appearance), summarize, mean_rt = mean(response_time), sd_rt = sd(response_time)), 3)
+round(ddply(dealers, .(appearance), summarize, #
+  mean_rt = mean(response_time), #
+  sd_rt = sd(response_time)), 2)
+ddply(dealers, .(appearance), summarize, #
+  mean_rt = mean(response_time), #
+  sd_rt = sd(response_time))
+library(wesanderson)#
+#
+ggplot(data = dealers, aes(x = appearance, y = response_time, #
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance") + #
+  ylab("Salesman Response Time\n") +#
+  theme_bw() + scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+library(ggplot2)
+ggplot(data = dealers, aes(x = appearance, y = response_time, #
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance") + #
+  ylab("Salesman Response Time\n") +#
+  theme_bw() + scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+ggplot(data = dealers, aes(x = appearance, y = response_time, #
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance") + #
+  ylab("Salesman Response Time\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+ggplot(data = dealers, aes(x = appearance, y = response_time, #
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance") + #
+  ylab("Salesman Response Time\n") +#
+  main("Title") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+ggplot(data = dealers, aes(x = appearance, y = response_time, #
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance") + #
+  ylab("Salesman Response Time\n") +#
+  title("Title") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+ggplot(data = dealers, aes(x = appearance, y = response_time, #
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance") + #
+  ylab("Salesman Response Time\n") +#
+  ggtitle("Title") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+ggplot(data = dealers, aes(x = appearance, y = response_time, #
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance") + #
+  ylab("Salesman Response Time\n") +#
+  ggtitle("Title\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+ggplot(data = dealers, aes(x = appearance, y = response_time, #
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance") + #
+  ylab("Salesman Response Time\n") +#
+  ggtitle("Response Times of Car Salesmen as a Function of Customer Appearance") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+ggplot(data = dealers, aes(x = appearance, y = response_time, #
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance") + #
+  ylab("Salesman Response Time\n") +#
+  ggtitle("Response Times of Car Salesmen as a \nFunction of Customer Appearance") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+ggplot(data = dealers, aes(x = appearance, y = response_time, #
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance") + #
+  ylab("Salesman Response Time\n") +#
+  ggtitle("Response Times of Car Salesmen as a \nFunction of Customer Appearance\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+ggplot(data = dealers, aes(x = appearance, y = response_time, #
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance", color = "red") + #
+  ylab("Salesman Response Time\n") +#
+  ggtitle("Response Times of Car Salesmen as a \nFunction of Customer Appearance\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+?xlab
+ggplot(data = dealers, aes(x = appearance, y = response_time, #
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance", colour = "red") + #
+  ylab("Salesman Response Time\n") +#
+  ggtitle("Response Times of Car Salesmen as a \nFunction of Customer Appearance\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+ggplot(data = dealers, aes(x = appearance, y = response_time, #
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance", colour = I("red")) + #
+  ylab("Salesman Response Time\n") +#
+  ggtitle("Response Times of Car Salesmen as a \nFunction of Customer Appearance\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+ggplot(data = dealers, aes(x = appearance, y = response_time, #
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance") + #
+  ylab("Salesman Response Time\n") +#
+  ggtitle("Response Times of Car Salesmen as a \nFunction of Customer Appearance\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+library(foreign)
+baby_wt <- read.spss("~/Dropbox/UMHB/Teaching/PSYC 2305/Data/lowbwt.sav", use.value.labels = TRUE, to.data.frame = TRUE)
+baby_wt <- read.spss("~/Dropbox/UMHB/Teaching/Spring 2014/PSYC 2305/Data/lowbwt.sav", use.value.labels = TRUE, to.data.frame = TRUE)
+head(lowbwt)
+head(baby_wt)
+baby_wt <- read.spss("~/Dropbox/UMHB/Teaching/Spring 2014/PSYC 2305/Data/baby_weight.sav", use.value.labels = TRUE, to.data.frame = TRUE)
+head(baby_wt)
+write.csv(baby_wt, "~/Dropbox/Data/baby_wt.csv")
+baby_wt <- source_DropboxData(file = "baby_wt.csv", #
+  key = "6gndxisvu2weekk", sep = ",", header = TRUE)#
+head(baby_wt)
+baby_wt <- read.spss("~/Dropbox/UMHB/Teaching/Spring 2014/PSYC 2305/Data/baby_weight.sav", use.value.labels = TRUE, to.data.frame = TRUE)
+head(baby_wt)
+baby_wt <- read.spss("~/Dropbox/UMHB/Teaching/Spring 2014/PSYC 2305/Data/lowbwt.sav", use.value.labels = TRUE, to.data.frame = TRUE)
+head(baby_wt)
+write.csv(baby_wt, "~/Dropbox/Data/baby_wt.csv")
+baby_wt <- source_DropboxData(file = "baby_wt.csv", #
+  key = "6gndxisvu2weekk", sep = ",", header = TRUE)#
+head(baby_wt)
+baby_wt <- source_DropboxData(file = "baby_wt.csv", #
+  key = "6gndxisvu2weekk", sep = ",", header = TRUE)#
+head(baby_wt)
+ddply(baby_wt, .(mom_smokes), summarize, #
+  mean_wt = mean(baby_bwt), #
+  sd_wt = sd(baby_bwt))
+ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt, #
+  fill = appearance)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance") + #
+  ylab("Salesman Response Time\n") +#
+  ggtitle("Response Times of Car Salesmen as a \nFunction of Customer Appearance\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(2, "FantasticFox"))
+ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt, #
+  fill = mom_smokes)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nCustomer Appearance") + #
+  ylab("Salesman Response Time\n") +#
+  ggtitle("Response Times of Car Salesmen as a \nFunction of Customer Appearance\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(2, "FantasticFox"))
+ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt, #
+  fill = mom_smokes)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nMother's Smoking Status") + #
+  ylab("Baby Birth Weight\n") +#
+  ggtitle("Baby Birth Weight as a \nFunction of Mother's Smoking Status\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(2, "FantasticFox"))
+ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt, #
+  fill = mom_smokes)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nMother's Smoking Status") + #
+  ylab("Baby Birth Weight\n") +#
+  ggtitle("Baby Birth Weight as a \nFunction of Mother's Smoking Status\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(2, "GrandBudapest"))
+ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt, #
+  fill = mom_smokes)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nMother's Smoking Status") + #
+  ylab("Baby Birth Weight\n") +#
+  ggtitle("Baby Birth Weight as a \nFunction of Mother's Smoking Status\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(2, "Royal2"))
+ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt, #
+  fill = mom_smokes)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nMother's Smoking Status") + #
+  ylab("Baby Birth Weight\n") +#
+  ggtitle("Baby Birth Weight as a \nFunction of Mother's Smoking Status\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(2, "Darjeeling"))
+ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt, #
+  fill = mom_smokes)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nMother's Smoking Status") + #
+  ylab("Baby Birth Weight\n") +#
+  ggtitle("Baby Birth Weight as a \nFunction of Mother's Smoking Status\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(2, "Zissou"))
+ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt, #
+  fill = mom_smokes)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nMother's Smoking Status") + #
+  ylab("Baby Birth Weight\n") +#
+  ggtitle("Baby Birth Weight as a \nFunction of Mother's Smoking Status\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(2, "GrandBudapest"))
+ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt, #
+  fill = mom_smokes)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nMother's Smoking Status") + #
+  ylab("Baby Birth Weight\n") +#
+  ggtitle("Baby Birth Weight as a \nFunction of Mother's Smoking Status\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(2, "GrandBudapest2"))
+ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt, #
+  fill = mom_smokes)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nMother's Smoking Status") + #
+  ylab("Baby Birth Weight\n") +#
+  ggtitle("Baby Birth Weight as a \nFunction of Mother's Smoking Status\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(2, "Moonrise3"))
+ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt, #
+  fill = mom_smokes)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nMother's Smoking Status") + #
+  ylab("Baby Birth Weight\n") +#
+  ggtitle("Baby Birth Weight as a \nFunction of Mother's Smoking Status\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(2, "Chevalier"))
+ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt, #
+  fill = mom_smokes)) + geom_boxplot(color = I("grey35")) + #
+  xlab("\nMother's Smoking Status") + #
+  ylab("Baby Birth Weight\n") +#
+  ggtitle("Baby Birth Weight as a \nFunction of Mother's Smoking Status\n") +#
+  theme_bw() + theme(legend.position = "none") +#
+  scale_fill_manual(values = wes.palette(2, "FantasticFox"))
+library(RMarkdown)
+library(Rmarkdown)
+library(markdown)
+?markdown
+renderMarkdown(file = "~/aaronbaggett.github.io/_drafts/reading-secure-data-into-r-from-dropbox.Rmd", output = "~/Desktop/file")
+renderMarkdown(file = "~/aaronbaggett.github.io/_drafts/reading-secure-data-into-r-from-dropbox.html", output = "~/Desktop/file")
+renderMarkdown(file = "~/AB/aaronbaggett.github.io/_drafts/reading-secure-data-into-r-from-dropbox.html", output = "~/Desktop/file")
+renderMarkdown(file = "~/AB/aaronbaggett.github.io/_drafts/reading-secure-data-into-r-from-dropbox.html", output = "~/Desktop/file.md")
+library(knitr)
+renderMarkdown(file = "~/AB/aaronbaggett.github.io/_drafts/reading-secure-data-into-r-from-dropbox.html", output = "~/Desktop/file.md")
+renderMarkdown(file = "/Users/AB/aaronbaggett.github.io/_draftsreading-secure-data-into-r-from-dropbox.html", output = "~/Desktop/file.md")
+renderMarkdown(file = "/Users/AB/aaronbaggett.github.io/_draftsreading-secure-data-into-r-from-dropbox.html", output = "~/Desktop/file.md", renderer = "HTML")
+renderMarkdown(file = "/Users/AB/aaronbaggett.github.io/_drafts/reading-secure-data-into-r-from-dropbox.html", output = "~/Desktop/file.md", renderer = "HTML")
+renderMarkdown(file = "/Users/AB/aaronbaggett.github.io/_drafts/reading-secure-data-into-r-from-dropbox.html", output = "~/Desktop/file", renderer = "HTML")
+renderMarkdown(file = "/Users/AB/aaronbaggett.github.io/_drafts/reading-secure-data-into-r-from-dropbox.html", output = "~/Desktop/file.html", renderer = "HTML")
+knit("/Users/AB/aaronbaggett.github.io/_drafts/reading-secure-data-into-r-from-dropbox.Rmd")
+getwd()
