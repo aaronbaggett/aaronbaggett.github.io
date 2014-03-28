@@ -12,7 +12,7 @@ It's easy to read data into R from an unsecure URL.  The base function ```url```
 ### I'd Prefer GitHub
 Since 2013, files above 50 MB are [not allowed to be pushed to GitHub](https://help.github.com/articles/working-with-large-files).  This is when storing files in Dropbox can be handy.  However, since 2012, Dropbox has made all public links and shared documents [secure](https://www.dropbox.com/help/16/en).  Still, reading data into R from a secure file location in Dropbox is not as easy as simply envoking ```getURL()```.  Luckily, [Christopher Gandrud](http://CRAN.R-project.org/package=repmis) wrote a function precisely for this purpose in his package ```repmis```.  First, generate a link for your data file locally or from the Dropbox website.  The data file I'm reading into my R session is stored on my hard drive in a folder I've set to sync with Dropbox.  If you have Dropbox installed, it's easy to generate a shared link.  I generated one locally like this:
 
-![Share Dropbox Link window](http://aaronbaggett.com/img/db_screen.png)
+![Share Dropbox Link window](http://aaronbaggett.com/img/db_grab.png)
 
 ### Using the ```repmis::source_DropboxData``` Function
 Once the link has been copied to your clipboard, reading the file into R is as easy as envoking Gandrud's ```source_DropboxData``` function.  It works like this:
