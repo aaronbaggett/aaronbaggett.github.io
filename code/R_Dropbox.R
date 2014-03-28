@@ -5,23 +5,27 @@ devtools::install_github("karthik/wesanderson")
 
 library(foreign)
 
-baby_wt <- read.spss("~/Dropbox/UMHB/Teaching/Spring 2014/PSYC 2305/Data/baby_weight.sav", use.value.labels = TRUE, to.data.frame = TRUE)
+baby_wt <- read.spss("~/Dropbox/UMHB/Teaching/Spring 2014/PSYC 2305/Data/lowbwt.sav", use.value.labels = TRUE, to.data.frame = TRUE)
 
-dealers <- source_DropboxData(file = "dealers.csv", 
-  key = "b3zskf22rz93h67", sep = ",", header = TRUE)
-head(dealers)
+write.csv(baby_wt, "~/Dropbox/Data/baby_wt.csv")
+
+https://www.dropbox.com/s/6gndxisvu2weekk/baby_wt.csv
+
+baby_wt <- source_DropboxData(file = "baby_wt.csv", 
+  key = "6gndxisvu2weekk", sep = ",", header = TRUE)
+head(baby_wt)
 
 library(wesanderson)
 
-ggplot(data = dealers, aes(x = appearance, y = response_time, 
-  fill = appearance)) + geom_boxplot(color = I("grey35")) + 
-  xlab("\nCustomer Appearance") + 
-  ylab("Salesman Response Time\n") +
-  ggtitle("Response Times of Car Salesmen as a \nFunction of Customer Appearance\n") +
+ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt, 
+  fill = mom_smokes)) + geom_boxplot(color = I("grey35")) + 
+  xlab("\nMother's Smoking Status") + 
+  ylab("Baby Birth Weight\n") +
+  ggtitle("Baby Birth Weight as a \nFunction of Mother's Smoking Status\n") +
   theme_bw() + theme(legend.position = "none") +
-  scale_fill_manual(values = wes.palette(3, "FantasticFox"))
+  scale_fill_manual(values = wes.palette(2, "FantasticFox"))
 
-ddply(dealers, .(appearance), summarize, 
-  mean_rt = mean(response_time), 
-  sd_rt = sd(response_time))
+ddply(baby_wt, .(mom_smokes), summarize, 
+  mean_wt = mean(baby_bwt), 
+  sd_wt = sd(baby_bwt))
   
