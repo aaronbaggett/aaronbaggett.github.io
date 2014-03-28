@@ -3,6 +3,10 @@ library(ggplot2)
 #install.packages("devtools")
 devtools::install_github("karthik/wesanderson")
 
+library(foreign)
+
+baby_wt <- read.spss("~/Dropbox/UMHB/Teaching/Spring 2014/PSYC 2305/Data/baby_weight.sav", use.value.labels = TRUE, to.data.frame = TRUE)
+
 dealers <- source_DropboxData(file = "dealers.csv", 
   key = "b3zskf22rz93h67", sep = ",", header = TRUE)
 head(dealers)

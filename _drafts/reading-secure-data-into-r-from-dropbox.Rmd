@@ -9,23 +9,23 @@ output:
 
 It's easy to read data into R from an unsecure URL.  The base function ```url``` allows for reading a variety of file types into your current R session.  See ```?url``` for details.  However, using ```url()``` is limited to unsecure (i.e., http://) URLs.  No problem.  It's just as easy to read in data from an secure (i.e., https://) URL via the ```getURL``` function in the ```RCurl``` package.  However, let's say you'd like to read in a data file stored in Dropbox.  That's a problem.  ```getURL()``` will not parse data files from Dropbox.  Otherwise, ```getURL``` works nicely.  I ran into this connundrum over the weekend when I had a .csv file that was too large for GitHub.
 
-### Enter Dropbox
-Since 2013, [files above 50 MB](https://help.github.com/articles/working-with-large-files) are not allowed to be pushed to GitHub.  This is when storing files in Dropbox can be handy.  However, [since 2012](https://www.dropbox.com/help/16/en), Dropbox has made all public links and shared documents secure.  Still, reading data into R from a secure file location in Dropbox is not as easy as simply envoking ```getURL()```.  Luckily, [Christopher Gandrud](http://CRAN.R-project.org/package=repmis) wrote a function precisely for this purpose in his package ```repmis```.  It's as easy as envoking his ```source_DropboxData``` function.  It works like this:
+### I'd Prefer GitHub
+Since 2013, files above 50 MB are [not allowed to be pushed to GitHub](https://help.github.com/articles/working-with-large-files).  This is when storing files in Dropbox can be handy.  However, since 2012, Dropbox has made all public links and shared documents [secure](https://www.dropbox.com/help/16/en).  Still, reading data into R from a secure file location in Dropbox is not as easy as simply envoking ```getURL()```.  Luckily, [Christopher Gandrud](http://CRAN.R-project.org/package=repmis) wrote a function precisely for this purpose in his package ```repmis```.  First, generate a link for your data file locally or from the Dropbox website.  The data file I'm reading into my R session is stored on my hard drive in a folder I've set to sync with Dropbox.  If you have Dropbox installed, it's easy to generate a shared link.  I generated one locally like this:
+
+![Share Dropbox Link window](http://aaronbaggett.com/img/db_screen.png)
+
+### Using the ```repmis::source_DropboxData``` Function
+Once the link has been copied to your clipboard, reading the file into R is as easy as envoking Gandrud's ```source_DropboxData``` function.  It works like this:
 
 ```{r, tidy = FALSE, message = FALSE}
 library(repmis)
 dealers <- source_DropboxData(file = "dealers.csv", 
   key = "b3zskf22rz93h67", sep = ",", header = TRUE)
-head(dealers)
 ```
-
-The data file I'm reading into my R session is stored on my hard drive in a folder I've set to sync with Dropbox.  If you have Dropbox installed, it's easy to generate a shared link:
-
-![alt text](http://aaronbaggett.com/img/db_screen.png)
 
 You'll notice the ```source_DropboxData``` function is really straightforward.  In this case, the file I'm reading in is a .csv file called ```dealers.csv```, which is indicated following the ```file = ``` command.  When you generate a shared link, Dropbox will assign an alphanumeric key unique to that file's URL, which, similarly, is indicated following the ```key = ``` command.  After that, simply tell ```source_DropboxData``` what kind of character separation is being used and whether or not the file has a header, and you're set.
 
-Let's make sure the ```dealers.csv``` data file was read in properly.
+Let's make sure the ```dealers.csv``` data file was read in properly.  The data are from a low birth weight study reported in the third edition of Hosmer, Lemeshow, & Sturdivant's text [*Applied Logistic Regression*](http://www.amazon.com/Applied-Logistic-Regression-David-Hosmer/dp/0470582472/ref=sr_1_1?s=books&ie=UTF8&qid=1396032229&sr=1-1).  We could quickly table the mean birth weights of babys born to mothers who smoked during pregnancy and those born to mothers who did not smoke during pregnancy.  If we really wanted to be cute we could construct box plots for birth weights of babys by mother's smoking status.  Really, this is just an excuse to use [Karthik Ram's](https://github.com/karthik) sweet new [package](https://github.com/karthik/wesanderson) for coloring graphics, ```wesanderson```.
 
 ```{r, tidy = FALSE, message = FALSE, fig.width = 6, fig.height = 5.25, fig.align = "center"}
 library(ggplot2)
