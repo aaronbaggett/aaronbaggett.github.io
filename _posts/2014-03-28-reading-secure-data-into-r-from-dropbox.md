@@ -18,11 +18,11 @@ First, generate a link for your data file locally or from the Dropbox website.  
 Once the link has been copied to your clipboard, reading the file into R is as easy as invoking Gandrud's ```source_DropboxData``` function.  It works like this:
 
 
-```r
+{% highlight r %}
 library(repmis)
 baby_wt <- source_DropboxData(file = "baby_wt.csv", 
   key = "6gndxisvu2weekk", sep = ",", header = TRUE)
-```
+{% endhighlight %}
 
 
 You'll notice the ```source_DropboxData``` function is really straightforward.  In this case, the file I'm reading in is a .csv file called ```dealers.csv```, which is indicated following the ```file = ``` command.  When you generate a shared link, Dropbox will assign an alphanumeric key unique to that file's URL, which, similarly, is indicated following the ```key = ``` command.  After that, simply tell ```source_DropboxData``` what kind of character separation is being used and whether or not the file has a header, and you're set.
@@ -31,12 +31,12 @@ You'll notice the ```source_DropboxData``` function is really straightforward.  
 Let's make sure the ```baby_wt.csv``` data file was read in properly.  The data are from a low birth weight study reported in the third edition of Hosmer, Lemeshow, & Sturdivant's text [*Applied Logistic Regression*](http://www.amazon.com/Applied-Logistic-Regression-David-Hosmer/dp/0470582472/ref=sr_1_1?s=books&ie=UTF8&qid=1396032229&sr=1-1).  We could quickly table the mean birth weights of babies born to mothers who smoked during pregnancy and those born to mothers who did not smoke during pregnancy.
 
 
-```r
+{% highlight r %}
 library(plyr)
 ddply(baby_wt, .(mom_smokes), summarize, 
   mean_wt = mean(baby_bwt), 
   sd_wt = sd(baby_bwt))
-```
+{% endhighlight %}
 
 ```
 ##   mom_smokes mean_wt sd_wt
@@ -48,7 +48,7 @@ ddply(baby_wt, .(mom_smokes), summarize,
 If we really wanted to be cute we could construct box plots for birth weights of babies by mother's smoking status.  Really, this is just an excuse to use [Karthik Ram's](https://github.com/karthik) sweet new [```wesanderson``` package](https://github.com/karthik/wesanderson) for coloring graphics.
 
 
-```r
+{% highlight r %}
 library(ggplot2)
 library(wesanderson)
 ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt, 
@@ -58,7 +58,7 @@ ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt,
   ggtitle("Baby Birth Weight as a \nFunction of Mother's Smoking Status\n") +
   theme_bw() + theme(legend.position = "none") +
   scale_fill_manual(values = wes.palette(2, "FantasticFox"))
-```
+{% endhighlight %}
 
 <img src="http://aaronbaggett.com/img/unnamed-chunk-3.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
 
