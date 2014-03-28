@@ -17,6 +17,7 @@ First, generate a link for your data file locally or from the Dropbox website.  
 ### Step 2: Use the ```repmis::source_DropboxData``` Function
 Once the link has been copied to your clipboard, reading the file into R is as easy as invoking Gandrud's ```source_DropboxData``` function.  It works like this:
 
+
 ```r
 library(repmis)
 baby_wt <- source_DropboxData(file = "baby_wt.csv", 
@@ -27,6 +28,7 @@ You'll notice the ```source_DropboxData``` function is really straightforward.  
 
 ### Step 3: Let's Check it Out!
 Let's make sure the ```baby_wt.csv``` data file was read in properly.  The data are from a low birth weight study reported in the third edition of Hosmer, Lemeshow, & Sturdivant's text [*Applied Logistic Regression*](http://www.amazon.com/Applied-Logistic-Regression-David-Hosmer/dp/0470582472/ref=sr_1_1?s=books&ie=UTF8&qid=1396032229&sr=1-1).  We could quickly table the mean birth weights of babies born to mothers who smoked during pregnancy and those born to mothers who did not smoke during pregnancy.
+
 
 ```r
 library(plyr)
