@@ -38,11 +38,11 @@ ddply(baby_wt, .(mom_smokes), summarize,
   sd_wt = sd(baby_bwt))
 {% endhighlight %}
 
-```
+{% highlight r %}
 ##   mom_smokes mean_wt sd_wt
 ## 1 Non-Smoker   6.735 1.659
 ## 2     Smoker   6.114 1.455
-```
+{% endhighlight %}
 
 
 If we really wanted to be cute we could construct box plots for birth weights of babies by mother's smoking status.  Really, this is just an excuse to use [Karthik Ram's](https://github.com/karthik) sweet new [```wesanderson``` package](https://github.com/karthik/wesanderson) for coloring graphics.
