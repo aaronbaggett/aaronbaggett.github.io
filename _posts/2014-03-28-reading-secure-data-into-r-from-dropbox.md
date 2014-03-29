@@ -65,10 +65,10 @@ ggplot(data = baby_wt, aes(x = mom_smokes, y = baby_bwt,
 
 So that's it.  As you can see, when you need to store a data file outside of GitHub, Dropbox can be a nice alternative.  Thanks to Christopher Gandrud's ```source_DropboxData``` function in the ```repmis``` package we can read data into R from a secure Dropbox URL.
 
+<br>
+
 #### EDIT: 03/29/2014
 The ```wesanderson``` package is now on CRAN.  Of course you can always get the latest updates by installing the development version.
-
-<br>
 
 {% highlight r %}
 devtools::install_github("karthik/wesanderson")
