@@ -68,6 +68,7 @@ So that's it.  As you can see, when you need to store a data file outside of Git
 #### EDIT: 03/29/2014
 The ```wesanderson``` package is now on CRAN.  Of course you can always get the latest updates by installing the development version.
 
+<br>
 
 {% highlight r %}
 devtools::install_github("karthik/wesanderson")
