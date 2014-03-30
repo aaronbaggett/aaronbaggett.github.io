@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reading Secure Data Into R from Dropbox
+title: Reading Data Into R from a Secure Dropbox URL
 tags: default
 ---
 
