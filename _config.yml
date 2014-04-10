@@ -1,3 +1,4 @@
 permalink: /notes/:year/:month/:day/:title
 auto: true
 pygments: true
+markdown: kramdown
