@@ -6,6 +6,8 @@ tags: default
 
 It's easy to read data into R from an unsecure URL.  The base function ```url``` allows for reading a variety of file types into your current R session.  See ```?url``` for details.  However, using ```url()``` is limited to unsecure (i.e., http://) URLs.  No problem.  It's just as easy to read in data from a secure (i.e., https://) URL via the ```getURL``` function in the ```RCurl``` package.  However, let's say you'd like to read in a data file stored in Dropbox.  That's a problem.  ```getURL()``` will not parse data files from Dropbox.  Otherwise, ```getURL``` works nicely.  I ran into this conundrum over the weekend when I had a .csv file that was too large for GitHub.
 
+<iframe width="1280" height="720" src="//www.youtube.com/embed/PpRSC0NhCeY" frameborder="0" allowfullscreen></iframe>
+
 ### I'd Prefer GitHub, But...
 Since 2013, files above 50 MB are [not allowed to be pushed to GitHub](https://help.github.com/articles/working-with-large-files).  This is when storing files in Dropbox can be handy.  However, since 2012, Dropbox has made all public links and shared documents [secure](https://www.dropbox.com/help/16/en).  Still, reading data into R from a secure file location in Dropbox is not as easy as simply invoking ```getURL()```.  Luckily, [Christopher Gandrud](http://CRAN.R-project.org/package=repmis) wrote a function precisely for this purpose in his package ```repmis```.
 
