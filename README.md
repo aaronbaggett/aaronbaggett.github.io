@@ -6,5 +6,3 @@ I'm originally from [Levelland, TX](http://www.ci.levelland.tx.us).  There's eve
 I completed my bachelor's and master's degrees at Hardin-Simmons University in Abilene, TX in religion/psychology and counseling psychology and human development, respectively.
 
 I'm currently a Ph.D. candidate in educational psychology at Baylor University in Waco, TX.  My concentrations were in measurement & statistics and learning & development.
-
-https://github.com/aaronbaggett/aaronbaggett.github.io/blob/master/img/future_islands.gif
