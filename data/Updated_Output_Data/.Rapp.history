@@ -1,0 +1,4 @@
+load("/Users/alex_beaujean/Dropbox/Baggett_Dissertation/Model Output R Data/m6.rda")
+load("/Users/alex_beaujean/Dropbox/Baggett_Dissertation/Data/pfx_13.rda")
+library(lme4)
+summary(m6)
