@@ -1,7 +1,0 @@
----
-output: html_document
----
-
-# IDEA 02
-
-<iframe width="960" height="720" src="//www.youtube.com/embed/GHFXCXtRAu0?rel=0&amp;showinfo=0&amp;vq=hd720" frameborder="0" allowfullscreen></iframe>
