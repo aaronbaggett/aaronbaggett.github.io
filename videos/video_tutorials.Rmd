@@ -58,18 +58,6 @@ The following brief video tutorials demonstrate some common and useful methods f
 
 ## Software Installations
 
-<link rel="stylesheet" href="dist/css/plyr.css">
-		<section class="example-video">
-			<div class="player">
-				<video poster="//cdn.sampotts.me/plyr/poster.jpg">
-					<!-- Video files -->
-					<source src="//s3-us-west-2.amazonaws.com/rvideotutorials/loading_data.mp4" type="video/mp4">
-
-				</video>
-			</div>
-			<small>Add message at bottom <a href="https://peach.blender.org" target="_blank">peach.blender.org</a>.</small>
-		</section>
-
 ### Installing R on Mac OS X
 <iframe src="//player.vimeo.com/video/119649710?title=0&byline=0&portrait=0" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Chapter 4: Conceptualization and Measurement of Variables from <a href="https://vimeo.com/baggett">Aaron Baggett</a> on <a href="https://vimeo.com">Vimeo</a>.</p> <p></p>
 
@@ -97,39 +85,3 @@ The following brief video tutorials demonstrate some common and useful methods f
 <p align="right">
   <a href="#top"><b>Back to Top</b></a>
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
