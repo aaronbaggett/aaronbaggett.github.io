@@ -1,0 +1,135 @@
+---
+output: html_document
+---
+<br>
+<h1 id="top"><strong> R Video Tutorials </strong></h1>
+
+***
+
+The following brief video tutorials demonstrate some common and useful methods for analyzing data using R.
+<br>
+<br>
+
+**SOFTWARE INSTALLATIONS**
+
+- **R:**
+    - Mac OS X
+    - Windows
+
+- **RStudio:**
+    - Mac OS X
+    - Windows
+
+**DATA ANALYSES**
+
+- **Descriptive Statistics:**
+    - Indexing Data Frames
+    - Measures of Central Tendency
+    - Measures of Variability
+    - Calculating Descriptive Statistics by Group
+    - Manipulating Data with `dplyr`
+
+- **Visually Displaying Data:**
+    - `ggplot2`
+    - Customizing `ggplot2`
+
+- **Tests of Hypotheses:**
+    - Single-Sample `t`-Tests
+    - Two-Sample `t`-Tests
+    - Chi-Square Analyses
+
+- **Modeling and Predicting Outcomes:**
+    - Correlation
+    - Linear Regression
+    - Analysis of Variance (ANOVA)
+    - Multiple Regression
+
+- **Miscellaneous Statistical Functions in R:**
+    - Changing or Setting the Working Directory
+    - Embedding **R** Code and Compiling Documents in **RStudio**:
+    - Setting Up a Document Template
+    - knitting HTML Documents
+
+**APA STYLE**
+
+- **Presenting Results:**
+    - Displaying Tables
+    - Displaying Figures
+
+## Software Installations
+
+<link rel="stylesheet" href="dist/css/plyr.css">
+		<section class="example-video">
+			<div class="player">
+				<video poster="//cdn.sampotts.me/plyr/poster.jpg">
+					<!-- Video files -->
+					<source src="//s3-us-west-2.amazonaws.com/rvideotutorials/loading_data.mp4" type="video/mp4">
+
+				</video>
+			</div>
+			<small>Add message at bottom <a href="https://peach.blender.org" target="_blank">peach.blender.org</a>.</small>
+		</section>
+
+### Installing R on Mac OS X
+<iframe src="//player.vimeo.com/video/119649710?title=0&byline=0&portrait=0" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Chapter 4: Conceptualization and Measurement of Variables from <a href="https://vimeo.com/baggett">Aaron Baggett</a> on <a href="https://vimeo.com">Vimeo</a>.</p> <p></p>
+
+<p align="right">
+  <a href="#top"><b>Back to Top</b></a>
+</p>
+
+### Installing R on Windows
+<iframe src="//player.vimeo.com/video/119649710?title=0&byline=0&portrait=0" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Chapter 4: Conceptualization and Measurement of Variables from <a href="https://vimeo.com/baggett">Aaron Baggett</a> on <a href="https://vimeo.com">Vimeo</a>.</p> <p></p>
+
+<p align="right">
+  <a href="#top"><b>Back to Top</b></a>
+</p>
+
+### Installing RStudio on Mac OS X
+<iframe src="//player.vimeo.com/video/119649710?title=0&byline=0&portrait=0" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Chapter 4: Conceptualization and Measurement of Variables from <a href="https://vimeo.com/baggett">Aaron Baggett</a> on <a href="https://vimeo.com">Vimeo</a>.</p> <p></p>
+
+<p align="right">
+  <a href="#top"><b>Back to Top</b></a>
+</p>
+
+### Installing RStudio on Windows
+<iframe src="//player.vimeo.com/video/119649710?title=0&byline=0&portrait=0" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p>Chapter 4: Conceptualization and Measurement of Variables from <a href="https://vimeo.com/baggett">Aaron Baggett</a> on <a href="https://vimeo.com">Vimeo</a>.</p> <p></p>
+
+<p align="right">
+  <a href="#top"><b>Back to Top</b></a>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
