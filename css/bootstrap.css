@@ -762,8 +762,8 @@ form {
 }
 
 .container {
-  padding-right: 1px;
-  padding-left: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -931,7 +931,7 @@ form {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 1150px;
+    max-width: 750px;
   }
   .col-sm-1,
   .col-sm-2,
