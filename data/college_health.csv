@@ -1,126 +1,1 @@
-"","gender","age","citizenship","major","class","gpa","bmi","exercise","sleep","stress"
-"1","Female",23,"USA","STEM","Freshman",2.31,22,"3-4 Times Weekly",5,66
-"2","Female",20,"USA","Humanities","Junior",2.38,22,"3-4 Times Weekly",5,83
-"3","Female",22,"Africa","Education","Sophomore",2.5,19,"3-4 Times Weekly",5,89
-"4","Female",21,"USA","Business","Freshman",1.81,28,"Never",4,110
-"5","Male",23,"USA","Business","Junior",2.57,18,"5+ Times Weekly",7,47
-"6","Male",24,"Africa","Education","Freshman",2.95,18,"5+ Times Weekly",8,58
-"7","Female",21,"USA","Education","Freshman",2.23,22,"3-4 Times Weekly",5,71
-"8","Female",23,"USA","Education","Sophomore",2.3,22,"3-4 Times Weekly",5,83
-"9","Male",24,"USA","Humanities","Junior",2.44,22,"3-4 Times Weekly",5,72
-"10","Female",25,"USA","Behavioral Sciences","Sophomore",2.4,19,"3-4 Times Weekly",5,68
-"11","Male",24,"Korea","Business","Freshman",0.84,27,"1-2 Times Weekly",3,122
-"12","Male",23,"USA","Education","Sophomore",1.83,29,"Never",3,128
-"13","Female",23,"USA","Humanities","Sophomore",2.82,17,"5+ Times Weekly",7,25
-"14","Male",18,"USA","Behavioral Sciences","Senior",2.12,22,"3-4 Times Weekly",5,93
-"15","Female",21,"USA","Education","Junior",3.45,8,"5+ Times Weekly",8,13
-"16","Female",24,"USA","Humanities","Junior",2.69,17,"5+ Times Weekly",8,38
-"17","Female",22,"Korea","Behavioral Sciences","Freshman",2.58,18,"5+ Times Weekly",7,62
-"18","Female",20,"USA","Behavioral Sciences","Freshman",3.03,18,"5+ Times Weekly",8,44
-"19","Male",20,"USA","Humanities","Sophomore",2.49,24,"3-4 Times Weekly",5,73
-"20","Male",21,"Korea","STEM","Freshman",2.38,25,"3-4 Times Weekly",5,84
-"21","Male",22,"USA","Behavioral Sciences","Junior",2.64,18,"5+ Times Weekly",7,35
-"22","Female",26,"USA","Business","Junior",2.77,17,"5+ Times Weekly",8,45
-"23","Female",22,"USA","Behavioral Sciences","Senior",3.42,9,"5+ Times Weekly",11,16
-"24","Female",23,"USA","Business","Sophomore",2.71,18,"5+ Times Weekly",8,53
-"25","Female",24,"USA","Business","Junior",1.43,27,"1-2 Times Weekly",4,121
-"26","Female",22,"USA","Business","Senior",2.92,18,"5+ Times Weekly",8,36
-"27","Female",21,"Africa","Education","Junior",2.07,25,"3-4 Times Weekly",5,99
-"28","Male",19,"Korea","Humanities","Senior",1.82,32,"Never",4,111
-"29","Female",22,"Africa","Behavioral Sciences","Freshman",3.06,18,"5+ Times Weekly",7,53
-"30","Male",23,"Africa","Business","Sophomore",2.88,18,"5+ Times Weekly",8,62
-"31","Female",22,"Korea","Humanities","Sophomore",3.66,10,"5+ Times Weekly",12,20
-"32","Male",22,"USA","STEM","Freshman",2.58,18,"5+ Times Weekly",8,30
-"33","Male",20,"USA","Humanities","Senior",2.23,24,"3-4 Times Weekly",5,96
-"34","Male",24,"USA","Humanities","Senior",3.12,17,"5+ Times Weekly",8,60
-"35","Female",21,"USA","Humanities","Sophomore",2.81,18,"5+ Times Weekly",7,40
-"36","Female",23,"USA","Education","Freshman",2.68,18,"5+ Times Weekly",8,41
-"37","Male",22,"USA","Humanities","Freshman",2.8,17,"5+ Times Weekly",7,56
-"38","Male",20,"China","Business","Senior",2.84,18,"5+ Times Weekly",8,54
-"39","Female",20,"USA","Education","Freshman",3.02,18,"5+ Times Weekly",7,64
-"40","Female",22,"Korea","Business","Freshman",3.39,14,"5+ Times Weekly",8,16
-"41","Male",21,"Korea","Education","Junior",2.58,18,"5+ Times Weekly",7,62
-"42","Male",24,"Africa","STEM","Junior",2.2,22,"3-4 Times Weekly",5,83
-"43","Female",25,"USA","Humanities","Junior",1.72,27,"1-2 Times Weekly",4,103
-"44","Male",22,"USA","Education","Sophomore",2.89,18,"5+ Times Weekly",8,32
-"45","Male",21,"USA","Behavioral Sciences","Freshman",2.48,19,"3-4 Times Weekly",5,70
-"46","Female",22,"USA","STEM","Junior",2.79,17,"5+ Times Weekly",8,62
-"47","Male",24,"USA","Business","Freshman",2.36,24,"3-4 Times Weekly",5,91
-"48","Female",19,"Africa","Education","Senior",2.59,18,"5+ Times Weekly",8,40
-"49","Female",22,"Korea","Behavioral Sciences","Freshman",2.86,17,"5+ Times Weekly",7,54
-"50","Female",25,"USA","Business","Sophomore",2.31,22,"3-4 Times Weekly",5,73
-"51","Female",23,"USA","Education","Freshman",3.22,18,"5+ Times Weekly",7,58
-"52","Female",20,"USA","Humanities","Senior",3.21,17,"5+ Times Weekly",8,61
-"53","Male",20,"Africa","Humanities","Junior",2.65,18,"5+ Times Weekly",7,29
-"54","Male",23,"Africa","Business","Senior",3,18,"5+ Times Weekly",8,61
-"55","Female",25,"USA","Education","Senior",3.05,17,"5+ Times Weekly",7,38
-"56","Female",23,"USA","STEM","Freshman",2.94,18,"5+ Times Weekly",8,50
-"57","Male",22,"USA","Behavioral Sciences","Junior",2.96,18,"5+ Times Weekly",7,44
-"58","Female",20,"USA","Business","Junior",3.74,9,"5+ Times Weekly",11,11
-"59","Female",23,"Africa","Education","Senior",3.35,10,"5+ Times Weekly",11,13
-"60","Male",23,"USA","Business","Freshman",2.4,21,"3-4 Times Weekly",5,70
-"61","Male",24,"USA","Education","Sophomore",2.92,17,"5+ Times Weekly",7,38
-"62","Male",24,"USA","STEM","Senior",2.53,18,"5+ Times Weekly",8,62
-"63","Female",22,"USA","Behavioral Sciences","Freshman",2.74,18,"5+ Times Weekly",7,44
-"64","Male",22,"USA","Behavioral Sciences","Senior",2.44,22,"3-4 Times Weekly",5,86
-"65","Female",20,"USA","Behavioral Sciences","Junior",3.69,9,"5+ Times Weekly",8,12
-"66","Female",22,"USA","Business","Senior",2.47,19,"3-4 Times Weekly",5,85
-"67","Female",22,"USA","STEM","Junior",2.39,21,"3-4 Times Weekly",5,96
-"68","Female",19,"USA","Behavioral Sciences","Freshman",2.8,18,"5+ Times Weekly",8,44
-"69","Female",24,"USA","Business","Senior",2.59,18,"5+ Times Weekly",7,53
-"70","Female",23,"USA","Humanities","Senior",3.16,17,"5+ Times Weekly",8,39
-"71","Male",24,"Korea","STEM","Senior",3,18,"5+ Times Weekly",7,36
-"72","Male",25,"USA","Humanities","Senior",3.59,9,"5+ Times Weekly",9,17
-"73","Female",20,"China","STEM","Freshman",3.33,10,"5+ Times Weekly",11,16
-"74","Female",21,"Korea","Behavioral Sciences","Freshman",2.06,21,"3-4 Times Weekly",5,87
-"75","Male",21,"USA","Business","Senior",3.12,18,"5+ Times Weekly",7,62
-"76","Male",21,"USA","Business","Freshman",3.78,9,"5+ Times Weekly",12,12
-"77","Male",22,"USA","Business","Junior",2.85,18,"5+ Times Weekly",7,30
-"78","Male",21,"Africa","Education","Freshman",3.56,8,"5+ Times Weekly",11,16
-"79","Male",22,"China","Humanities","Junior",2.15,22,"3-4 Times Weekly",5,70
-"80","Female",19,"Korea","Behavioral Sciences","Freshman",2.92,18,"5+ Times Weekly",8,40
-"81","Female",22,"USA","Humanities","Senior",3.54,13,"5+ Times Weekly",12,13
-"82","Female",18,"Africa","Education","Sophomore",2.85,17,"5+ Times Weekly",8,56
-"83","Male",21,"Africa","Humanities","Junior",2.12,25,"3-4 Times Weekly",5,96
-"84","Male",21,"USA","Behavioral Sciences","Freshman",3.33,13,"5+ Times Weekly",11,16
-"85","Female",22,"USA","STEM","Sophomore",2.02,27,"1-2 Times Weekly",4,107
-"86","Male",25,"Korea","STEM","Freshman",2.74,18,"5+ Times Weekly",8,62
-"87","Male",26,"USA","STEM","Freshman",2.51,18,"5+ Times Weekly",7,28
-"88","Female",23,"USA","Behavioral Sciences","Junior",3.33,13,"5+ Times Weekly",11,13
-"89","Female",24,"USA","STEM","Senior",2.12,24,"3-4 Times Weekly",5,72
-"90","Female",24,"USA","STEM","Junior",2.27,25,"3-4 Times Weekly",5,85
-"91","Male",21,"USA","Business","Freshman",1.8,27,"1-2 Times Weekly",4,123
-"92","Female",24,"USA","STEM","Sophomore",3.59,8,"5+ Times Weekly",9,13
-"93","Male",20,"USA","Behavioral Sciences","Junior",2.37,22,"3-4 Times Weekly",5,85
-"94","Male",19,"USA","Humanities","Senior",2.45,19,"3-4 Times Weekly",5,70
-"95","Female",21,"USA","STEM","Senior",2.83,18,"5+ Times Weekly",7,47
-"96","Female",21,"USA","Business","Freshman",2.08,24,"3-4 Times Weekly",5,77
-"97","Male",20,"Africa","Humanities","Senior",3.24,17,"5+ Times Weekly",7,61
-"98","Male",21,"China","Business","Senior",2.31,22,"3-4 Times Weekly",5,86
-"99","Male",18,"Africa","Education","Sophomore",3.45,8,"5+ Times Weekly",11,13
-"100","Male",25,"USA","Humanities","Senior",2.36,22,"3-4 Times Weekly",5,85
-"101","Female",20,"USA","Business","Freshman",3.55,10,"5+ Times Weekly",12,18
-"102","Male",20,"Africa","Education","Sophomore",2.16,21,"3-4 Times Weekly",5,98
-"103","Female",23,"USA","Humanities","Freshman",3.05,17,"5+ Times Weekly",7,25
-"104","Female",22,"USA","Business","Junior",2.16,25,"3-4 Times Weekly",5,83
-"105","Female",22,"USA","Education","Senior",3.5,13,"5+ Times Weekly",8,17
-"106","Female",21,"Korea","Business","Sophomore",2.53,17,"5+ Times Weekly",8,38
-"107","Female",22,"USA","Business","Junior",2.98,18,"5+ Times Weekly",7,62
-"108","Male",27,"Africa","Business","Sophomore",2.97,18,"5+ Times Weekly",8,44
-"109","Female",24,"China","Education","Junior",2.56,17,"5+ Times Weekly",7,63
-"110","Female",22,"USA","Humanities","Sophomore",2.32,24,"3-4 Times Weekly",5,83
-"111","Female",21,"USA","Humanities","Junior",3.72,9,"5+ Times Weekly",12,16
-"112","Male",27,"Africa","Humanities","Sophomore",2.84,17,"5+ Times Weekly",8,45
-"113","Male",22,"USA","STEM","Freshman",1.8,27,"1-2 Times Weekly",3,132
-"114","Female",24,"USA","Education","Freshman",2.83,18,"5+ Times Weekly",8,53
-"115","Male",24,"USA","Behavioral Sciences","Freshman",1.96,27,"1-2 Times Weekly",4,103
-"116","Male",25,"USA","Business","Sophomore",3.01,18,"5+ Times Weekly",8,36
-"117","Female",23,"USA","Humanities","Junior",2.45,24,"3-4 Times Weekly",5,96
-"118","Female",21,"USA","Behavioral Sciences","Sophomore",2.84,17,"5+ Times Weekly",8,22
-"119","Female",22,"USA","Behavioral Sciences","Freshman",2.47,22,"3-4 Times Weekly",5,95
-"120","Male",23,"China","STEM","Freshman",2.72,18,"5+ Times Weekly",8,62
-"121","Female",24,"China","Humanities","Freshman",3.3,17,"5+ Times Weekly",7,24
-"122","Female",21,"USA","Behavioral Sciences","Senior",2.61,18,"5+ Times Weekly",8,30
-"123","Female",21,"USA","Humanities","Sophomore",3.36,13,"5+ Times Weekly",11,18
-"124","Female",21,"USA","Humanities","Senior",2.37,24,"3-4 Times Weekly",5,85
-"125","Female",23,"USA","Education","Freshman",2.99,18,"5+ Times Weekly",7,40
+gender,age,citizenship,major,class,gpa,bmi,exercise,sleep,stressFemale,23,USA,STEM,Freshman,2.31,22,3-4 Times Weekly,5,66Female,20,USA,Humanities,Junior,2.38,22,3-4 Times Weekly,5,83Female,22,Africa,Education,Sophomore,2.5,19,3-4 Times Weekly,5,89Female,21,USA,Business,Freshman,1.81,28,Never,4,110Male,23,USA,Business,Junior,2.57,18,5+ Times Weekly,7,47Male,24,Africa,Education,Freshman,2.95,18,5+ Times Weekly,8,58Female,21,USA,Education,Freshman,2.23,22,3-4 Times Weekly,5,71Female,23,USA,Education,Sophomore,2.3,22,3-4 Times Weekly,5,83Male,24,USA,Humanities,Junior,2.44,22,3-4 Times Weekly,5,72Female,25,USA,Behavioral Sciences,Sophomore,2.4,19,3-4 Times Weekly,5,68Male,24,Korea,Business,Freshman,0.84,27,1-2 Times Weekly,3,122Male,23,USA,Education,Sophomore,1.83,29,Never,3,128Female,23,USA,Humanities,Sophomore,2.82,17,5+ Times Weekly,7,25Male,18,USA,Behavioral Sciences,Senior,2.12,22,3-4 Times Weekly,5,93Female,21,USA,Education,Junior,3.45,8,5+ Times Weekly,8,13Female,24,USA,Humanities,Junior,2.69,17,5+ Times Weekly,8,38Female,22,Korea,Behavioral Sciences,Freshman,2.58,18,5+ Times Weekly,7,62Female,20,USA,Behavioral Sciences,Freshman,3.03,18,5+ Times Weekly,8,44Male,20,USA,Humanities,Sophomore,2.49,24,3-4 Times Weekly,5,73Male,21,Korea,STEM,Freshman,2.38,25,3-4 Times Weekly,5,84Male,22,USA,Behavioral Sciences,Junior,2.64,18,5+ Times Weekly,7,35Female,26,USA,Business,Junior,2.77,17,5+ Times Weekly,8,45Female,22,USA,Behavioral Sciences,Senior,3.42,9,5+ Times Weekly,11,16Female,23,USA,Business,Sophomore,2.71,18,5+ Times Weekly,8,53Female,24,USA,Business,Junior,1.43,27,1-2 Times Weekly,4,121Female,22,USA,Business,Senior,2.92,18,5+ Times Weekly,8,36Female,21,Africa,Education,Junior,2.07,25,3-4 Times Weekly,5,99Male,19,Korea,Humanities,Senior,1.82,32,Never,4,111Female,22,Africa,Behavioral Sciences,Freshman,3.06,18,5+ Times Weekly,7,53Male,23,Africa,Business,Sophomore,2.88,18,5+ Times Weekly,8,62Female,22,Korea,Humanities,Sophomore,3.66,10,5+ Times Weekly,12,20Male,22,USA,STEM,Freshman,2.58,18,5+ Times Weekly,8,30Male,20,USA,Humanities,Senior,2.23,24,3-4 Times Weekly,5,96Male,24,USA,Humanities,Senior,3.12,17,5+ Times Weekly,8,60Female,21,USA,Humanities,Sophomore,2.81,18,5+ Times Weekly,7,40Female,23,USA,Education,Freshman,2.68,18,5+ Times Weekly,8,41Male,22,USA,Humanities,Freshman,2.8,17,5+ Times Weekly,7,56Male,20,China,Business,Senior,2.84,18,5+ Times Weekly,8,54Female,20,USA,Education,Freshman,3.02,18,5+ Times Weekly,7,64Female,22,Korea,Business,Freshman,3.39,14,5+ Times Weekly,8,16Male,21,Korea,Education,Junior,2.58,18,5+ Times Weekly,7,62Male,24,Africa,STEM,Junior,2.2,22,3-4 Times Weekly,5,83Female,25,USA,Humanities,Junior,1.72,27,1-2 Times Weekly,4,103Male,22,USA,Education,Sophomore,2.89,18,5+ Times Weekly,8,32Male,21,USA,Behavioral Sciences,Freshman,2.48,19,3-4 Times Weekly,5,70Female,22,USA,STEM,Junior,2.79,17,5+ Times Weekly,8,62Male,24,USA,Business,Freshman,2.36,24,3-4 Times Weekly,5,91Female,19,Africa,Education,Senior,2.59,18,5+ Times Weekly,8,40Female,22,Korea,Behavioral Sciences,Freshman,2.86,17,5+ Times Weekly,7,54Female,25,USA,Business,Sophomore,2.31,22,3-4 Times Weekly,5,73Female,23,USA,Education,Freshman,3.22,18,5+ Times Weekly,7,58Female,20,USA,Humanities,Senior,3.21,17,5+ Times Weekly,8,61Male,20,Africa,Humanities,Junior,2.65,18,5+ Times Weekly,7,29Male,23,Africa,Business,Senior,3,18,5+ Times Weekly,8,61Female,25,USA,Education,Senior,3.05,17,5+ Times Weekly,7,38Female,23,USA,STEM,Freshman,2.94,18,5+ Times Weekly,8,50Male,22,USA,Behavioral Sciences,Junior,2.96,18,5+ Times Weekly,7,44Female,20,USA,Business,Junior,3.74,9,5+ Times Weekly,11,11Female,23,Africa,Education,Senior,3.35,10,5+ Times Weekly,11,13Male,23,USA,Business,Freshman,2.4,21,3-4 Times Weekly,5,70Male,24,USA,Education,Sophomore,2.92,17,5+ Times Weekly,7,38Male,24,USA,STEM,Senior,2.53,18,5+ Times Weekly,8,62Female,22,USA,Behavioral Sciences,Freshman,2.74,18,5+ Times Weekly,7,44Male,22,USA,Behavioral Sciences,Senior,2.44,22,3-4 Times Weekly,5,86Female,20,USA,Behavioral Sciences,Junior,3.69,9,5+ Times Weekly,8,12Female,22,USA,Business,Senior,2.47,19,3-4 Times Weekly,5,85Female,22,USA,STEM,Junior,2.39,21,3-4 Times Weekly,5,96Female,19,USA,Behavioral Sciences,Freshman,2.8,18,5+ Times Weekly,8,44Female,24,USA,Business,Senior,2.59,18,5+ Times Weekly,7,53Female,23,USA,Humanities,Senior,3.16,17,5+ Times Weekly,8,39Male,24,Korea,STEM,Senior,3,18,5+ Times Weekly,7,36Male,25,USA,Humanities,Senior,3.59,9,5+ Times Weekly,9,17Female,20,China,STEM,Freshman,3.33,10,5+ Times Weekly,11,16Female,21,Korea,Behavioral Sciences,Freshman,2.06,21,3-4 Times Weekly,5,87Male,21,USA,Business,Senior,3.12,18,5+ Times Weekly,7,62Male,21,USA,Business,Freshman,3.78,9,5+ Times Weekly,12,12Male,22,USA,Business,Junior,2.85,18,5+ Times Weekly,7,30Male,21,Africa,Education,Freshman,3.56,8,5+ Times Weekly,11,16Male,22,China,Humanities,Junior,2.15,22,3-4 Times Weekly,5,70Female,19,Korea,Behavioral Sciences,Freshman,2.92,18,5+ Times Weekly,8,40Female,22,USA,Humanities,Senior,3.54,13,5+ Times Weekly,12,13Female,18,Africa,Education,Sophomore,2.85,17,5+ Times Weekly,8,56Male,21,Africa,Humanities,Junior,2.12,25,3-4 Times Weekly,5,96Male,21,USA,Behavioral Sciences,Freshman,3.33,13,5+ Times Weekly,11,16Female,22,USA,STEM,Sophomore,2.02,27,1-2 Times Weekly,4,107Male,25,Korea,STEM,Freshman,2.74,18,5+ Times Weekly,8,62Male,26,USA,STEM,Freshman,2.51,18,5+ Times Weekly,7,28Female,23,USA,Behavioral Sciences,Junior,3.33,13,5+ Times Weekly,11,13Female,24,USA,STEM,Senior,2.12,24,3-4 Times Weekly,5,72Female,24,USA,STEM,Junior,2.27,25,3-4 Times Weekly,5,85Male,21,USA,Business,Freshman,1.8,27,1-2 Times Weekly,4,123Female,24,USA,STEM,Sophomore,3.59,8,5+ Times Weekly,9,13Male,20,USA,Behavioral Sciences,Junior,2.37,22,3-4 Times Weekly,5,85Male,19,USA,Humanities,Senior,2.45,19,3-4 Times Weekly,5,70Female,21,USA,STEM,Senior,2.83,18,5+ Times Weekly,7,47Female,21,USA,Business,Freshman,2.08,24,3-4 Times Weekly,5,77Male,20,Africa,Humanities,Senior,3.24,17,5+ Times Weekly,7,61Male,21,China,Business,Senior,2.31,22,3-4 Times Weekly,5,86Male,18,Africa,Education,Sophomore,3.45,8,5+ Times Weekly,11,13Male,25,USA,Humanities,Senior,2.36,22,3-4 Times Weekly,5,85Female,20,USA,Business,Freshman,3.55,10,5+ Times Weekly,12,18Male,20,Africa,Education,Sophomore,2.16,21,3-4 Times Weekly,5,98Female,23,USA,Humanities,Freshman,3.05,17,5+ Times Weekly,7,25Female,22,USA,Business,Junior,2.16,25,3-4 Times Weekly,5,83Female,22,USA,Education,Senior,3.5,13,5+ Times Weekly,8,17Female,21,Korea,Business,Sophomore,2.53,17,5+ Times Weekly,8,38Female,22,USA,Business,Junior,2.98,18,5+ Times Weekly,7,62Male,27,Africa,Business,Sophomore,2.97,18,5+ Times Weekly,8,44Female,24,China,Education,Junior,2.56,17,5+ Times Weekly,7,63Female,22,USA,Humanities,Sophomore,2.32,24,3-4 Times Weekly,5,83Female,21,USA,Humanities,Junior,3.72,9,5+ Times Weekly,12,16Male,27,Africa,Humanities,Sophomore,2.84,17,5+ Times Weekly,8,45Male,22,USA,STEM,Freshman,1.8,27,1-2 Times Weekly,3,132Female,24,USA,Education,Freshman,2.83,18,5+ Times Weekly,8,53Male,24,USA,Behavioral Sciences,Freshman,1.96,27,1-2 Times Weekly,4,103Male,25,USA,Business,Sophomore,3.01,18,5+ Times Weekly,8,36Female,23,USA,Humanities,Junior,2.45,24,3-4 Times Weekly,5,96Female,21,USA,Behavioral Sciences,Sophomore,2.84,17,5+ Times Weekly,8,22Female,22,USA,Behavioral Sciences,Freshman,2.47,22,3-4 Times Weekly,5,95Male,23,China,STEM,Freshman,2.72,18,5+ Times Weekly,8,62Female,24,China,Humanities,Freshman,3.3,17,5+ Times Weekly,7,24Female,21,USA,Behavioral Sciences,Senior,2.61,18,5+ Times Weekly,8,30Female,21,USA,Humanities,Sophomore,3.36,13,5+ Times Weekly,11,18Female,21,USA,Humanities,Senior,2.37,24,3-4 Times Weekly,5,85Female,23,USA,Education,Freshman,2.99,18,5+ Times Weekly,7,40
