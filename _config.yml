@@ -1,8 +1,8 @@
 # Site settings
-title: "swirl: Learn R, in R."
-email: info@swirlstats.com
+title: "Aaron R. Baggett"
+email: aaronbaggett@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://swirlstats.com" # the base hostname & protocol for your site
+url: "http://aaronbaggett.com" # the base hostname & protocol for your site
 
 collections:
   blog:
