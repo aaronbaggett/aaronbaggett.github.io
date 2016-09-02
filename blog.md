@@ -4,7 +4,7 @@ title: swirl | Blog
 active: blog
 ---
 
-<h1>The <img src="/images/swirl_new_large_final.png" height="50px" style="padding-bottom:10px"> Blog</h1>
+<h1>The <img src="/images/ab_head.png" height="50px" style="padding-bottom:10px"> Blog</h1>
 
 {% assign posts = site.blog | sort: 'date' %}
 {% for post in posts reversed %}
