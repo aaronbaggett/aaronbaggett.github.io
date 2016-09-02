@@ -4,7 +4,7 @@ active: home
 ---
 
 <div class="logo">
-  <img src="images/ab_head.png" style="width:78px;height:78px;">
+  <img src="images/ab_head.png" style="width:128px;height:128px;">
   <!--- class="img-responsive" alt="Responsive image"> --->
 </div>
 
