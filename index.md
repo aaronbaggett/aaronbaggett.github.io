@@ -5,6 +5,7 @@ active: home
 
 <div class="logo">
   <img src="images/ab_head.png" class="img-responsive" alt="Responsive image">
+  <iframe src="//giphy.com/embed/OnN0BH0nP8qVW" width="480" height="232" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/rihanna-drake-work-OnN0BH0nP8qVW">via GIPHY</a></p>
 </div>
 
 <div class="welcome">
