@@ -4,7 +4,8 @@ active: home
 ---
 
 <div class="logo">
-  <img src="images/drizzy.gif" class="img-responsive" alt="Responsive image">
+  <img src="images/ab_head.png" height="100px">
+  <!--- class="img-responsive" alt="Responsive image"> --->
 </div>
 
 <div class="welcome">
