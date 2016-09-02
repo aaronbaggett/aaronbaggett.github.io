@@ -4,7 +4,7 @@ active: home
 ---
 
 <div class="logo">
-  <img src="images/swirl_new_large_final.png" class="img-responsive" alt="Responsive image">
+  <img src="images/swirl_new_large_final.png" height="50px class="img-responsive" alt="Responsive image">
 </div>
 
 <div class="welcome">
