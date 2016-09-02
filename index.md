@@ -8,7 +8,7 @@ active: home
 </div>
 
 <div class="welcome">
-  <h3>Learn R, in R.</h3>
+  <h3>Aaron R. Baggett, Ph.D.</h3>
   <p>swirl teaches you R programming and data science interactively, at your own pace, and right in the R console!</p>
 </div>
     
