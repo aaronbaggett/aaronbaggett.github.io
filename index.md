@@ -3,9 +3,9 @@ layout: default
 active: home
 ---
 
-<!--- <div class="logo">
-  <img src="images/ab_head.png" class="img-responsive" alt="Responsive image">
-</div> --->
+<div class="logo">
+  <img src="images/ab_head_med.png" class="img-responsive" alt="Responsive image">
+</div>
 
 <div class="welcome">
   <h1>Aaron R. Baggett, Ph.D.</h1>
