@@ -13,3 +13,5 @@ active: blog
 
 <li class="visible-xs text-center"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></li>
 {% endfor %}
+
+# BLOG POSTS COMING SOON
