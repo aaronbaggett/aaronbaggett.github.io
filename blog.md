@@ -14,7 +14,7 @@ active: blog
 <li class="visible-xs text-center"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></li>
 {% endfor %}
 
-# BLOG POSTS COMING SOON
+# POSTS COMING SOON
 <center>
 <img src="https://media.giphy.com/media/5AiQLaZhFBeGk/giphy.gif" width="480" height="269">
 </center>
