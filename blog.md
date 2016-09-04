@@ -16,5 +16,5 @@ active: blog
 
 # BLOG POSTS COMING SOON
 <center>
-<img src="https://media.giphy.com/media/OnN0BH0nP8qVW/giphy.gif">
+<img src="https://media.giphy.com/media/5AiQLaZhFBeGk/giphy.gif">
 </center>
