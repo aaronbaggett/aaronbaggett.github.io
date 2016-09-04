@@ -1,7 +1,6 @@
 ---
 layout: page
-title: swirl | Students
-active: learn
+title: swirl | Tutorials
 ---
 
 # You're a student!
