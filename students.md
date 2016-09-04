@@ -1,6 +1,6 @@
 ---
 layout: page
-title: swirl | Students
+title: AB | Students
 active: learn
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: swirl | Tutorials
+title: AB | Tutorials
 ---
 
 # You're a student!

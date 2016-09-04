@@ -1,6 +1,6 @@
 ---
 layout: page
-title: swirl | FAQ
+title: AB | FAQ
 active: faq
 ---
 

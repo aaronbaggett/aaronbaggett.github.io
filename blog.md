@@ -1,6 +1,6 @@
 ---
 layout: page
-title: swirl | Blog
+title: AB | Blog
 active: blog
 ---
 

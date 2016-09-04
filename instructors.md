@@ -1,6 +1,6 @@
 ---
 layout: page
-title: swirl | Instructors
+title: AB | Instructors
 active: teach
 ---
 
