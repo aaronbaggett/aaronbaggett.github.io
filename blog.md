@@ -4,7 +4,7 @@ title: swirl | Blog
 active: blog
 ---
 
-<h1>My <img src="/images/ab_head_med.png" height="50px" style="padding-bottom:10px"> Blog</h1>
+<!--- <h1>My <img src="/images/ab_head_med.png" height="50px" style="padding-bottom:10px"> Blog</h1> --->
 
 {% assign posts = site.blog | sort: 'date' %}
 {% for post in posts reversed %}
@@ -15,3 +15,4 @@ active: blog
 {% endfor %}
 
 # BLOG POSTS COMING SOON
+![Coming Soon](https://media.giphy.com/media/OnN0BH0nP8qVW/giphy.gif)
