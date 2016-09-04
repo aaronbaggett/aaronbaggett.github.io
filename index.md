@@ -8,8 +8,8 @@ active: home
 </div>
 
 <div class="welcome">
-  <h1>Aaron R. Baggett, Ph.D.</h1>
-  <p>swirl teaches you R programming and data science interactively, at your own pace, and right in the R console!</p>
+  <!--- <h1>Aaron R. Baggett, Ph.D.</h1> --->
+  <p>Hi! I'm assistant professor of psychology at the University of Mary Hardin-Baylor in Belton, TX.</p>
 </div>
     
 <div class="homepage-contact">
