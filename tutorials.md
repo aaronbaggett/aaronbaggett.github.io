@@ -9,6 +9,15 @@ The swirl R package makes it fun and easy to learn R programming and data
 science. If you are new to R, have no fear. On this page, we'll walk you 
 through each of the steps required to begin using swirl today!
 
+```r
+head(diamonds)
+
+diamonds %>% 
+  group_by(cut, color) %>% 
+  summarize(mean_price = mean(price),
+    sd_price = sd(price))
+```
+
 ## Step 1: Get R
 
 In order to run swirl, you must have R 3.1.0 or later installed on your 
