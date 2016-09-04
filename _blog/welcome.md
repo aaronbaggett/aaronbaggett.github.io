@@ -12,3 +12,5 @@ Whether you're new to swirl, a veteran of our courses, or a swirl course develop
 We're committed to nourishing our student and course developer communities, so we've added [Disqus](https://disqus.com/){:target="_blank"} comments to all of these posts and we look forward to the discussions they foster! The swirl package has been downloaded [over a quarter million times](http://cranlogs.r-pkg.org/badges/grand-total/swirl) and we can't wait for the next quarter million!
 
 **- Team swirl**
+
+<iframe src="https://player.vimeo.com/video/181045537" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/181045537">master</a> from <a href="https://vimeo.com/baggett">Aaron Baggett</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
