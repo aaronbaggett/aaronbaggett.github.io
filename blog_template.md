@@ -5,7 +5,7 @@ active: blog
 date: 2016-09-05 10:53:58
 ---
 
-# Heading One
+## Heading One
 Place some content here.
 
 ## Heading Two
