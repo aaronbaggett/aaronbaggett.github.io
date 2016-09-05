@@ -1,4 +1,8 @@
-# AB | Teaching
+---
+layout: page
+title: AB | Teaching
+active: teaching
+---
 
 # CONTENT COMING SOON
 <center>
