@@ -7633,14 +7633,14 @@ video {
 .logo {
     text-align: center;
     padding-top: 5%;
-    padding-bottom: 0;
+    padding-bottom: 20;
 }
     
 .logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 85%;
 }
     
 .welcome {
