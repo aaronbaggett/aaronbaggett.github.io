@@ -10,5 +10,4 @@ active: tutorials
 </center>
 
 ## Video Embed Test
-1. Click here to watch the video test
 1. [Click here to watch the video test](http://aaronbaggett.com/videotest)
