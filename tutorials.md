@@ -13,5 +13,5 @@ active: tutorials
 
 ### Tutorial Content Heading
 <ol>
-  <li> <a href="(http://aaronbaggett.com/videotest" target="_blank">Tutorial Label</a> </li>
+  <li> <a href="http://aaronbaggett.com/videotest" target="_blank">Tutorial Label</a> </li>
 </ol>
