@@ -2,9 +2,6 @@
 layout: page
 title: AB | R Tutorials
 active: tutorials
-output: 
-  html_document: 
-    keep_md: yes
 ---
 
 # CONTENT COMING SOON
