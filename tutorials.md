@@ -12,4 +12,6 @@ active: tutorials
 # R Video Tutorials
 
 ### Tutorial Content Heading
-1. [Tutorial Label](http://aaronbaggett.com/videotest)
+<ol>
+  <li> <a href="(http://aaronbaggett.com/videotest" target="_blank">Tutorial Label</a> </li>
+</ol>
