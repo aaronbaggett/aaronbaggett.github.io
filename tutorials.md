@@ -13,7 +13,7 @@ active: tutorials
 
 # PSYC 2305 R Video Tutorials
 
-### Video Link Test
+### Tutorial Category
 <ol>
   <li> <a href="http://aaronbaggett.com/videotest" target="_blank">Tutorial Label: Tutorial Sublabel</a> </li>
 </ol>
