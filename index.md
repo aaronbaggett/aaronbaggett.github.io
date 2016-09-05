@@ -13,7 +13,7 @@ active: home
 </div>
     
 <div class="homepage-contact">
-  <a href="https://twitter.com/aaron_baggett" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @aaron_baggett</a>
+  <a href="https://twitter.com/aaron_baggett" class="twitter-follow-button" data-button = "grey" data-show-count="false" data-size="large">Follow @aaron_baggett</a>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   <p>Get in touch!</p>
   <!--- <b></b>
