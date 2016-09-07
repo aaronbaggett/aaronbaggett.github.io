@@ -17,8 +17,8 @@ active: tutorials
 ### Software Installations
 - **R**
     - Mac OS
-    - Windows  
-<br></br>
+    - Windows
+<br>
 - **RStudio**
     - Mac OS
     - Windows
