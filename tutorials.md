@@ -19,6 +19,7 @@ active: tutorials
     - Mac OS
     - Windows
 <br>
+<br>
 - **RStudio**
     - Mac OS
     - Windows
