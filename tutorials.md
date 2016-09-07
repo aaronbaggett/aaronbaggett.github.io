@@ -4,14 +4,6 @@ title: AB | R Tutorials
 active: tutorials
 ---
 
-<!---
-# R VIDEO TUTORIALS COMING SOON
- <center>
-<img src="https://media.giphy.com/media/5AiQLaZhFBeGk/giphy.gif" width="480" height="269" class="img-responsive" alt="Responsive image">
-</center>
---->
-
-
 # PSYC 2305 R Video Tutorials
 
 ### Software Installations
@@ -54,8 +46,8 @@ active: tutorials
 - **Miscellaneous Operations in R:**
     - Changing or Setting the Working Directory
     - Embedding **R** Code and Compiling Documents in **RStudio**:
-    - Setting Up a Document Template
-    - knitting HTML Documents
+        - Setting Up a Document Template
+        - knitting HTML Documents
 
 
 <!---
