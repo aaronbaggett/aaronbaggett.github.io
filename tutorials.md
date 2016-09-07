@@ -31,6 +31,31 @@ active: tutorials
     - Measures of Variability
     - Calculating Descriptive Statistics by Group
     - Manipulating Data with `dplyr`
+<br>
+<br>
+- **Visually Displaying Data:**
+    - `ggplot2`
+    - Customizing `ggplot2`
+<br>
+<br>
+- **Tests of Hypotheses:**
+    - Single-Sample *t*-Tests
+    - Two-Sample *t*-Tests
+    - Chi-Square Analyses ($\chi$)
+<br>
+<br>
+- **Modeling and Predicting Outcomes:**
+    - Correlation
+    - Linear Regression
+    - Analysis of Variance (ANOVA)
+    - Multiple Regression
+<br>
+<br>
+- **Miscellaneous Statistical Functions in R:**
+    - Changing or Setting the Working Directory
+    - Embedding **R** Code and Compiling Documents in **RStudio**:
+    - Setting Up a Document Template
+    - knitting HTML Documents
 
 
 <!---
