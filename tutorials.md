@@ -4,7 +4,7 @@ title: AB | R Tutorials
 active: tutorials
 ---
 
-# PSYC 2305 R Video Tutorials <br> <h3> COMING SOON </h3>
+# PSYC 2305 R Video Tutorials <br> COMING SOON
 
 ### Software Installations
 - **R**
