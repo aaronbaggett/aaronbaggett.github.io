@@ -33,7 +33,7 @@ active: tutorials
 - **Tests of Hypotheses:**
     - Single-Sample *t*-Tests
     - Two-Sample *t*-Tests
-    - Chi-Square Analyses (<i>&Chi;</i><sup>2</sup>)
+    - <i>&Chi;</i><sup>2</sup> Analyses
 <br>
 <br>
 - **Modeling and Predicting Outcomes:**
