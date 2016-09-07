@@ -51,7 +51,7 @@ active: tutorials
     - Multiple Regression
 <br>
 <br>
-- **Miscellaneous Statistical Functions in R:**
+- **Miscellaneous Operations in R:**
     - Changing or Setting the Working Directory
     - Embedding **R** Code and Compiling Documents in **RStudio**:
     - Setting Up a Document Template
