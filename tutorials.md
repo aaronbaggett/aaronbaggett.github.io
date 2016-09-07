@@ -5,7 +5,7 @@ active: tutorials
 ---
 
 # PSYC 2305 R Video Tutorials
-## (COMING SOON)
+<h2> COMING SOON </h2>
 
 ### Software Installations
 - **R**
