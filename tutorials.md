@@ -24,6 +24,14 @@ active: tutorials
     - Mac OS
     - Windows
 
+### Data Analyses
+- **Descriptive Statistics**
+    - Indexing Data Frames
+    - Measures of Central Tendency
+    - Measures of Variability
+    - Calculating Descriptive Statistics by Group
+    - Manipulating Data with `dplyr`
+
 
 <!---
 <ol>
