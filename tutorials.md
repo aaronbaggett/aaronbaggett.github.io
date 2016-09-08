@@ -46,7 +46,7 @@ active: tutorials
 - **Miscellaneous Operations in R:**
     - Changing or Setting the Working Directory
     - Saving Plots and Figures
-    - Saving R Scripts
+    - Saving **R** Scripts
     - Reading in Data
     - Loading Package Libraries
     - Embedding **R** Code and Compiling Documents in **RStudio**:
