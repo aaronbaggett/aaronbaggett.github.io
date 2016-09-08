@@ -45,10 +45,13 @@ active: tutorials
 <br>
 - **Miscellaneous Operations in R:**
     - Changing or Setting the Working Directory
+    - Saving Plots and Figures
+    - Saving R Scripts
+    - Reading in Data
+    - Loading Package Libraries
     - Embedding **R** Code and Compiling Documents in **RStudio**:
         - Setting Up a Document Template
         - knitting HTML Documents
-
 
 <!---
 <ol>
