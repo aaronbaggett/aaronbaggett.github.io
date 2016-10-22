@@ -25,6 +25,11 @@ active: tutorials
     - Manipulating Data with `dplyr`
     - <a href="http://aaronbaggett.com/videotest" 
     target="_blank"> Video Test</a>
+    - <p>File icon as a link:
+        <a href="#">
+          <span class="glyphicon glyphicon-file"></span>
+        </a>
+      </p>
 <br>
 <br>
 - **Visually Displaying Data:**
