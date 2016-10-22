@@ -6,9 +6,7 @@ active: tutorials
 
 # PSYC 2305 R Video Tutorials <br> COMING SOON
 
-Slides used in video tutorials are available by clicking the <span class="glyphicon glyphicon-file"></span> icon.
-
-**R** code used in tutorials are available by clicking the <span class="glyphicon glyphicon-signal"></span> icon.
+Click <span class="glyphicon glyphicon-file"></span> to download slides, <span class="glyphicon glyphicon-signal"></span> to download **R** code.
 
 ### Software Installations
 - **R**
