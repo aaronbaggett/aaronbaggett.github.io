@@ -26,7 +26,7 @@ active: tutorials
     - <a href="http://aaronbaggett.com/videotest" 
       target="_blank"> Video Test</a> 
       <a href="http://aaronbaggett.com/code/two_way_anova.R">
-          <span class="halflings halflings-save-file"></span>
+          <span class="glyphicon glyphicon-save-file"></span>
         </a>
 <br>
 <br>
