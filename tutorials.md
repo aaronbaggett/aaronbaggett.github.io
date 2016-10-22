@@ -25,14 +25,14 @@ Click <span class="glyphicon glyphicon-file"></span> to download slides, <span c
     - Measures of Variability
     - Calculating Descriptive Statistics by Group
     - Manipulating Data with `dplyr`
-    - <a href="http://aaronbaggett.com/videotest" 
+    <!--- - <a href="http://aaronbaggett.com/videotest" 
       target="_blank"> Video Test</a> 
       <a href="http://aaronbaggett.com/code/two_way_anova.R">
           <span class="glyphicon glyphicon-file"></span>
         </a>
       <a href="http://aaronbaggett.com/code/two_way_anova.R">
           <span class="glyphicon glyphicon-signal"></span>
-        </a>
+        </a> --->
 <br>
 <br>
 - **Visually Displaying Data:**
