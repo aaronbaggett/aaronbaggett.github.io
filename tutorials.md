@@ -25,7 +25,9 @@ active: tutorials
     - Manipulating Data with `dplyr`
     - <a href="http://aaronbaggett.com/videotest" 
       target="_blank"> Video Test</a> 
-      <span class="glyphicon glyphicon-file"></span>
+      <a href="http://aaronbaggett.com/code/two_way_anova.R">
+          <span class="glyphicon glyphicon-file"></span>
+        </a>
 <br>
 <br>
 - **Visually Displaying Data:**
