@@ -23,6 +23,7 @@ active: tutorials
     - Measures of Variability
     - Calculating Descriptive Statistics by Group
     - Manipulating Data with `dplyr`
+    - <a href="http://aaronbaggett.com/videotest.com" target="_blank"> Video Test</a>
 <br>
 <br>
 - **Visually Displaying Data:**
