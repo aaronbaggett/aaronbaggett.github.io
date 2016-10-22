@@ -6,6 +6,8 @@ active: tutorials
 
 # PSYC 2305 R Video Tutorials <br> COMING SOON
 
+Slides used in video tutorials are available by clicking the FILE icon. **R** code used in tutorials are available by clicking the CODE icon.
+
 ### Software Installations
 - **R**
     - Mac OS
