@@ -29,7 +29,7 @@ active: tutorials
           <span class="glyphicon glyphicon-file"></span>
         </a>
       <a href="http://aaronbaggett.com/code/two_way_anova.R">
-          <span class="glyphicon glyphicon-file"></span>
+          <span class="glyphicon glyphicon-signal"></span>
         </a>
 <br>
 <br>
