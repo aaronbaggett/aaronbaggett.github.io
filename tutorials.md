@@ -6,6 +6,8 @@ active: tutorials
 
 # PSYC 2305 R Video Tutorials <br> COMING SOON
 
+Click <span class="glyphicon glyphicon-file"></span> to download slides, <span class="glyphicon glyphicon-signal"></span> to download **R** code.
+
 ### Software Installations
 - **R**
     - Mac OS
@@ -26,6 +28,18 @@ active: tutorials
     - Indexing Data Frames
     - Summarizing data
     - Calculating Descriptive Statistics by Group
+<<<<<<< HEAD
+=======
+    - Manipulating Data with `dplyr`
+    <!--- - <a href="http://aaronbaggett.com/videotest" 
+      target="_blank"> Video Test</a> 
+      <a href="http://aaronbaggett.com/code/two_way_anova.R">
+          <span class="glyphicon glyphicon-file"></span>
+        </a>
+      <a href="http://aaronbaggett.com/code/two_way_anova.R">
+          <span class="glyphicon glyphicon-signal"></span>
+        </a> --->
+>>>>>>> origin/master
 <br>
 <br>
 - **Visually Displaying Data:**
