@@ -59,14 +59,14 @@ Click <span class="glyphicon glyphicon-file"></span> to download slides, <span c
 - **Embedding R Code and Compiling Documents in RStudio:**
     - Setting Up a Document Template
     - knitting HTML Documents
-    - <a href="http://aaronbaggett.com/videotest" 
+    <!--- - <a href="http://aaronbaggett.com/videotest" 
       target="_blank"> Manipulating Data with `dplyr`</a> 
       <a href="http://aaronbaggett.com/code/two_way_anova.R">
           <span class="glyphicon glyphicon-file"></span>
         </a>
       <a href="http://aaronbaggett.com/code/two_way_anova.R">
           <span class="glyphicon glyphicon-signal"></span>
-        </a>
+        </a> --->
 
 <!---
 <ol>
