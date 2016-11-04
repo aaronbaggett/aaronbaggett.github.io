@@ -18,11 +18,14 @@ active: tutorials
 
 ### Data Analyses
 - **Descriptive Statistics**
-    - Indexing Data Frames
     - Measures of Central Tendency
     - Measures of Variability
+<br>
+<br>
+- **Manipulating Data**
+    - Indexing Data Frames
+    - Summarizing data
     - Calculating Descriptive Statistics by Group
-    - Manipulating Data with `dplyr`
 <br>
 <br>
 - **Visually Displaying Data:**
@@ -43,13 +46,13 @@ active: tutorials
     - Multiple Regression
 <br>
 <br>
-- **Miscellaneous Operations in R:**
+- **Basic Operations in R:**
     - Changing or Setting the Working Directory
     - Saving Plots and Figures
     - Saving **R** Scripts
     - Reading in Data
     - Loading Package Libraries
-    - Embedding **R** Code and Compiling Documents in **RStudio**:
+- **Embedding **R** Code and Compiling Documents in **RStudio**:**
         - Setting Up a Document Template
         - knitting HTML Documents
 
