@@ -56,9 +56,9 @@ Click <span class="glyphicon glyphicon-file"></span> to download slides, <span c
     - Loading Package Libraries
 <br>
 <br>
-- **Embedding **R** Code and Compiling Documents in **RStudio**:**
-        - Setting Up a Document Template
-        - knitting HTML Documents
+- **Embedding R Code and Compiling Documents in RStudio:**
+    - Setting Up a Document Template
+    - knitting HTML Documents
 
 <!---
     - Manipulating Data with `dplyr`
