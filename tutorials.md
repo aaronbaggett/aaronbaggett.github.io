@@ -10,8 +10,6 @@ Note: The following tutorials were developed for use in PSYC 2305: Statistics fo
 
 Click <span class="glyphicon glyphicon-file"></span> to download slides, <span class="glyphicon glyphicon-signal"></span> to download **R** code.
 
-🖥
-
 ### Software Installations
 - **R**
     - Mac OS
