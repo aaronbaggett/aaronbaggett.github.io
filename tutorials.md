@@ -6,9 +6,11 @@ active: tutorials
 
 # PSYC 2305 R Video Tutorials
 
-The following tutorials were developed for use in PSYC 2305: Statistics for the Social and Behavioral Sciences at the University of Mary Hardin-Baylor
+Note: The following tutorials were developed for use in PSYC 2305: Statistics for the Social and Behavioral Sciences at the University of Mary Hardin-Baylor
 
 Click <span class="glyphicon glyphicon-file"></span> to download slides, <span class="glyphicon glyphicon-signal"></span> to download **R** code.
+
+🖥
 
 ### Software Installations
 - **R**
