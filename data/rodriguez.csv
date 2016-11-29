@@ -1,0 +1,42 @@
+gender,age,upbringing,upbringing_effect,parent_style,parent,plan_children,copy_style,self_style
+Female,Ages of 18-22 years,Neutral,A great deal,Authoritative,No,No,,
+Female,Ages of 18-22 years,Warm,A lot,Authoritative,No,Yes,,Authoritative
+Female,Ages of 18-22 years,Warm,A great deal,Authoritative,No,Yes,,Authoritative
+Female,Ages of 18-22 years,Warm,A little,Authoritative,No,Yes,,Authoritative
+Female,Ages of 18-22 years,Neutral,A great deal,Authoritative,No,Yes,,Authoritative
+Male,Ages of 18-22 years,Neutral,A lot,Authoritative,No,Yes,,Authoritative
+Female,Ages of 18-22 years,Warm,A lot,Authoritative,No,Yes,,Authoritative
+Female,Ages of 23-30 years,Neutral,A moderate amount,Authoritative,No,Yes,,Authoritative
+Female,Ages of 18-22 years,Warm,A great deal,Authoritative,No,Yes,,Authoritative
+Male,Ages of 18-22 years,Neutral,A moderate amount,Authoritative,No,Yes,,Authoritative
+Male,Ages of 18-22 years,Neutral,A lot,Authoritative,No,Yes,,Authoritative
+Female,Ages of 18-22 years,Warm,A lot,Authoritative,No,Yes,,Authoritative
+Female,Ages of 18-22 years,Neutral,A moderate amount,Authoritative,No,Yes,,Authoritative
+Female,Ages of 18-22 years,Warm,A great deal,Authoritative,No,Yes,,Authoritative
+Male,Ages of 23-30 years,Warm,A lot,Authoritative,No,Yes,,Authoritative
+Female,Ages of 18-22 years,Warm,A great deal,Authoritative,No,Yes,,Authoritative
+Female,Ages of 31-44,Warm,A moderate amount,Authoritative,Yes,,A little,Authoritative
+Male,Ages of 31-44,Neutral,A lot,Authoritative,Yes,,A moderate amount,Authoritative
+Female,Ages of 18-22 years,Neutral,A moderate amount,Authoritative,No,No,,
+Female,Ages of 18-22 years,Extremely warm,A great deal,Authoritative,No,Yes,,Authoritative
+Male,Ages of 23-30 years,Neutral,None at all,Authoritative,Yes,,A little,Authoritative
+Female,Ages of 18-22 years,Warm,A lot,Authoritative,No,Yes,,Authoritative
+Male,Ages of 18-22 years,Cold,A great deal,Authoritarian,No,Yes,,Authoritative
+Male,Ages of 23-30 years,Extremely warm,A great deal,Authoritative,Yes,,A great deal,Authoritative
+Female,Ages of 18-22 years,Warm,A great deal,Authoritative,No,Yes,,Authoritative
+Female,Ages of 18-22 years,Extremely warm,None at all,Authoritative,No,Yes,,Authoritative
+Male,Ages of 31-44,Extremely warm,A great deal,Authoritative,No,Yes,,Authoritative
+Male,Ages of 23-30 years,Extremely warm,A great deal,Authoritative,No,Yes,,Authoritative
+Female,Ages of 31-44,Extremely warm,A great deal,Authoritative,Yes,,A lot,Authoritative
+Female,Ages of 31-44,Extremely warm,A great deal,Authoritative,Yes,,A great deal,Authoritative
+Female,Ages of 18-22 years,Warm,A great deal,Authoritative,No,Yes,,Authoritative
+Female,Ages of 18-22 years,Neutral,A lot,Authoritative,No,Yes,,Authoritative
+Female,Ages of 23-30 years,Neutral,A lot,Authoritarian,Yes,,A little,Authoritative
+Female,Ages of 31-44,Neutral,A moderate amount,Authoritative,No,Yes,,Authoritative
+Female,Ages of 18-22 years,Extremely warm,A great deal,Authoritative,No,Yes,,Authoritative
+Male,Ages of 31-44,Warm,A great deal,Authoritative,Yes,,A moderate amount,Authoritative
+Female,Ages of 18-22 years,Warm,A moderate amount,Authoritative,No,Yes,,Authoritative
+Male,Ages of 18-22 years,Extremely warm,A great deal,Authoritative,No,Yes,,Authoritative
+Male,Ages of 18-22 years,Warm,A lot,Authoritative,No,No,,
+Female,Ages of 18-22 years,Warm,A lot,Authoritative,Yes,,A great deal,Authoritative
+Female,Ages of 18-22 years,Neutral,A great deal,Authoritarian,No,Yes,,Authoritative
