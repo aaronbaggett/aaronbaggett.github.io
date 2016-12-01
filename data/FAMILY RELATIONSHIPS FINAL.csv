@@ -25,7 +25,7 @@ Age,sex,race,class,PGF,SOR1,PGM,SOR2,MGF,SOR3,MGM,SOR4,Mother,SOR5,Father,SOR6,S
 20,Female,Whitenon-hispanic,Junior,Other,Negative,Cologne,Cleaning,Household,Negative,Household,Negative,MTO,Positive,Other,Positive,Cleaning,Negative,MTO,Positive,Cologne,Positive,MTO,positive
 22,Female,BlackorAfricanAmerican,Senior,Cologne,Positive,Other,Positive,Cologne,Positive,Other,Positive,Cologne,Positive,Other,Negative,Other,Positive,Food,Positive,Cologne,Positive,Cologne,Positive
 31,Male,Other,Junior,Household,Positive,Household,Positive,Cologne,Positive,Food,Positive,MTO,Positive,MTO,Positive,MTO,positive,MTO,positive,MTO,Positive,MTO,Positive
-28,Male,BlackorAfricanAmerican,Junior,Cologne/,Positive,Household,Positive,Cologne,Positive,Cleaning,Positive,Household,Positive,Cologne,Positive,Food,Positive,Cleaning,Positive,Food,Positive,Cologne,Positive
+28,Male,BlackorAfricanAmerican,Junior,Cologne,Positive,Household,Positive,Cologne,Positive,Cleaning,Positive,Household,Positive,Cologne,Positive,Food,Positive,Cleaning,Positive,Food,Positive,Cologne,Positive
 20,Male,Whitenon-hispanic,Sophomore,Cologne,Positive,Food,Positive,Cologne,Positive,Household,Positive,MTO,Positive,Cologne,Positive,Household,Positive,Household,Positive,Cologne,Positive,Food,Positive
 19,Female,Other,Sophomore,Cologne,Positive,Household,Negative,Cologne,Positive,Food,Positive,Household,Positive,Cologne,Positive,Cologne,Positive,Household,Positive,Food,Positive,Cologne,Negative
 18,Female,Whitenon-hispanic,Freshman,Cologne,Positive,Food,Positive,Cologne,Positive,Food,Positive,Household,Positive,Cologne,Positive,Household,Positive,Household,Positive,Other,Positive,Other,positive
