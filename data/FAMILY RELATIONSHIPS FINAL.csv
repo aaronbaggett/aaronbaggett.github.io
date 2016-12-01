@@ -1,0 +1,43 @@
+Age,sex,race,class,PGF,SOR1,PGM,SOR2,MGF,SOR3,MGM,SOR4,Mother,SOR5,Father,SOR6,Sibling,SOR7,Aunt,SOR8,Cousin,SOR9,Uncle,sor10
+39,Male,"White, non-hispanic",Junior,Cologne,Positive,Other ,Positive,Food ,Positive,Food, Positive,Food, Positive,Household, Positive,Cologne, Negative,Food, Positive,Food ,Positive,Food, Positive
+23,Male,Other,Senior,Cologne,Positive,Food, Positive,Cleaning ,Negative,Cleaning, Negative,Household, Positive,Other, Negative,Food, Positive,Household, Negative,Cleaning, Negative,Cologne, Negative
+21,Female,"White, non-hispanic",Junior,Other, Negative,Food ,Positive,Cleaning ,Positive,Cleaning, Positive,Food, Positive,Other, Negative,Household, Positive,Cleaning, Negative,Food, Positive,Other, Positive
+19,Female,"White, non-hispanic",Sophomore,Food ,Positive,Cologne ,Positive,Food ,Positive,Cologne, Positive,Household, Positive,Cologne, Positive,Cologne, Positive,Household, Negative,Food, Positive,Cleaning, Positive
+27,Female,"White, non-hispanic",Junior,Household , Positive,Household  ,Positive,Other,Positive,Household,Both,Household, Positive,Cologne, Positive,Food, Positive,Food, Positive,Food, Positive,Cologne, Positive
+20,Female,Other,Junior,Cologne, Positive,Cologne ,Positive,Cologne,Positive,Cleaning, Positive,Food, Positive,Cologne, Positive,Other, Positive,Cologne, Positive,Cologne, Positive,Cologne, Positive
+22,Female,"White, non-hispanic",Senior,Cologne, Positive,Cologne ,Positive,Cologne ,Positive,Cologne, Positive,Cologne, Positive,Cologne, Positive,Cologne, Positive,Cologne, Positive,Cologne, Positive,Cologne, Positive
+21,Female,Other,Junior,Cologne, Positive,Food ,Positive,Other ,Positive,MTO,Positive,Household, Positive,Cologne, Positive,Other, Negative,Household, Positive,Other, Positive,Other, Positive
+31,Male,Other,Junior,Food, Positive,Food ,Positive,Cologne,Positive,Food, Positive,Cologne, Positive,Household, Positive,Cologne, Positive,Household, Positive,Cologne, Positive,Household, Positive
+20,Male,"White, non-hispanic",Junior,Other , Negative,Other ,Negative,Other ,Negative,Other, Negative,Food, Positive,Cologne, Negative,Cologne, Positive,Household, Positive,Cologne, Negative,Household, Negative
+21,Male,Black or African American,Junior,Food, Positive,Food ,Positive,Cologne, Positive,Food, Positive,Household, Positive,Cologne, Positive,Cologne, Positive,Household, Positive,Household, Positive,Cologne, Positive
+23,Male,"White, non-hispanic",Junior,Cologne, Positive,Household  ,Positive,Cologne, Positive,Household, Positive,Household, Positive,Cologne, Positive,Cologne, Positive,Food, Positive,Food, Positive,Cologne, Positive
+19,Female,"White, non-hispanic",Sophomore,Other,Positive,Other ,Positive,MTO,Positive,Other, Positive,Other, Positive,Other, Positive,Cologne, Positive,Cologne, Positive,Cologne, Positive,Cologne, Positive
+19,Male,"White, non-hispanic",Freshman,Other, Negative,Other ,Negative,Cleaning ,Negative,Cleaning, Negative,Cologne, Positive,Other, Negative,Cologne, Positive,Household, Positive,Household, Positive,Household, Positive
+25,Male,"White, non-hispanic",Sophomore,Cologne, Positive,Food ,Positive,Cologne, Positive,Food, Positive,Cologne, Positive,Cologne, Positive,Other, Positive,Food, Positive,Other, Positive,Cologne, Positive
+20,Female,"White, non-hispanic",Junior,Cologne, Positive,Household  ,Positive,Cleaning ,Positive,Cologne,Both,Household, Positive,Food, Positive,Cleaning, Positive,Cologne, Positive,Cologne, Positive,Cologne, Positive
+20,Female,Black or African American,Sophomore,Food , Positive,Cologne ,Positive,Food,Positive,Cologne, Positive,Food, Positive,Cleaning, Positive,Cologne, Positive,Cleaning, positive,Cologne, Positive,Food, Positive
+20,Female,Black or African American,Junior,Other ,Negative,Food ,Positive,Cologne, Positive,Food, Positive,Cleaning, Negative,Cologne, Negative,Other, Positive,Other, Negative,Household, Positive,Food, Positive
+23,Male,Other,Junior,Other ,Positive,Food ,Positive,Other, Positive,Other, Positive,Cologne, Positive,Other, Negative,Food, Positive,Household, Positive,Cologne, Positive,MTO,positive
+19,Female,"White, non-hispanic",Sophomore,Cologne, Positive,Household ,Positive,Cologne ,Positive,Food, Positive,Household, Positive,MTO,Negative,MTO,Positive,Household, Positive,Other, Positive,Cologne, Positive
+20,Male,"White, non-hispanic",Sophomore,Household, Positive,Food ,Positive,Cologne, Positive,Food, Positive,Cologne, Positive,Cologne, Positive,Cologne, Positive,Food, Positive,Household, Positive,Household, Positive
+21,Female,"White, non-hispanic",Senior,Cologne, Positive,Food ,Positive,Cologne, Positive,Food, Positive,Cologne, Positive,Cologne, Positive,Household, Positive,Household, Positive,Food, Positive,Cleaning, Positive
+20,Female,"White, non-hispanic",Junior,Cologne, Positive,Food ,Positive,Cologne, Positive,Food, Positive,Household, Positive,Cologne, Positive,Food, Positive,Household, Positive,Cologne, Positive,Cologne, Positive
+20,Female,"White, non-hispanic",Junior,Other, Negative,Cologne, Cleaning,Household, Negative,Household, Negative,MTO,Positive,Other, Positive,Cleaning, Negative,MTO,Positive,Cologne, Positive,MTO,positive
+22,Female,Black or African American,Senior,Cologne, Positive,Other ,Positive,Cologne, Positive,Other, Positive,Cologne, Positive,Other ,Negative,Other, Positive,Food, Positive,Cologne, Positive,Cologne, Positive
+31,Male,Other,Junior,Household, Positive,Household ,Positive,Cologne, Positive,Food, Positive,MTO,Positive,MTO,Positive,MTO,positive,MTO,positive,MTO,Positive,MTO,Positive
+28,Male,Black or African American,Junior,Cologne/,Positive,Household ,Positive,Cologne, Positive,Cleaning, Positive,Household, Positive,Cologne, Positive,Food, Positive,Cleaning, Positive,Food, Positive,Cologne, Positive
+20,Male,"White, non-hispanic",Sophomore,Cologne, Positive,Food ,Positive,Cologne, Positive,Household, Positive,MTO,Positive,Cologne, Positive,Household, Positive,Household, Positive,Cologne, Positive,Food, Positive
+19,Female,Other,Sophomore,Cologne, Positive,Household ,Negative,Cologne, Positive,Food, Positive,Household, Positive,Cologne, Positive,Cologne, Positive,Household, Positive,Food, Positive,Cologne, Negative
+18,Female,"White, non-hispanic",Freshman,Cologne, Positive,Food ,Positive,Cologne, Positive,Food ,Positive,Household, Positive,Cologne, Positive,Household, Positive,Household, Positive,Other, Positive,"Other, ",positive
+20,Female,"White, non-hispanic",Junior,Household ,Positive,Food ,Positive,Household, Positive,Cologne, Positive,Household, Positive,Household, Positive,Other, Positive,Cleaning, Positive,Cologne, Positive,"Cologne, ",positive
+32,Female,Black or African American,Sophomore,Other, Positive,Other ,Positive,Cologne, Positive,Cologne, Positive,Cologne, Negative,Other, Negative,Household, Positive,Cologne, Positive,Cleaning, Positive,Cleaning,positive
+20,Female,Black or African American,Junior,Food , Positive,Food ,Positive,Food,Positive,Food, Positive,Cleaning,Negative,Other, Negative,Other,Both,Household, Negative,Cologne, Positive,Cologne,positive
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
