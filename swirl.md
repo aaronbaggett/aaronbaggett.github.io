@@ -4,7 +4,9 @@ title: AB | Swirl
 active: home
 ---
 
-# Download `swirl` courses files
+# `swirl`
 <center>
-<img src="https://media.giphy.com/media/5AiQLaZhFBeGk/giphy.gif" width="480" height="269" class="img-responsive" alt="Responsive image">
+<img src="http://swirlstats.com/images/swirl_new_large_final.png" width="480" height="269" class="img-responsive" alt="Responsive image">
 </center>
+
+[Click to download `swirl` tutorial files](http://aaronbaggett.com/files/swirl_courses-master.zip)
