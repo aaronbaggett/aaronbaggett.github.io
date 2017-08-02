@@ -42,7 +42,7 @@ tsla_summ <- investment %>%
 
 ## Background
 
-Based on the recommendation of our firm's research analyst, Lisa Baggett, M.D., Pat and Aaron decide to invest $10,000 in Tesla ([TSLA](https://finance.yahoo.com/quote/TSLA?p=TSLA)) on July 25, 2017 at a market closing price of $`r round(tsla_summ$Close[1], 2)`
+Pat and Aaron like investing, but it's risky. Instead of actually investing our own hard-earned money, we decide to invest some play money. Based on the recommendation of our firm's research analyst, Lisa Baggett, M.D., Pat and Aaron decide to invest $10,000 in Tesla ([TSLA](https://finance.yahoo.com/quote/TSLA?p=TSLA)) on July 25, 2017 at a market closing price of $`r round(tsla_summ$Close[1], 2)`
 
 ```{r, performance}
 daily <- round(tsla_summ$Profit_Total[length(tsla_summ$Profit_Total)], 2) - 7
