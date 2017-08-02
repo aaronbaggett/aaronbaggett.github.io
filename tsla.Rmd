@@ -52,7 +52,7 @@ updown <- ifelse(daily < 0, "down", "up")
 
 ## Performance
 
-Including a $7.001 cost of trade, as of `r format(Sys.Date()-1, "%A, %B %d, %Y")`, we are **`r updown`** $`r daily`.
+Including a $7.00 cost of trade, as of `r format(Sys.Date()-1, "%A, %B %d, %Y")`, we are **`r updown`** $`r daily`.
 
 ```{r chart, fig.align = "center", fig.width = 10}
 ggplot(daily_returns$df.tickers, aes(x = ref.date, y = price.close, color = "1")) + 
