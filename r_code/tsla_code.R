@@ -16,6 +16,12 @@ invisible(capture.output(daily_returns <- BatchGetSymbols(tickers = "TSLA",
 # Convert to data frame
 investment <- data.frame(daily_returns$df.tickers)
 
+### UNUSED
+# Takes the difference of each successive element
+x <- tsla_summ$Close
+x[-1] - x[-length(x)]
+### UNUSED
+
 # Create performance table
 tsla_summ <- investment %>% 
   select(
