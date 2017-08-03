@@ -1,0 +1,1 @@
+rmarkdown::render("~/aaronbaggett.github.io/tsla.Rmd")
