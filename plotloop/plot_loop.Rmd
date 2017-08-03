@@ -1,0 +1,32 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Let's Print Some Plots
+
+```{r, warning = FALSE, message = FALSE}
+library(ggplot2)
+library(dplyr)
+
+plot_list = list()
+for (i in 1:10) {
+  plot <- diamonds %>% 
+  sample_n(100) %>% 
+  ggplot(., aes(x = carat, y = price, color = cut)) + 
+    geom_point()
+  plot_list[[i]] <- plot
+}
+
+# Save plots to tiff. Makes a separate file for each plot.
+for (i in 1:10) {
+    #file_name = paste("diamond_plot_", i, ".png", sep="")
+    #tiff(file_name)
+    print(plot_list[[i]])
+    #dev.off()
+}
+```
+
