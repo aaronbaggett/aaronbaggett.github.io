@@ -12,23 +12,56 @@ output: html_document
 <br>
 <br>
 
-<h3 style="color:#FF0000">
-Background-color set by using #FF0000
+<!--
+<h3 style="color:#489dff">
+Lecture Slides
 </h3>
+-->
 
 ### Lecture Slides
-- #### August 08, 2017
+This section contains a link to a PDF version of all slides used during the lectures.
+
+- August 21, 2017: <a href="http://aaronbaggett.com/files/slides" target="_blank">Foundations of Statistical Inference</a>
+- August 28, 2017: <a href="http://aaronbaggett.com/files/slides" target="_blank">Foundations of Statistical Decision Making</a>
 
 <br>
 
 ### Data
-The following table shows general guidelines for choosing a statistical analysis. We emphasize that these are general guidelines and should not be construed as hard and fast rules.
+Links to all example data used during the lectures. NOTE: Data files will automatically download to the default location set in your computer's browser. Unless you have changed this, check your Downloads folder.
 
-- August 08, 2017
+- August 21, 2017:
+    - Statistic: [Data set name](http://google.com)
+    - Statistic: [Data set name](http://google.com)
+    - Statistic: [Data set name](http://google.com)
+- August 28, 2017:
+    - Statistic: [Data set name](http://google.com)
+    - Statistic: [Data set name](http://google.com)
+    - Statistic: [Data set name](http://google.com)
+
+<br>
+
+### R Code
+Links to all example data used during the lectures. NOTE: As above, R code files will automatically download to the default location set in your computer's browser.
+
+- August 21, 2017:
+    - Statistic: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
+    - Statistic: [Data set name](http://google.com)
+    - Statistic: [Data set name](http://google.com)
+- August 28, 2017:
+    - Statistic: [Data set name](http://google.com)
+    - Statistic: [Data set name](http://google.com)
+    - Statistic: [Data set name](http://google.com)
 
 <br>
 
 ### Links and Handouts
 The following table shows general guidelines for choosing a statistical analysis. We emphasize that these are general guidelines and should not be construed as hard and fast rules.
 
-- August 08, 2017
+- August 21, 2017:
+    - [Handout/link name](http://google.com)
+    - [Handout/link name](http://google.com)
+    - [Handout/link name](http://google.com)
+- August 28, 2017:
+    - [Handout/link name](http://google.com)
+    - [Handout/link name](http://google.com)
+    - [Handout/link name](http://google.com)
