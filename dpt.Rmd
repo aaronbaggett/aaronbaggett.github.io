@@ -1,0 +1,34 @@
+---
+output: html_document
+---
+
+<center> <h1> Statistical Foundations for Physical Therapists </h1> </center>
+<center> <h3> Lecture Slides, Data, and Code </h3> </center>
+<br>
+<center> <h5> Aaron R. Baggett, Ph.D. </h5> </center>
+<center> <h7> University of Mary Hardin-Baylor </h7> </center>
+<center> <h7> Department of Psychology </h7> </center>
+<br>
+<br>
+<br>
+
+<h3 style="color:#FF0000">
+Background-color set by using #FF0000
+</h3>
+
+### Lecture Slides
+- #### August 08, 2017
+
+<br>
+
+### Data
+The following table shows general guidelines for choosing a statistical analysis. We emphasize that these are general guidelines and should not be construed as hard and fast rules.
+
+- August 08, 2017
+
+<br>
+
+### Links and Handouts
+The following table shows general guidelines for choosing a statistical analysis. We emphasize that these are general guidelines and should not be construed as hard and fast rules.
+
+- August 08, 2017
