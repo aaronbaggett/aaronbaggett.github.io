@@ -11,10 +11,12 @@ output: html_document
 <br>
 <br>
 
-#### WEEK 1: Foundations of Statistical Inference
+<h4 style="color:red">
+WEEK 1: Foundations of Statistical Inference
+</h4>
 
 ##### Lecture Slides
-- Lecture slides
+- [PDF](http://aaronbaggett.com/files//Foundations_of_Inference.pdf)
 
 ##### Data and R Code
 - Statistic: 
@@ -33,7 +35,9 @@ output: html_document
 
 ***
 
-#### WEEK 2: Foundations of Statistical Decision Making
+<h4 style="color:red">
+WEEK 2: Foundations of Statistical Decision Making
+</h4>
 
 ##### Lecture Slides
 - Lecture slides
