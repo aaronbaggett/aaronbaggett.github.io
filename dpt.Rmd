@@ -3,7 +3,6 @@ output: html_document
 ---
 
 <center> <h1> Statistical Foundations for Physical Therapists </h1> </center>
-<center> <h3> Lecture Slides, Data, and Code </h3> </center>
 <br>
 <center> <h5> Aaron R. Baggett, Ph.D. </h5> </center>
 <center> <h7> University of Mary Hardin-Baylor </h7> </center>
