@@ -11,56 +11,44 @@ output: html_document
 <br>
 <br>
 
-<!--
-<h3 style="color:#489dff">
-Lecture Slides
-</h3>
--->
+#### WEEK 1: Foundations of Statistical Inference
 
-### Lecture Slides
-This section contains a link to a PDF version of all slides used during the lectures.
+##### Lecture Slides
+- Lecture slides
 
-- August 21, 2017: <a href="http://aaronbaggett.com/files/slides" target="_blank">Foundations of Statistical Inference</a>
-- August 28, 2017: <a href="http://aaronbaggett.com/files/slides" target="_blank">Foundations of Statistical Decision Making</a>
+##### Data and R Code
+- Statistic: 
+    - Data: [Data set name](http://google.com)
+    - R Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
+    - SPSS Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
+- Statistic: 
+    - Data: [Data set name](http://google.com)
+    - R Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
+    - SPSS Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
 
-<br>
+##### Links and Handouts
+- [Handout/link name](http://google.com)
+- [Handout/link name](http://google.com)
+- [Handout/link name](http://google.com)
 
-### Data
-Links to all example data used during the lectures. NOTE: Data files will automatically download to the default location set in your computer's browser. Unless you have changed this, check your Downloads folder.
+***
 
-- August 21, 2017:
-    - Statistic: [Data set name](http://google.com)
-    - Statistic: [Data set name](http://google.com)
-    - Statistic: [Data set name](http://google.com)
-- August 28, 2017:
-    - Statistic: [Data set name](http://google.com)
-    - Statistic: [Data set name](http://google.com)
-    - Statistic: [Data set name](http://google.com)
+#### WEEK 2: Foundations of Statistical Decision Making
 
-<br>
+##### Lecture Slides
+- Lecture slides
 
-### R Code
-Links to all example data used during the lectures. NOTE: As above, R code files will automatically download to the default location set in your computer's browser.
+##### Data and R Code
+- Statistic: 
+    - Data: [Data set name](http://google.com)
+    - R Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
+    - SPSS Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
+- Statistic: 
+    - Data: [Data set name](http://google.com)
+    - R Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
+    - SPSS Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
 
-- August 21, 2017:
-    - Statistic: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
-    - Statistic: [Data set name](http://google.com)
-    - Statistic: [Data set name](http://google.com)
-- August 28, 2017:
-    - Statistic: [Data set name](http://google.com)
-    - Statistic: [Data set name](http://google.com)
-    - Statistic: [Data set name](http://google.com)
-
-<br>
-
-### Links and Handouts
-The following table shows general guidelines for choosing a statistical analysis. We emphasize that these are general guidelines and should not be construed as hard and fast rules.
-
-- August 21, 2017:
-    - [Handout/link name](http://google.com)
-    - [Handout/link name](http://google.com)
-    - [Handout/link name](http://google.com)
-- August 28, 2017:
-    - [Handout/link name](http://google.com)
-    - [Handout/link name](http://google.com)
-    - [Handout/link name](http://google.com)
+##### Links and Handouts
+- [Handout/link name](http://google.com)
+- [Handout/link name](http://google.com)
+- [Handout/link name](http://google.com)
