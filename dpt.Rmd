@@ -29,7 +29,7 @@ WEEK 1: Foundations of Statistical Inference
     - SPSS Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
 
 ##### Links and Handouts
-- [Handout/link name](http://google.com)
+- <a href="https://stats.idre.ucla.edu/other/mult-pkg/whatstat/" target="_blank">Choosing the correct statistical test</a>
 - [Handout/link name](http://google.com)
 - [Handout/link name](http://google.com)
 
@@ -53,6 +53,6 @@ WEEK 2: Foundations of Statistical Decision Making
     - SPSS Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
 
 ##### Links and Handouts
-- [Handout/link name](http://google.com)
+- <a href="https://stats.idre.ucla.edu/other/mult-pkg/whatstat/" target="_blank">Choosing the correct statistical test</a>
 - [Handout/link name](http://google.com)
 - [Handout/link name](http://google.com)
