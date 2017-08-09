@@ -11,12 +11,12 @@ output: html_document
 <br>
 <br>
 
-<h4 style="color:red">
+<h4 style="color:#e74c3c">
 WEEK 1: Foundations of Statistical Inference
 </h4>
 
 ##### Lecture Slides
-- [PDF](http://aaronbaggett.com/files//Foundations_of_Inference.pdf)
+- <a href="http://aaronbaggett.com/files//Foundations_of_Inference.pdf" target="_blank">PDF</a>
 
 ##### Data and R Code
 - Statistic: 
@@ -35,12 +35,12 @@ WEEK 1: Foundations of Statistical Inference
 
 ***
 
-<h4 style="color:red">
+<h4 style="color:#e74c3c">
 WEEK 2: Foundations of Statistical Decision Making
 </h4>
 
 ##### Lecture Slides
-- Lecture slides
+- <a href="http://aaronbaggett.com/files//Foundations_of_Inference.pdf" target="_blank">PDF</a>
 
 ##### Data and R Code
 - Statistic: 
