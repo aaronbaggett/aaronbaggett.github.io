@@ -19,14 +19,12 @@ WEEK 1: Fundamentals of Statistical Inference
 - <a href="http://aaronbaggett.github.com/files/Fundamentals_of_Statistical_Inference.pdf" target="_blank">PDF</a>
 
 ##### Data and R Code
-- Data: [Low birth weight](http://aaronbaggett.com/data/baby_wt.csv)
-    - [R Code:](http://aaronbaggett.com/r_code/baby_wt.R)
-    - [SPSS Code:](http://aaronbaggett.com/r_code/baby_wt.R)
-
-##### Links and Handouts
-- <a href="https://stats.idre.ucla.edu/other/mult-pkg/whatstat/" target="_blank">Choosing the correct statistical test</a>
-- [Handout/link name](http://google.com)
-- [Handout/link name](http://google.com)
+- Data:
+    - [R:](http://aaronbaggett.com/data/baby_wt.csv)
+    - [SPSS:](http://aaronbaggett.com/data/baby_wt.sav)
+- Code:
+    - [R:](http://aaronbaggett.com/r_code/baby_wt.R)
+    - [SPSS:](http://aaronbaggett.com/r_code/baby_wt.sav)
 
 ***
 
