@@ -18,17 +18,20 @@ WEEK 1: Fundamentals of Statistical Inference
 ##### Lecture Slides
 - <a href="http://aaronbaggett.github.com/files/Fundamentals_of_Statistical_Inference.pdf" target="_blank">PDF</a>
 
-##### Data and R Code
+##### Data and R Code*
+
 *Low birth weight example:*
 
 - Descriptives: 
-    - Data: [Data set name](http://google.com)
+    - Data: [Data set name](http://aaronbaggett.com/dpt)
     - R Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
     - SPSS Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
 - *t*-Test: 
     - Data: [Data set name](http://google.com)
     - R Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
     - SPSS Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
+
+*Note: Files will automatically be saved to your computer's Downloads directory.
 
 ***
 
@@ -39,15 +42,20 @@ WEEK 2: Fundamentals of Statistical Decision Making
 ##### Lecture Slides
 - <a href="http://aaronbaggett.com/files//Foundations_of_Inference.pdf" target="_blank">PDF</a>
 
-##### Data and R Code
-- Statistic: 
+##### Data and R Code*
+
+*Low birth weight example:*
+
+- ANOVA: 
     - Data: [Data set name](http://google.com)
     - R Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
     - SPSS Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
-- Statistic: 
+- Regression: 
     - Data: [Data set name](http://google.com)
     - R Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
     - SPSS Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
+
+*Note: Files will automatically be saved to your computer's Downloads directory.
 
 ##### Links and Handouts
 - <a href="https://stats.idre.ucla.edu/other/mult-pkg/whatstat/" target="_blank">Choosing the correct statistical test</a>
