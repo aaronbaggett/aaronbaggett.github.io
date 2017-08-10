@@ -16,7 +16,7 @@ WEEK 1: Fundamentals of Statistical Inference
 </h4>
 
 ##### Lecture Slides
-- <a href="http://aaronbaggett.com/files//Foundations_of_Inference.pdf" target="_blank">PDF</a>
+- <a href="http://aaronbaggett.github.com/files/Fundamentals_of_Statistical_Inference.pdf" target="_blank">PDF</a>
 
 ##### Data and R Code
 - Data: [Low birth weight](http://aaronbaggett.com/data/baby_wt.csv)
