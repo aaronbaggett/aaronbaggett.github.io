@@ -24,12 +24,12 @@ WEEK 1: Fundamentals of Statistical Inference
 
 - Descriptives: 
     - Data: [Data set name](http://aaronbaggett.com/dpt)
-    - R Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
-    - SPSS Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
+    - R Code: [Data set name](http://aaronbaggett.com/dpt)
+    - SPSS Code: [Data set name](http://aaronbaggett.com/dpt)
 - *t*-Test: 
     - Data: [Data set name](http://google.com)
-    - R Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
-    - SPSS Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
+    - R Code: [Data set name](http://aaronbaggett.com/dpt)
+    - SPSS Code: [Data set name](http://aaronbaggett.com/dpt)
 
 *Note: Files will automatically be saved to your computer's Downloads directory.
 
@@ -47,17 +47,17 @@ WEEK 2: Fundamentals of Statistical Decision Making
 *Low birth weight example:*
 
 - ANOVA: 
-    - Data: [Data set name](http://google.com)
-    - R Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
-    - SPSS Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
+    - Data: [Data set name](http://aaronbaggett.com/dpt)
+    - R Code: [Data set name](http://aaronbaggett.com/dpt)
+    - SPSS Code: [Data set name](http://aaronbaggett.com/dpt)
 - Regression: 
     - Data: [Data set name](http://google.com)
-    - R Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
-    - SPSS Code: [Data set name](http://aaronbaggett.com/r_code/r_tsla.R)
+    - R Code: [Data set name](http://aaronbaggett.com/dpt)
+    - SPSS Code: [Data set name](http://aaronbaggett.com/dpt)
 
 *Note: Files will automatically be saved to your computer's Downloads directory.
 
 ##### Links and Handouts
 - <a href="https://stats.idre.ucla.edu/other/mult-pkg/whatstat/" target="_blank">Choosing the correct statistical test</a>
-- [Handout/link name](http://google.com)
-- [Handout/link name](http://google.com)
+- [Handout/link name](http://aaronbaggett.com/dpt)
+- [Handout/link name](http://aaronbaggett.com/dpt)
