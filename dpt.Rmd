@@ -42,7 +42,7 @@ WEEK 2: Fundamentals of Statistical Decision Making
 </h4>
 
 ##### Lecture Slides
-- <a href="http://aaronbaggett.com/files/Foundations_of_Decisions" target="_blank">PDF</a>
+- <a href="http://aaronbaggett.com/files/Foundations_of_Decisions.pdf" target="_blank">PDF</a>
 
 <!--
 ##### Data and R Code*
