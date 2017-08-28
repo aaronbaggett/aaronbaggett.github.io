@@ -16,8 +16,9 @@ WEEK 1: Fundamentals of Statistical Inference
 </h4>
 
 ##### Lecture Slides
-- <a href="http://aaronbaggett.github.com/files/Fundamentals_of_Statistical_Inference.pdf" target="_blank">PDF</a>
+- <a href="http://aaronbaggett.github.com/files/Foundations_of_Inference.pdf" target="_blank">PDF</a>
 
+<!--
 ##### Data and R Code*
 
 *Low birth weight example:*
@@ -34,14 +35,16 @@ WEEK 1: Fundamentals of Statistical Inference
 *Note: Files will automatically be saved to your computer's Downloads directory.
 
 ***
+-->
 
 <h4 style="color:#e74c3c">
 WEEK 2: Fundamentals of Statistical Decision Making
 </h4>
 
 ##### Lecture Slides
-- <a href="http://aaronbaggett.com/files//Foundations_of_Inference.pdf" target="_blank">PDF</a>
+- <a href="http://aaronbaggett.com/files/Foundations_of_Decisions" target="_blank">PDF</a>
 
+<!--
 ##### Data and R Code*
 
 *Low birth weight example:*
@@ -56,8 +59,11 @@ WEEK 2: Fundamentals of Statistical Decision Making
     - SPSS Code: [Data set name](http://aaronbaggett.com/dpt)
 
 *Note: Files will automatically be saved to your computer's Downloads directory.
+-->
 
 ##### Links and Handouts
 - <a href="https://stats.idre.ucla.edu/other/mult-pkg/whatstat/" target="_blank">Choosing the correct statistical test</a>
+<!--
 - [Handout/link name](http://aaronbaggett.com/dpt)
 - [Handout/link name](http://aaronbaggett.com/dpt)
+-->
