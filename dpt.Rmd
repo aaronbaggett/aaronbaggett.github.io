@@ -12,7 +12,7 @@ output: html_document
 <br>
 
 <h4 style="color:#e74c3c">
-WEEK 1: Fundamentals of Statistical Inference
+WEEK 1: Foundations of Statistical Inference
 </h4>
 
 ##### Lecture Slides
@@ -33,12 +33,12 @@ WEEK 1: Fundamentals of Statistical Inference
     - SPSS Code: [Data set name](http://aaronbaggett.com/dpt)
 
 *Note: Files will automatically be saved to your computer's Downloads directory.
-
-***
 -->
 
+***
+
 <h4 style="color:#e74c3c">
-WEEK 2: Fundamentals of Statistical Decision Making
+WEEK 2: Foundations of Statistical Decision Making
 </h4>
 
 ##### Lecture Slides
