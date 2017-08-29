@@ -35,8 +35,6 @@ WEEK 1: Foundations of Statistical Inference
 *Note: Files will automatically be saved to your computer's Downloads directory.
 -->
 
-***
-
 <h4 style="color:#e74c3c">
 WEEK 2: Foundations of Statistical Decision Making
 </h4>
