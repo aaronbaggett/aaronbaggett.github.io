@@ -58,6 +58,7 @@ lossgain <- ifelse(sell < 0, "loss", "gain")
 Including a $7.00 cost of trade, if we sold our shares today, we would **`r losegain`** $`r sell`, a `r lossgain` of `r (sell/10000)*100`%. <!--Compared to the Vanguard Total Stock Market Index (Admiral Shares), if we sold -->
 
 ```{r chart, fig.align = "center", fig.width = 10}
+# Track investment performance
 ggplot(daily_returns$df.tickers, aes(x = ref.date, y = price.close, color = "1")) + 
   geom_line(size = 0.75) + scale_color_manual(values = "tomato") +
   facet_wrap(~ticker, scales = 'free_y') + theme_light() +
@@ -65,7 +66,7 @@ ggplot(daily_returns$df.tickers, aes(x = ref.date, y = price.close, color = "1")
     legend.position = "none", axis.text.x = element_text(size = 11),
     axis.text.y = element_text(size = 11),
     axis.title.y = element_text(size = 12, face = "bold")) +
-  scale_x_date(name = "") +
+  scale_x_date(name = "", date_breaks = "1 week", date_labels = "%d %b") +
   scale_y_continuous(name = "Closing Price\n")
 ```
 
