@@ -42,7 +42,7 @@ tsla_summ <- investment %>%
 
 ## Background.
 
-Pat and Aaron like investing, but it is risky. Instead of actually investing our own hard-earned money, we decide to invest some play money. Based on the recommendation of our firm's research analyst, Lisa Baggett, M.D., Pat and Aaron decide to invest $10,000 in Tesla ([TSLA](https://finance.yahoo.com/quote/TSLA?p=TSLA)) on July 25, 2017 at a market closing price of $`r round(tsla_summ$Close[1], 2)`. By comparison
+Pat and Aaron like investing, but it is risky. Instead of actually investing our own hard-earned money, we decide to invest some play money. Based on the recommendation of our firm's research analyst, Lisa Baggett, M.D., Pat and Aaron decide to invest $10,000 in Tesla ([TSLA](https://finance.yahoo.com/quote/TSLA?p=TSLA)) on July 25, 2017 at a market closing price of $`r round(tsla_summ$Close[1], 2)`. <!--By comparison-->
 
 ```{r, performance}
 #daily <- round(tsla_summ$Profit_Total[length(tsla_summ$Profit_Total)], 2) - 7
@@ -55,7 +55,7 @@ lossgain <- ifelse(sell < 0, "loss", "gain")
 
 ## Performance
 
-Including a $7.00 cost of trade, if we sold our shares today, we would **`r losegain`** $`r sell`, a `r lossgain` of `r (sell/10000)*100`%. Compared to the Vanguard Total Stock Market Index (Admiral Shares), if we sold 
+Including a $7.00 cost of trade, if we sold our shares today, we would **`r losegain`** $`r sell`, a `r lossgain` of `r (sell/10000)*100`%. <!--Compared to the Vanguard Total Stock Market Index (Admiral Shares), if we sold -->
 
 ```{r chart, fig.align = "center", fig.width = 10}
 ggplot(daily_returns$df.tickers, aes(x = ref.date, y = price.close, color = "1")) + 
