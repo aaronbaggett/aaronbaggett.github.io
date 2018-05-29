@@ -12,11 +12,11 @@ output: html_document
 <br>
 
 <h4 style="color:#e74c3c">
-WEEK 1: Foundations of Statistical Inference
+WEEK 1: Foundations of Statistical Inference: Measuring Uncertainty
 </h4>
 
 ##### Lecture Slides
-- <a href="http://aaronbaggett.com/files/Foundations_of_Inference.pdf" target="_blank">PDF</a>
+- <a href="http://aaronbaggett.com/files/01_Foundations_of_Inference.pdf" target="_blank">PDF</a>
 
 <!--
 ##### Data and R Code*
@@ -38,11 +38,11 @@ WEEK 1: Foundations of Statistical Inference
 ***
 
 <h4 style="color:#e74c3c">
-WEEK 2: Foundations of Statistical Decision Making
+WEEK 2: Foundations of Statistical Decision Making: Comparing Multiple Groups
 </h4>
 
 ##### Lecture Slides
-- <a href="http://aaronbaggett.com/files/Foundations_of_Inference.pdf" target="_blank">PDF</a>
+- <a href="http://aaronbaggett.com/files/02_Foundations_of_Decisions.pdf" target="_blank">PDF</a>
 
 <!--
 ##### Data and R Code*
@@ -61,9 +61,18 @@ WEEK 2: Foundations of Statistical Decision Making
 *Note: Files will automatically be saved to your computer's Downloads directory.
 -->
 
+<h4 style="color:#e74c3c">
+WEEK 3: Foundations of Statistical Decision Making: Relationships and Prediction
+</h4>
+
+##### Lecture Slides
+- <a href="http://aaronbaggett.com/files/03_Foundations_of_Predictions.pdf" target="_blank">PDF</a>
+
 ##### Links and Handouts
 - <a href="https://stats.idre.ucla.edu/other/mult-pkg/whatstat/" target="_blank">Choosing the correct statistical test</a>
 <!--
 - [Handout/link name](http://aaronbaggett.com/dpt)
 - [Handout/link name](http://aaronbaggett.com/dpt)
 -->
+
+
