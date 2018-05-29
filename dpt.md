@@ -1,15 +1,81 @@
 ---
 layout: page
-title: AB | Code
-active: code
+title: AB | Talks
+active: talks
 ---
 
-# CONTENT COMING SOON
-<center>
-<img src="https://media.giphy.com/media/5AiQLaZhFBeGk/giphy.gif" width="480" height="269" class="img-responsive" alt="Responsive image">
-</center>
+<center> <h1 style="color:#3498db">Statistical Foundations for Physical Therapists</h1> </center>
+<br>
+<center> <h5> Aaron R. Baggett, Ph.D. </h5> </center>
+<center> <h7> University of Mary Hardin-Baylor </h7> </center>
+<center> <h7> Department of Psychology </h7> </center>
+<br>
+<br>
+<br>
 
-<!---
-# R Code
-- [Two-Way ANOVA](../r_code/two_way_anova.R)
---->
+<h4 style="color:#e74c3c">
+WEEK 1: Foundations of Statistical Inference: Measuring Uncertainty
+</h4>
+
+##### Lecture Slides
+- <a href="http://aaronbaggett.com/files/01_Foundations_of_Inference.pdf" target="_blank">PDF</a>
+
+<!--
+##### Data and R Code*
+
+*Low birth weight example:*
+
+- Descriptives: 
+    - Data: [Data set name](http://aaronbaggett.com/dpt)
+    - R Code: [Data set name](http://aaronbaggett.com/dpt)
+    - SPSS Code: [Data set name](http://aaronbaggett.com/dpt)
+- *t*-Test: 
+    - Data: [Data set name](http://google.com)
+    - R Code: [Data set name](http://aaronbaggett.com/dpt)
+    - SPSS Code: [Data set name](http://aaronbaggett.com/dpt)
+
+*Note: Files will automatically be saved to your computer's Downloads directory.
+-->
+
+***
+
+<h4 style="color:#e74c3c">
+WEEK 2: Foundations of Statistical Decision Making: Comparing Multiple Groups
+</h4>
+
+##### Lecture Slides
+- <a href="http://aaronbaggett.com/files/02_Foundations_of_Decisions.pdf" target="_blank">PDF</a>
+
+<!--
+##### Data and R Code*
+
+*Low birth weight example:*
+
+- ANOVA: 
+    - Data: [Data set name](http://aaronbaggett.com/dpt)
+    - R Code: [Data set name](http://aaronbaggett.com/dpt)
+    - SPSS Code: [Data set name](http://aaronbaggett.com/dpt)
+- Regression: 
+    - Data: [Data set name](http://google.com)
+    - R Code: [Data set name](http://aaronbaggett.com/dpt)
+    - SPSS Code: [Data set name](http://aaronbaggett.com/dpt)
+
+*Note: Files will automatically be saved to your computer's Downloads directory.
+-->
+
+<h4 style="color:#e74c3c">
+WEEK 3: Foundations of Statistical Decision Making: Relationships and Prediction
+</h4>
+
+##### Lecture Slides
+- <a href="http://aaronbaggett.com/files/03_Foundations_of_Predictions.pdf" target="_blank">PDF</a>
+
+##### Links and Handouts
+- <a href="https://stats.idre.ucla.edu/other/mult-pkg/whatstat/" target="_blank">Choosing the correct statistical test</a>
+<!--
+- [Handout/link name](http://aaronbaggett.com/dpt)
+- [Handout/link name](http://aaronbaggett.com/dpt)
+-->
+
+
+
