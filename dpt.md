@@ -70,12 +70,11 @@ WEEK 3: Foundations of Statistical Decision Making: Relationships and Prediction
 ##### Lecture Slides
 - <a href="http://aaronbaggett.com/files/03_Foundations_of_Predictions.pdf" target="_blank">PDF</a>
 
+<br>
+<br>
+
 ##### Links and Handouts
 - <a href="https://stats.idre.ucla.edu/other/mult-pkg/whatstat/" target="_blank">Choosing the correct statistical test</a>
-<!--
-- [Handout/link name](http://aaronbaggett.com/dpt)
-- [Handout/link name](http://aaronbaggett.com/dpt)
--->
 
 
 
