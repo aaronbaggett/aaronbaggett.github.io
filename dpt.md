@@ -63,6 +63,8 @@ WEEK 2: Foundations of Statistical Decision Making: Comparing Multiple Groups
 *Note: Files will automatically be saved to your computer's Downloads directory.
 -->
 
+***
+
 <h4 style="color:#e74c3c">
 WEEK 3: Foundations of Statistical Decision Making: Relationships and Prediction
 </h4>
@@ -72,6 +74,8 @@ WEEK 3: Foundations of Statistical Decision Making: Relationships and Prediction
 
 <br>
 <br>
+
+***
 
 ##### Links and Handouts
 - <a href="https://stats.idre.ucla.edu/other/mult-pkg/whatstat/" target="_blank">Choosing the correct statistical test</a>
