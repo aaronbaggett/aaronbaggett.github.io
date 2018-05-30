@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AB | Talks
-active: talks
+active: teaching
 ---
 
 <center> <h1 style="color:#3498db">Statistical Foundations for Physical Therapists</h1> </center>
