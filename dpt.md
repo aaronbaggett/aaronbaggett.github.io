@@ -26,6 +26,9 @@ WEEK 1: Foundations of Statistical Inference: Measuring Uncertainty
   - Excel: <a href="http://aaronbaggett.com/data/baby_wt.csv" target="_blank">Low birth weight example</a>
   - SPSS: <a href="http://aaronbaggett.com/data/baby_wt.sav" target="_blank">Low birth weight example</a>
 
+##### Example Video
+  - <a href="http://aaronbaggett.com/files/waiting" target="_blank">Low birth weight example</a>
+
 <!--
 - Descriptives: 
     - Data: [Data set name](http://aaronbaggett.com/dpt)
