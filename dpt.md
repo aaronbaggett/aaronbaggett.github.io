@@ -22,7 +22,7 @@ WEEK 1: Foundations of Statistical Inference: Measuring Uncertainty
   - Excel: <a href="http://aaronbaggett.com/data/baby_wt.csv" target="_blank">Low birth weight example</a>
   - SPSS: <a href="http://aaronbaggett.com/data/baby_wt.sav" target="_blank">Low birth weight example</a>
 
-##### Example Video
+##### Example Video (Coming soon!)
   - <a href="http://aaronbaggett.com/waiting" target="_blank">Low birth weight example</a>
 
 <!--
@@ -50,7 +50,7 @@ WEEK 2: Foundations of Statistical Decision Making: Comparing Multiple Groups
   - Excel: <a href="http://aaronbaggett.com/data/fitness.csv" target="_blank">Attitudes toward fitness intensity example</a>
   - SPSS: <a href="http://aaronbaggett.com/data/fitness.sav" target="_blank">Attitudes toward fitness intensity example</a>
   
-##### Example Video
+##### Example Video (Coming soon!)
   - <a href="http://aaronbaggett.com/waiting" target="_blank">Attitudes toward fitness intensity example</a>
 
 <!--
@@ -83,7 +83,7 @@ WEEK 3: Foundations of Statistical Decision Making: Relationships and Prediction
   - Excel: <a href="http://aaronbaggett.com/data/nels.csv" target="_blank">Early childhood longitudinal study example</a>
   - SPSS: <a href="http://aaronbaggett.com/data/nels.sav" target="_blank">Early childhood longitudinal study example</a>
 
-##### Example Video
+##### Example Video (Coming soon!)
   - <a href="http://aaronbaggett.com/waiting" target="_blank">Early childhood longitudinal study example</a>
 
 <br>
