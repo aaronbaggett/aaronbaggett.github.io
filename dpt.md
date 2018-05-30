@@ -10,8 +10,6 @@ active: talks
 <center> <h7> University of Mary Hardin-Baylor </h7> </center>
 <center> <h7> Department of Psychology </h7> </center>
 <br>
-<br>
-<br>
 
 <h4 style="color:#e74c3c">
 WEEK 1: Foundations of Statistical Inference: Measuring Uncertainty
@@ -51,6 +49,9 @@ WEEK 2: Foundations of Statistical Decision Making: Comparing Multiple Groups
 ##### Data
   - Excel: <a href="http://aaronbaggett.com/data/fitness.csv" target="_blank">Attitudes toward fitness intensity example</a>
   - SPSS: <a href="http://aaronbaggett.com/data/fitness.sav" target="_blank">Attitudes toward fitness intensity example</a>
+  
+##### Example Video
+  - <a href="http://aaronbaggett.com/waiting" target="_blank">Attitudes toward fitness intensity example</a>
 
 <!--
 ##### Data and R Code*
@@ -81,6 +82,9 @@ WEEK 3: Foundations of Statistical Decision Making: Relationships and Prediction
 ##### Data
   - Excel: <a href="http://aaronbaggett.com/data/nels.csv" target="_blank">Early childhood longitudinal study example</a>
   - SPSS: <a href="http://aaronbaggett.com/data/nels.sav" target="_blank">Early childhood longitudinal study example</a>
+
+##### Example Video
+  - <a href="http://aaronbaggett.com/waiting" target="_blank">Early childhood longitudinal study example</a>
 
 <br>
 
