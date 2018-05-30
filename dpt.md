@@ -5,7 +5,7 @@ active: teaching
 ---
 
 <center> <h1 style="color:#3498db">Statistical Foundations for Physical Therapists</h1> </center>
-<br>
+
 <center> <h5> Aaron R. Baggett, Ph.D. </h5> </center>
 <center> <h7> University of Mary Hardin-Baylor </h7> </center>
 <center> <h7> Department of Psychology </h7> </center>
