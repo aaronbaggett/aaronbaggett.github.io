@@ -13,6 +13,8 @@ active: talks
 <br>
 <br>
 
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/ToMjGpz81S7usvTIM8w" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/hero0fwar-caddy-shack-ToMjGpz81S7usvTIM8w">via GIPHY</a></p>
+
 <h4 style="color:#e74c3c">
 WEEK 1: Foundations of Statistical Inference: Measuring Uncertainty
 </h4>
@@ -20,21 +22,20 @@ WEEK 1: Foundations of Statistical Inference: Measuring Uncertainty
 ##### Lecture Slides
 - <a href="http://aaronbaggett.com/files/01_Foundations_of_Inference.pdf" target="_blank">PDF</a>
 
+##### Data
+  - Excel: <a href="http://aaronbaggett.com/data/baby_wt.csv" target="_blank">Low birth weight example</a>
+  - SPSS: <a href="http://aaronbaggett.com/data/baby_wt.sav" target="_blank">Low birth weight example</a>
+
 <!--
-##### Data and R Code*
-
-*Low birth weight example:*
-
 - Descriptives: 
     - Data: [Data set name](http://aaronbaggett.com/dpt)
     - R Code: [Data set name](http://aaronbaggett.com/dpt)
     - SPSS Code: [Data set name](http://aaronbaggett.com/dpt)
+
 - *t*-Test: 
     - Data: [Data set name](http://google.com)
     - R Code: [Data set name](http://aaronbaggett.com/dpt)
     - SPSS Code: [Data set name](http://aaronbaggett.com/dpt)
-
-*Note: Files will automatically be saved to your computer's Downloads directory.
 -->
 
 ***
@@ -45,6 +46,10 @@ WEEK 2: Foundations of Statistical Decision Making: Comparing Multiple Groups
 
 ##### Lecture Slides
 - <a href="http://aaronbaggett.com/files/02_Foundations_of_Decisions.pdf" target="_blank">PDF</a>
+
+##### Data
+  - Excel: <a href="http://aaronbaggett.com/data/fitness.csv" target="_blank">Attitudes toward fitness intensity example</a>
+  - SPSS: <a href="http://aaronbaggett.com/data/fitness.sav" target="_blank">Attitudes toward fitness intensity example</a>
 
 <!--
 ##### Data and R Code*
@@ -72,10 +77,17 @@ WEEK 3: Foundations of Statistical Decision Making: Relationships and Prediction
 ##### Lecture Slides
 - <a href="http://aaronbaggett.com/files/03_Foundations_of_Predictions.pdf" target="_blank">PDF</a>
 
-<br>
+##### Data
+  - Excel: <a href="http://aaronbaggett.com/data/nels.csv" target="_blank">Early childhood longitudinal study example</a>
+  - SPSS: <a href="http://aaronbaggett.com/data/nels.sav" target="_blank">Early childhood longitudinal study example</a>
+
 <br>
 
 ***
+
+<h4 style="color:#e74c3c">
+Miscellaneous
+</h4>
 
 ##### Links and Handouts
 - <a href="https://stats.idre.ucla.edu/other/mult-pkg/whatstat/" target="_blank">Choosing the correct statistical test</a>
