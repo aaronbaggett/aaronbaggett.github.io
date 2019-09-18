@@ -10,7 +10,7 @@ Slides: <a href="http://aaronbaggett.com/code/two_way_anova.R">
           <span class="glyphicon glyphicon-list-alt"></span>
         </a>
 <br>
-**R** Code: <a href="http://aaronbaggett.com/code/two_way_anova.R">
+**R** Code: <a href="http://aaronbaggett.com/r_code/two_way_anova.R">
           <span class="glyphicon glyphicon-signal"></span>
         </a>
 
