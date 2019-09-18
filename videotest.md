@@ -6,11 +6,11 @@ active: tutorials
 
 ## Video Test
 
-Slides: <a href="http://aaronbaggett.com/code/two_way_anova.R">
+### Slides: <a href="http://aaronbaggett.com/code/two_way_anova.R">
           <span class="glyphicon glyphicon-file"></span>
         </a>
 <br>
-**R** Code: <a href="http://aaronbaggett.com/code/two_way_anova.R">
+### **R** Code: <a href="http://aaronbaggett.com/code/two_way_anova.R">
           <span class="glyphicon glyphicon-signal"></span>
         </a>
 
