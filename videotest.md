@@ -22,3 +22,4 @@ Slides: <a href="http://aaronbaggett.com/code/two_way_anova.R">
 ```r
 icon::fa("rocket") # equivalent to icon::fa_rocket()
 ```
+
