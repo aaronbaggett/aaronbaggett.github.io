@@ -4,7 +4,7 @@ title: AB | Video Test
 active: tutorials
 ---
 
-# PSYC 2316 Lab 02
+## PSYC 2316 Lab 02
 
 Slides: <a href="http://aaronbaggett.com/code/two_way_anova.R">
           <span class="glyphicon glyphicon-list-alt"></span>
