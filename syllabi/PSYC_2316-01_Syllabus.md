@@ -1,7 +1,7 @@
 ---
 layout: page
-title: AB | About
-active: about
+# title: AB | About
+# active: about
 ---
 
 
