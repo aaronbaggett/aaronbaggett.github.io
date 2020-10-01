@@ -1,562 +1,558 @@
 ---
 ---
 
+<pre style='color:#000000;background:#ffffff;'><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>documentclass</span><span style='color:#0000ff; '>[</span>article<span style='color:#0000ff; '>]</span><span style='color:#0000ff; '>{</span>article<span style='color:#0000ff; '>}</span>
 
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>apacite<span style='color:#0000ff; '>}</span>
+<span style='color:#008000; '>%The following is needed to get the hyperlinks to work with  apacite</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>let</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>APAbibcite</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bibcite</span> 
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>let</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>HYPERbibcite</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bibcite</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>def</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bibcite</span><span style='color:#0000ff; '>#</span><span style='color:#800000; '>1</span><span style='color:#0000ff; '>#</span><span style='color:#800000; '>2</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>APAbibcite</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>#</span><span style='color:#800000; '>1</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>#</span><span style='color:#800000; '>2</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>HYPERbibcite</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>#</span><span style='color:#800000; '>1</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>#</span><span style='color:#800000; '>2</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>bibentry<span style='color:#0000ff; '>}</span>
+<span style='color:#008000; '>%%%%%%%%%%%</span>
 
-```
-\documentclass[article]{article}
-
-\usepackage{apacite}
-%The following is needed to get the hyperlinks to work with  apacite
-\let\APAbibcite\bibcite 
-\let\HYPERbibcite\bibcite
-\def\bibcite#1#2{\APAbibcite{#1}{#2}\HYPERbibcite{#1}{#2}}
-\usepackage{bibentry}
-%%%%%%%%%%%
-
-\usepackage[pdftex,
-            pdfauthor={Aaron R. Baggett, Ph.D.},
-            pdftitle={Syllabus, PSYC 2316, F2019},
-            pdfsubject={Statistics for the Behavioral and Social Sciences},
-            pdfkeywords={},
-            pdfproducer={LaTeX},
-            pdfcreator={pdflatex}]{hyperref} % Used to have linked text
- \hypersetup{  
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>[</span>pdftex,
+            pdfauthor=<span style='color:#0000ff; '>{</span>Aaron R. Baggett, Ph.D.<span style='color:#0000ff; '>}</span>,
+            pdftitle=<span style='color:#0000ff; '>{</span>Syllabus, PSYC <span style='color:#800000; '>2316</span>, F<span style='color:#800000; '>2019</span><span style='color:#0000ff; '>}</span>,
+            pdfsubject=<span style='color:#0000ff; '>{</span>Statistics for the Behavioral and Social Sciences<span style='color:#0000ff; '>}</span>,
+            pdfkeywords=<span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>}</span>,
+            pdfproducer=<span style='color:#0000ff; '>{</span>LaTeX<span style='color:#0000ff; '>}</span>,
+            pdfcreator=<span style='color:#0000ff; '>{</span>pdflatex<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>]</span><span style='color:#0000ff; '>{</span>hyperref<span style='color:#0000ff; '>}</span> <span style='color:#008000; '>% Used to have linked text</span>
+ <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hypersetup</span><span style='color:#0000ff; '>{</span>  
    colorlinks,   
    citecolor=Magenta,
    linkcolor=Magenta,
    urlcolor=blue,
-}
+<span style='color:#0000ff; '>}</span>
 
-\oddsidemargin=.025in \evensidemargin=.25in
-\topmargin=-.5in
-\textwidth=6.5in \textheight=9in \pagestyle{empty}
-\parindent=0in
-% \usepackage{amsmath,amssymb,amsthm, graphicx}
-\pagenumbering{arabic}
-\usepackage{termcal}
-\usepackage{mathtools}
-\usepackage{fancyvrb}
-\usepackage[flushleft]{threeparttable}
-\usepackage[sc]{mathpazo}
-\usepackage{amssymb}
-\usepackage{enumitem}
-\usepackage[dvipsnames]{xcolor}
-\usepackage{mathptmx}
-\usepackage{multirow}
-\usepackage{lmodern}
-\usepackage{tgtermes}
-\usepackage[T1]{fontenc}
-\usepackage{lscape}
-\usepackage{longtable}
-\usepackage{tabu}
-\usepackage{float}
-\usepackage{tabularx}
-%\usepackage{roboto-mono}
-\usepackage{inconsolata}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>oddsidemargin</span>=<span style='color:#800000; '>.025</span>in <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>evensidemargin</span>=<span style='color:#800000; '>.25</span>in
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>topmargin</span>=<span style='color:#800000; '>-.5</span>in
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textwidth</span>=<span style='color:#800000; '>6.5</span>in <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textheight</span>=<span style='color:#800000; '>9</span>in <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>pagestyle</span><span style='color:#0000ff; '>{</span>empty<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>parindent</span>=<span style='color:#800000; '>0</span>in
+<span style='color:#008000; '>% \usepackage{amsmath,amssymb,amsthm, graphicx}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>pagenumbering</span><span style='color:#0000ff; '>{</span>arabic<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>termcal<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>mathtools<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>fancyvrb<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>[</span>flushleft<span style='color:#0000ff; '>]</span><span style='color:#0000ff; '>{</span>threeparttable<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>[</span>sc<span style='color:#0000ff; '>]</span><span style='color:#0000ff; '>{</span>mathpazo<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>amssymb<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>enumitem<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>[</span>dvipsnames<span style='color:#0000ff; '>]</span><span style='color:#0000ff; '>{</span>xcolor<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>mathptmx<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>multirow<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>lmodern<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>tgtermes<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>[</span>T<span style='color:#800000; '>1</span><span style='color:#0000ff; '>]</span><span style='color:#0000ff; '>{</span>fontenc<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>lscape<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>longtable<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>tabu<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>float<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>tabularx<span style='color:#0000ff; '>}</span>
+<span style='color:#008000; '>%\usepackage{roboto-mono}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>inconsolata<span style='color:#0000ff; '>}</span>
 
-\usepackage{hanging}
-\usepackage{fancyhdr,lastpage}
-\pagestyle{fancy}
-%\fancyhead{}
-\fancyfoot{}
-\rhead[\thepage/\pageref*{LastPage}]{\thepage/\pageref*{LastPage}}
-\lhead[PSYC 2316 \textit{Statistics for the Social Sciences}]{PSYC 2316-01 \textit{Statistics for the Social Sciences}}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>hanging<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>usepackage</span><span style='color:#0000ff; '>{</span>fancyhdr,lastpage<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>pagestyle</span><span style='color:#0000ff; '>{</span>fancy<span style='color:#0000ff; '>}</span>
+<span style='color:#008000; '>%\fancyhead{}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>fancyfoot</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>rhead</span><span style='color:#0000ff; '>[</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>thepage</span>/<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>pageref</span>*<span style='color:#0000ff; '>{</span>LastPage<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>]</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>thepage</span>/<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>pageref</span>*<span style='color:#0000ff; '>{</span>LastPage<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>lhead</span><span style='color:#0000ff; '>[</span>PSYC <span style='color:#800000; '>2316</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textit</span><span style='color:#0000ff; '>{</span>Statistics for the Social Sciences<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>]</span><span style='color:#0000ff; '>{</span>PSYC <span style='color:#800000; '>2316</span><span style='color:#800000; '>-01</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textit</span><span style='color:#0000ff; '>{</span>Statistics for the Social Sciences<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>
 
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>newcommand</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>HRule</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>rule</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>linewidth</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#800000; '>0.5</span>mm<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>
 
-\title{
-\HRule \\
-PSYC 2316-01 \\ \sc{Statistics for the Social Sciences\\ }
-\HRule
-}
-\author{Fall 2019}
-\date{}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>title</span><span style='color:#0000ff; '>{</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>HRule</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+PSYC <span style='color:#800000; '>2316</span><span style='color:#800000; '>-01</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>sc</span><span style='color:#0000ff; '>{</span>Statistics for the Social Sciences<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span> <span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>HRule</span>
+<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>author</span><span style='color:#0000ff; '>{</span>Fall <span style='color:#800000; '>2019</span><span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>date</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>}</span>
 
-\begin{document}
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>document</span><span style='color:#0000ff; font-weight:bold; '>}</span>
 
-\bibliographystyle{apacite}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bibliographystyle</span><span style='color:#0000ff; '>{</span>apacite<span style='color:#0000ff; '>}</span>
 
-\maketitle
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>maketitle</span>
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% HEADING
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#008000; '>% HEADING</span>
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
 
-\textbf{Instructor}: Aaron R. Baggett, Ph.D.\\
-\textbf{Email}: \texttt{\href{mailto:abaggett@umhb.edu}{abaggett@umhb.edu}}\\
-\textbf{Office Phone}: (254) 295-4553\\
-\textbf{Office}: Wells 140\\
-\textbf{Office Hours}: MWF: 9:00 AM--10:00 AM; TR: 9:00 AM--11:00 AM; M-R: 1:00 PM--2:00 PM; and by appointment
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textbf</span><span style='color:#0000ff; '>{</span>Instructor<span style='color:#0000ff; '>}</span>: Aaron R. Baggett, Ph.D.<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textbf</span><span style='color:#0000ff; '>{</span>Email<span style='color:#0000ff; '>}</span>: <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>texttt</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>href</span><span style='color:#0000ff; '>{</span>mailto:abaggett@umhb.edu<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span>abaggett@umhb.edu<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textbf</span><span style='color:#0000ff; '>{</span>Office Phone<span style='color:#0000ff; '>}</span>: (<span style='color:#800000; '>254</span>) <span style='color:#800000; '>295</span><span style='color:#800000; '>-4553</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textbf</span><span style='color:#0000ff; '>{</span>Office<span style='color:#0000ff; '>}</span>: Wells <span style='color:#800000; '>140</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textbf</span><span style='color:#0000ff; '>{</span>Office Hours<span style='color:#0000ff; '>}</span>: MWF: <span style='color:#800000; '>9</span>:<span style='color:#800000; '>00</span> AM-<span style='color:#800000; '>-10</span>:<span style='color:#800000; '>00</span> AM; TR: <span style='color:#800000; '>9</span>:<span style='color:#800000; '>00</span> AM-<span style='color:#800000; '>-11</span>:<span style='color:#800000; '>00</span> AM; M-R: <span style='color:#800000; '>1</span>:<span style='color:#800000; '>00</span> PM-<span style='color:#800000; '>-2</span>:<span style='color:#800000; '>00</span> PM; and by appointment
 
-\section{Course Information}
-\subsection{Meeting}
-\textbf{Time:} Tuesday/Thursday, 11:00 AM -- 12:30 PM\\
-\textbf{Location:} Wells Science Hall (WSH) 152\\
-{\bf{Course Website:}} \texttt{\href{https://mycourses.umhb.edu/courses/20947}{myCourses}}\\
-{\bf{Prerequisite:}} MATH 1304 or higher
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>section</span><span style='color:#0000ff; '>{</span>Course Information<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Meeting<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textbf</span><span style='color:#0000ff; '>{</span>Time:<span style='color:#0000ff; '>}</span> Tuesday/Thursday, <span style='color:#800000; '>11</span>:<span style='color:#800000; '>00</span> AM -- <span style='color:#800000; '>12</span>:<span style='color:#800000; '>30</span> PM<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textbf</span><span style='color:#0000ff; '>{</span>Location:<span style='color:#0000ff; '>}</span> Wells Science Hall (WSH) <span style='color:#800000; '>152</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Course Website:<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>texttt</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>href</span><span style='color:#0000ff; '>{</span>https://mycourses.umhb.edu/courses/<span style='color:#800000; '>20947</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span>myCourses<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Prerequisite:<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> MATH <span style='color:#800000; '>1304</span> or higher
 
-\subsection{Description}
-This course is designed to introduce students to basic statistical techniques and procedures used by applied researchers in the behavioral and social sciences. As a result, emphasis will be placed on basic procedures involved in organizing and presenting data, as well as selecting, running, and interpreting various parametric statistical tests. Students will utilize the \textbf{\textsf{R}} statistical software application to conduct and interpret descriptive and inferential statistics. Students completing this course will acquire the skills necessary to both conduct and interpret statistical analyses in behavioral and social science settings.
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Description<span style='color:#0000ff; '>}</span>
+This course is designed to introduce students to basic statistical techniques and procedures used by applied researchers in the behavioral and social sciences. As a result, emphasis will be placed on basic procedures involved in organizing and presenting data, as well as selecting, running, and interpreting various parametric statistical tests. Students will utilize the <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textbf</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textsf</span><span style='color:#0000ff; '>{</span>R<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> statistical software application to conduct and interpret descriptive and inferential statistics. Students completing this course will acquire the skills necessary to both conduct and interpret statistical analyses in behavioral and social science settings.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% COURSE OBJECTIVES
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#008000; '>% COURSE OBJECTIVES</span>
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
 
-\subsection{Course Objectives}
-At the conclusion of this course, students should be able to:\\
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Course Objectives<span style='color:#0000ff; '>}</span>
+At the conclusion of this course, students should be able to:<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
 
-\begin{enumerate}
-\item {\bf{Gain factual knowledge such as important terminology, classifications, methods, and trends by:}}
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>enumerate</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> <span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Gain factual knowledge such as important terminology, classifications, methods, and trends by:<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>
 
-\begin{enumerate}[label=\Alph*.]
-\itemsep2pt\parskip0pt\parsep0pt
-\item Participating in lectures and in-class presentations;
-\item Distinguishing between the four basic scales of measurement;
-\item Distinguishing between null and alternative hypotheses;
-\item Distinguishing between Type I and Type II Errors;
-\item Understanding characteristics of population and sample distributions;
-\item Understanding essential characteristics of descriptive statistics and procedures used for summarizing data;
-\item Understanding probability and the foundations of inferential statistics;
-\item Making inferences about the variability between- and within-samples according to the general linear model;
-\item Distinguishing between statistical and practical significance.
-\end{enumerate}
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>enumerate</span><span style='color:#0000ff; font-weight:bold; '>}</span><span style='color:#0000ff; '>[</span>label=<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>Alph</span>*.<span style='color:#0000ff; '>]</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>itemsep</span><span style='color:#800000; '>2</span>pt<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>parskip</span><span style='color:#800000; '>0</span>pt<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>parsep</span><span style='color:#800000; '>0</span>pt
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Participating in lectures and in-class presentations;
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Distinguishing between the four basic scales of measurement;
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Distinguishing between null and alternative hypotheses;
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Distinguishing between Type I and Type II Errors;
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Understanding characteristics of population and sample distributions;
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Understanding essential characteristics of descriptive statistics and procedures used for summarizing data;
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Understanding probability and the foundations of inferential statistics;
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Making inferences about the variability between- and within-samples according to the general linear model;
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Distinguishing between statistical and practical significance.
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>enumerate</span><span style='color:#0000ff; font-weight:bold; '>}</span>
 
-\item {\bf{Learn to apply course material to improve decision-making, problem solving, and critical thinking skills related to experimental design and statistical analysis by:}}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> <span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Learn to apply course material to improve decision-making, problem solving, and critical thinking skills related to experimental design and statistical analysis by:<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>
 
-\begin{enumerate}[label=\Alph*.]
-\itemsep2pt\parskip0pt\parsep0pt
-\item[A.] Completing formal assessments involving knowledge-level, conceptual, and applied material;
-\item[B.] Completing a series of individual data evaluation and analysis projects involving performing, analyzing, and interpreting statistical output;
-\item[C.] Communicating research findings according to the rules of APA Style (in both written and oral form);
-\item[D.] Considering the ethical issues associated with research involving human and nonhuman participants.
-\end{enumerate}
-\end{enumerate}
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>enumerate</span><span style='color:#0000ff; font-weight:bold; '>}</span><span style='color:#0000ff; '>[</span>label=<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>Alph</span>*.<span style='color:#0000ff; '>]</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>itemsep</span><span style='color:#800000; '>2</span>pt<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>parskip</span><span style='color:#800000; '>0</span>pt<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>parsep</span><span style='color:#800000; '>0</span>pt
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span><span style='color:#0000ff; '>[</span>A.<span style='color:#0000ff; '>]</span> Completing formal assessments involving knowledge-level, conceptual, and applied material;
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span><span style='color:#0000ff; '>[</span>B.<span style='color:#0000ff; '>]</span> Completing a series of individual data evaluation and analysis projects involving performing, analyzing, and interpreting statistical output;
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span><span style='color:#0000ff; '>[</span>C.<span style='color:#0000ff; '>]</span> Communicating research findings according to the rules of APA Style (in both written and oral form);
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span><span style='color:#0000ff; '>[</span>D.<span style='color:#0000ff; '>]</span> Considering the ethical issues associated with research involving human and nonhuman participants.
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>enumerate</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>enumerate</span><span style='color:#0000ff; font-weight:bold; '>}</span>
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% CREDIT HOUR
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#008000; '>% CREDIT HOUR</span>
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
 
-\subsection{Credit Hour}
-The semester credit hour is a unit by which an institution measures its course work. The value of a semester credit hour can be determined by time, the educational experience, and outside preparation by the student.\\
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Credit Hour<span style='color:#0000ff; '>}</span>
+The semester credit hour is a unit by which an institution measures its course work. The value of a semester credit hour can be determined by time, the educational experience, and outside preparation by the student.<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
 
 For this course:
 
-\begin{enumerate}
-\item At least fifteen (15) contact hours, as well as, a minimum of thirty (30) hours of student homework is required for each semester credit hour.
-\end{enumerate}
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>enumerate</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> At least fifteen (<span style='color:#800000; '>15</span>) contact hours, as well as, a minimum of thirty (<span style='color:#800000; '>30</span>) hours of student homework is required for each semester credit hour.
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>enumerate</span><span style='color:#0000ff; font-weight:bold; '>}</span>
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% READINGS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#008000; '>% READINGS</span>
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
 
-\subsection{Readings}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Readings<span style='color:#0000ff; '>}</span>
 
-%\subsubsection{Required}
+<span style='color:#008000; '>%\subsubsection{Required}</span>
 
-{\bf{Textbook:}}\\
+<span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Textbook:<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
 
-\begin{hangparas}{.4in}{1}
-Diez, D. M.,  \c{C}etinkaya-Rundel, M., \& Barr, C. D. (2019).  {\em{OpenIntro statistics}} (4\textsuperscript{th} ed.).  OpenIntro.
-\end{hangparas}
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>hangparas</span><span style='color:#0000ff; font-weight:bold; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#800000; '>.4</span>in<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#800000; '>1</span><span style='color:#0000ff; '>}</span>
+Diez, D. M.,  <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>c</span><span style='color:#0000ff; '>{</span>C<span style='color:#0000ff; '>}</span>etinkaya-Rundel, M., <span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>&amp;</span> Barr, C. D. (<span style='color:#800000; '>2019</span>).  <span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>em</span><span style='color:#0000ff; '>{</span>OpenIntro statistics<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> (<span style='color:#800000; '>4</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textsuperscript</span><span style='color:#0000ff; '>{</span>th<span style='color:#0000ff; '>}</span> ed.).  OpenIntro.
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>hangparas</span><span style='color:#0000ff; font-weight:bold; '>}</span>
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% SOFTWARE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Required Software}
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#008000; '>% SOFTWARE</span>
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Required Software<span style='color:#0000ff; '>}</span>
 
-All data and statistical analyses in PSYC 2316-01 will be conducted using the \textbf{\textsf{R}} statistical programming language via the graphical user interface software, RStudio. During class, RStudio will be accessed using an online, cloud-based version of the software.  This will be the preferred method for use during and outside of class. Follow the instructions in the \texttt{RStudio\_Cloud\_Setup.pdf} document in myCourses (see: \texttt{Files > RStudio Cloud Setup > RStudio\_Cloud\_Setup.pdf}) to create a user account.
+All data and statistical analyses in PSYC <span style='color:#800000; '>2316</span><span style='color:#800000; '>-01</span> will be conducted using the <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textbf</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textsf</span><span style='color:#0000ff; '>{</span>R<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> statistical programming language via the graphical user interface software, RStudio. During class, RStudio will be accessed using an online, cloud-based version of the software.  This will be the preferred method for use during and outside of class. Follow the instructions in the <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>texttt</span><span style='color:#0000ff; '>{</span>RStudio<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>_</span>Cloud<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>_</span>Setup.pdf<span style='color:#0000ff; '>}</span> document in myCourses (see: <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>texttt</span><span style='color:#0000ff; '>{</span>Files > RStudio Cloud Setup > RStudio<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>_</span>Cloud<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>_</span>Setup.pdf<span style='color:#0000ff; '>}</span>) to create a user account.
 
-%\subsubsection{Steps to Accessing RStudio Online}\label{server}
-%\begin{enumerate}
-%\item Navigate your internet browser to the following URL: \texttt{\href{https://rstudio.cloud/}{https://rstudio.cloud/}}
-%\subitem {\em{Note:}} Google Chrome, Mozilla Firefox, or Apple Safari browsers have been the most reliable internet browsers for this use. Students often experience issues when using Internet Explorer.
-%\item Log-in using your UMHB single-sign on credentials
-%\item Repeat as necessary
-%\end{enumerate}
+<span style='color:#008000; '>%\subsubsection{Steps to Accessing RStudio Online}\label{server}</span>
+<span style='color:#008000; '>%\begin{enumerate}</span>
+<span style='color:#008000; '>%\item Navigate your internet browser to the following URL: \texttt{\href{https://rstudio.cloud/}{https://rstudio.cloud/}}</span>
+<span style='color:#008000; '>%\subitem {\em{Note:}} Google Chrome, Mozilla Firefox, or Apple Safari browsers have been the most reliable internet browsers for this use. Students often experience issues when using Internet Explorer.</span>
+<span style='color:#008000; '>%\item Log-in using your UMHB single-sign on credentials</span>
+<span style='color:#008000; '>%\item Repeat as necessary</span>
+<span style='color:#008000; '>%\end{enumerate}</span>
 
-%More details on using and interacting with the online version of RStudio will be provided in class and via handouts and/or video tutorials.
+<span style='color:#008000; '>%More details on using and interacting with the online version of RStudio will be provided in class and via handouts and/or video tutorials.</span>
 
-%RStudio Cloud Setup:
-%Create a user account at \texttt{\href{https://rstudio.cloud/}{https://rstudio.cloud/}} and follow the directions here to login (see: \texttt{Files > RStudio Cloud Setup > RStudio\_Cloud\_Setup.pdf}. You should have also received an email from rstudio.cloud \verb+<noreply@rstudio.cloud>+ containing a link to join the shared space "PSYC 2316-01". Let me know if you run into any issues or problems. It would really help us get started with a sprint if everyone can complete these steps by Tuesday.
+<span style='color:#008000; '>%RStudio Cloud Setup:</span>
+<span style='color:#008000; '>%Create a user account at \texttt{\href{https://rstudio.cloud/}{https://rstudio.cloud/}} and follow the directions here to login (see: \texttt{Files > RStudio Cloud Setup > RStudio\_Cloud\_Setup.pdf}. You should have also received an email from rstudio.cloud \verb+&lt;noreply@rstudio.cloud>+ containing a link to join the shared space "PSYC 2316-01". Let me know if you run into any issues or problems. It would really help us get started with a sprint if everyone can complete these steps by Tuesday.</span>
 
-%Experiencing RStudio:
-%One of the things we will be doing on Tuesday is allowing you to experience the R software and RStudio interface. The slides we will be working through are available here. See: Files > Lecture Slides > 2019-01-22_RStudio_Experience.pdf.
-%
-%Slides for Tuesday: Files > Lecture Slides > 2019-01-22_RStudio_Experience.pdf
-%https://mycourses.umhb.edu/files/1605106/download?download_frd=1
-%
-%RStudio Cloud setup instructions: Files > RStudio Cloud Setup > RStudio_Cloud_Setup.pdf
-%https://mycourses.umhb.edu/files/1605104/download?download_frd=1
+<span style='color:#008000; '>%Experiencing RStudio:</span>
+<span style='color:#008000; '>%One of the things we will be doing on Tuesday is allowing you to experience the R software and RStudio interface. The slides we will be working through are available here. See: Files > Lecture Slides > 2019-01-22_RStudio_Experience.pdf.</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%Slides for Tuesday: Files > Lecture Slides > 2019-01-22_RStudio_Experience.pdf</span>
+<span style='color:#008000; '>%https://mycourses.umhb.edu/files/1605106/download?download_frd=1</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%RStudio Cloud setup instructions: Files > RStudio Cloud Setup > RStudio_Cloud_Setup.pdf</span>
+<span style='color:#008000; '>%https://mycourses.umhb.edu/files/1605104/download?download_frd=1</span>
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% ACADEMIC INTEGRITY
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#008000; '>% ACADEMIC INTEGRITY</span>
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
 
-\subsection{Academic Integrity}\label{integrity}
-%Students who violate the standards outlined in the University's policy on classroom expectations and ethics shall be subject to appropriate discipline as determined by the instructor of the relevant class, and/or in some cases, by the administration of the University. Penalties for violating the University's academic integrity standards can range from receiving a lower grade (including zero) on an assignment to being expelled from the University.  You may review the policy in full here: \href{http://registrar.umhb.edu/classroom-expectations-ethics}{http://registrar.umhb.edu/classroom-expectations-ethics}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Academic Integrity<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>integrity<span style='color:#0000ff; '>}</span>
+<span style='color:#008000; '>%Students who violate the standards outlined in the University's policy on classroom expectations and ethics shall be subject to appropriate discipline as determined by the instructor of the relevant class, and/or in some cases, by the administration of the University. Penalties for violating the University's academic integrity standards can range from receiving a lower grade (including zero) on an assignment to being expelled from the University.  You may review the policy in full here: \href{http://registrar.umhb.edu/classroom-expectations-ethics}{http://registrar.umhb.edu/classroom-expectations-ethics}</span>
 
-UMHB's Academic Integrity policy will be strictly upheld in this course. If you have not read it, it is your responsibility to do so.  Find it online here:  \href{http://catalog.umhb.edu/en/2018-2019/Undergraduate-Catalog/Classroom-Expectations-and-Ethics}{\texttt{Classroom Expectations and Ethics}}.  
-The statement explains University requirements concerning Christian citizenship, student responsibility, class attendance, academic decorum, and academic integrity.\\
+UMHB's Academic Integrity policy will be strictly upheld in this course. If you have not read it, it is your responsibility to do so.  Find it online here:  <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>href</span><span style='color:#0000ff; '>{</span>http://catalog.umhb.edu/en/<span style='color:#800000; '>2018</span><span style='color:#800000; '>-2019</span>/Undergraduate-Catalog/Classroom-Expectations-and-Ethics<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>texttt</span><span style='color:#0000ff; '>{</span>Classroom Expectations and Ethics<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>.  
+The statement explains University requirements concerning Christian citizenship, student responsibility, class attendance, academic decorum, and academic integrity.<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
  
 While the entire policy will be upheld, some sections that are most likely to be relevant to this class are included here:
  
 The University is a learning community in which participants are responsible for one another.
-\begin{itemize}
-\item[a.] Assisting a student in any violation of the academic integrity standards is expressly prohibited. For example, providing or receiving unauthorized assistance, including (but not limited to) taking another student's exam, providing answers to another student during a test, or contributing to another student's written work without permission.
-\end{itemize}
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>itemize</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span><span style='color:#0000ff; '>[</span>a.<span style='color:#0000ff; '>]</span> Assisting a student in any violation of the academic integrity standards is expressly prohibited. For example, providing or receiving unauthorized assistance, including (but not limited to) taking another student's exam, providing answers to another student during a test, or contributing to another student's written work without permission.
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>itemize</span><span style='color:#0000ff; font-weight:bold; '>}</span>
  
 Written work should reflect the student's own ideas and any use of others' words, ideas, or patterns of thought should be appropriately quoted and/or cited.
-\begin{itemize}
-\item[a.] Plagiarism in any form is expressly prohibited.
-\item[b.] Failure to comply with the university's copyright policy is expressly prohibited.
-\end{itemize}
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>itemize</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span><span style='color:#0000ff; '>[</span>a.<span style='color:#0000ff; '>]</span> Plagiarism in any form is expressly prohibited.
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span><span style='color:#0000ff; '>[</span>b.<span style='color:#0000ff; '>]</span> Failure to comply with the university's copyright policy is expressly prohibited.
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>itemize</span><span style='color:#0000ff; font-weight:bold; '>}</span>
  
 A student who fails to meet these standards of academic integrity may receive a lower grade (including zero) on an assignment or a lower grade (including an ``F" or ``No Credit") for the course, as determined by the instructor. The penalty for academic dishonesty may also include more severe penalties, up to expulsion from the University. Conduct which violates the student Code of Conduct may also be grounds for disciplinary action as described in the Student Handbook.
 
-\subsection{Disabled Student Services and Accommodations}
-It is the student’s responsibility to request disability accommodations. Students requesting an accommodation for a disability, must contact the UMHB \href{http://cths.umhb.edu/disability}{\texttt{Counseling, Testing \& Health Services}} as early as possible in the term. \href{http://catalog.umhb.edu/en/2019-2020/Undergraduate-Catalog}{\texttt{The Course Catalog}}, \href{http://students.umhb.edu/student-handbook}{\texttt{Student Handbook}} and \href{https://go.umhb.edu/}{\texttt{UMHB website}} provide more details regarding the process by which accommodation requests will be reviewed. For more information, please contact Dr. Brandon Skaggs, Vice President for Student Life [\texttt{\href{mailto:bskaggs@umhb.edu}{bskaggs@umhb.edu}}; (254) 295-4496].
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Disabled Student Services and Accommodations<span style='color:#0000ff; '>}</span>
+It is the student’s responsibility to request disability accommodations. Students requesting an accommodation for a disability, must contact the UMHB <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>href</span><span style='color:#0000ff; '>{</span>http://cths.umhb.edu/disability<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>texttt</span><span style='color:#0000ff; '>{</span>Counseling, Testing <span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>&amp;</span> Health Services<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> as early as possible in the term. <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>href</span><span style='color:#0000ff; '>{</span>http://catalog.umhb.edu/en/<span style='color:#800000; '>2019</span><span style='color:#800000; '>-2020</span>/Undergraduate-Catalog<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>texttt</span><span style='color:#0000ff; '>{</span>The Course Catalog<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>, <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>href</span><span style='color:#0000ff; '>{</span>http://students.umhb.edu/student-handbook<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>texttt</span><span style='color:#0000ff; '>{</span>Student Handbook<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> and <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>href</span><span style='color:#0000ff; '>{</span>https://go.umhb.edu/<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>texttt</span><span style='color:#0000ff; '>{</span>UMHB website<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> provide more details regarding the process by which accommodation requests will be reviewed. For more information, please contact Dr. Brandon Skaggs, Vice President for Student Life <span style='color:#0000ff; '>[</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>texttt</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>href</span><span style='color:#0000ff; '>{</span>mailto:bskaggs@umhb.edu<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span>bskaggs@umhb.edu<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>; (<span style='color:#800000; '>254</span>) <span style='color:#800000; '>295</span><span style='color:#800000; '>-4496</span><span style='color:#0000ff; '>]</span>.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% CLASS STRUCTURE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Class Structure}
-%\subsubsection{Team Based Learning}
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#008000; '>% CLASS STRUCTURE</span>
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Class Structure<span style='color:#0000ff; '>}</span>
+<span style='color:#008000; '>%\subsubsection{Team Based Learning}</span>
 
 All assignments, exams, and other coursework are completed individually. However, during certain class meetings you may either be assigned to or asked to form small groups in order to collaborate on data analysis projects and/or prompts. You will be guided through the following course learning modules.
 
-%This course is delivered using a team based learning (TBL) format.  Accordingly, you will be assigned to a team with approximately 3-5 members. Teams are created in class during the first week and remain permanent for the duration of the course. Teams will be formed using a team-formation software application.  You will receive more information about completing the team-formation requirements during the first week of class.  Teams will be guided through the following course learning modules.
+<span style='color:#008000; '>%This course is delivered using a team based learning (TBL) format.  Accordingly, you will be assigned to a team with approximately 3-5 members. Teams are created in class during the first week and remain permanent for the duration of the course. Teams will be formed using a team-formation software application.  You will receive more information about completing the team-formation requirements during the first week of class.  Teams will be guided through the following course learning modules.</span>
 
-\subsubsection{Learning Modules}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsubsection</span><span style='color:#0000ff; '>{</span>Learning Modules<span style='color:#0000ff; '>}</span>
 
-PSYC 2316-01 is divided into four (4) learning modules:
-\begin{enumerate}
-\item Introduction to Data and Probability
-\item Foundations for Statistical Inference
-\item Statistical Inference for Numerical and Categorical Data
-\item Simple and Multiple Regression
-\end{enumerate}
+PSYC <span style='color:#800000; '>2316</span><span style='color:#800000; '>-01</span> is divided into four (<span style='color:#800000; '>4</span>) learning modules:
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>enumerate</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Introduction to Data and Probability
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Foundations for Statistical Inference
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Statistical Inference for Numerical and Categorical Data
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Simple and Multiple Regression
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>enumerate</span><span style='color:#0000ff; font-weight:bold; '>}</span>
 
-%Modules have a sequence of 3 discrete learning phases:
-%
-%\begin{enumerate}
-%{\bf{ \item Outside Reading and Preparation:}}
-%
-%In this phase, you complete all specified readings outlined in the \nameref{sec:Cal} by the date due. The purpose of this phase is to prepare you for individual and team quizzes.  I recommend you do the following when preparing for quizzes: (a) read the chapter(s), (b) outline the chapter(s) using the notes/prompts provided in the text; (c) define the terms and answer the review questions at the end of each chapter; (d) make the review questions into multiple choice questions; (e) think about how you can apply the information to yourself.
-%
-%{\bf{ \item Readiness Assessment:}}
-%
-%On the first class meeting of each new module you will complete an individual readiness quiz (MQ) and a team readiness quiz (TQ).  These quizzes measure your comprehension of the assigned readings.  After completing the MQ, you join your team and, together, retake the quiz.  Once the individual and team testing periods have concluded, the instructor may give a mini-lecture to clarify concepts that are not well understood as evidenced by the module quiz scores.  The purpose of this phase is to ensure that you and your teammates have sufficient foundational knowledge to begin learning how to apply and use the course concepts.
-%
-%\begin{enumerate}
-%{\bf{ \item[A.] Readiness Assessment Described:}}
-%
-%\begin{itemize}
-%{\bf{ \item  {Module Quizzes (MQs):}}} \label{sec:irqs}\\
-%This assessment process requires that you complete a 25 question, multiple choice quiz taken individually.  Questions from each MQ are based on the reading for each module, outlined in the \nameref{sec:Cal}.
-%
-%{\bf{ \item  {Team Quizzes (TQs):}}} \label{sec:trqs}\\
-%Following the MQ, the same multiple choice quiz is re-taken with your team. Your team will be provided with a scratch-off-like answer card.  Your team will receive 1 point if you uncover the correct answer on the first scratch, 0.5 point for a second scratch, and 0.25 point for a third scratch.  Correct answers are indicated by a small star ($\bigstar$).
-%
-%{\bf{ \item  Appeals Process:}}\\
-%Once your team has completed the team quiz, your team has the opportunity to fill out an Appeals Form. The purpose of the appeals process is to allow your team to identify questions where you disagree with the question keying or wording or the information in the readings. Instructors will review the appeals outside class time and report the outcome of your team appeal at the next class meeting.
-%
-%{\bf{ \item  Feedback and Mini-lecture:}}\\
-%TQ scores will indicate to the instructor how well you understand the material from the text.  Based on the TQ scores, a tailored mini-lecture will be designed to help supplement any areas of weakness. This is likely the closest we will have to a traditional lecture. Following the quiz and appeals, the instructor will answer any further questions on the reading material.  We then move to applying the newly-learned concepts to the real world. We'll do this in team exercises called In-Class Applications. 
-%\end{itemize}
-%\end{enumerate}
-%
-%{\bf{ \item In-Class Applications:}}
-%
-%In this phase, teams will {\em{apply}} foundational knowledge, acquired in the first two phases, by completing a variety of in-class team activities.  Team application exercises will pose a question/scenario using research articles, case studies, et al. and ask you, as a team, to arrive at a consensus by selecting a ``best" solution out of options provided.  Your Team will need to poll each member, listen to each member's ideas and their explanation of why their idea would work, and then reach a team consensus.  At the end of your deliberation, all of the teams will share their findings, followed by a class discussion.
-%
-%At the conclusion of each module each team will complete a graded team application exercise (GTAE) that synthesizes the concepts to date.  GTAEs are worth 25 points and will be based on dimensions of knowledge demonstration and application, communication, and team functioning.  Six (6) team exercises will be graded.  You will have the opportunity to complete one (1) ungraded TAE at the start of the semester for the purpose of practice and familiarizing yourself with the process.  The scoring rubric will be posted online and will be discussed in detail during the practice module.
-%\end{enumerate}
+<span style='color:#008000; '>%Modules have a sequence of 3 discrete learning phases:</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%\begin{enumerate}</span>
+<span style='color:#008000; '>%{\bf{ \item Outside Reading and Preparation:}}</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%In this phase, you complete all specified readings outlined in the \nameref{sec:Cal} by the date due. The purpose of this phase is to prepare you for individual and team quizzes.  I recommend you do the following when preparing for quizzes: (a) read the chapter(s), (b) outline the chapter(s) using the notes/prompts provided in the text; (c) define the terms and answer the review questions at the end of each chapter; (d) make the review questions into multiple choice questions; (e) think about how you can apply the information to yourself.</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%{\bf{ \item Readiness Assessment:}}</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%On the first class meeting of each new module you will complete an individual readiness quiz (MQ) and a team readiness quiz (TQ).  These quizzes measure your comprehension of the assigned readings.  After completing the MQ, you join your team and, together, retake the quiz.  Once the individual and team testing periods have concluded, the instructor may give a mini-lecture to clarify concepts that are not well understood as evidenced by the module quiz scores.  The purpose of this phase is to ensure that you and your teammates have sufficient foundational knowledge to begin learning how to apply and use the course concepts.</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%\begin{enumerate}</span>
+<span style='color:#008000; '>%{\bf{ \item[A.] Readiness Assessment Described:}}</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%\begin{itemize}</span>
+<span style='color:#008000; '>%{\bf{ \item  {Module Quizzes (MQs):}}} \label{sec:irqs}\\</span>
+<span style='color:#008000; '>%This assessment process requires that you complete a 25 question, multiple choice quiz taken individually.  Questions from each MQ are based on the reading for each module, outlined in the \nameref{sec:Cal}.</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%{\bf{ \item  {Team Quizzes (TQs):}}} \label{sec:trqs}\\</span>
+<span style='color:#008000; '>%Following the MQ, the same multiple choice quiz is re-taken with your team. Your team will be provided with a scratch-off-like answer card.  Your team will receive 1 point if you uncover the correct answer on the first scratch, 0.5 point for a second scratch, and 0.25 point for a third scratch.  Correct answers are indicated by a small star ($\bigstar$).</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%{\bf{ \item  Appeals Process:}}\\</span>
+<span style='color:#008000; '>%Once your team has completed the team quiz, your team has the opportunity to fill out an Appeals Form. The purpose of the appeals process is to allow your team to identify questions where you disagree with the question keying or wording or the information in the readings. Instructors will review the appeals outside class time and report the outcome of your team appeal at the next class meeting.</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%{\bf{ \item  Feedback and Mini-lecture:}}\\</span>
+<span style='color:#008000; '>%TQ scores will indicate to the instructor how well you understand the material from the text.  Based on the TQ scores, a tailored mini-lecture will be designed to help supplement any areas of weakness. This is likely the closest we will have to a traditional lecture. Following the quiz and appeals, the instructor will answer any further questions on the reading material.  We then move to applying the newly-learned concepts to the real world. We'll do this in team exercises called In-Class Applications. </span>
+<span style='color:#008000; '>%\end{itemize}</span>
+<span style='color:#008000; '>%\end{enumerate}</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%{\bf{ \item In-Class Applications:}}</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%In this phase, teams will {\em{apply}} foundational knowledge, acquired in the first two phases, by completing a variety of in-class team activities.  Team application exercises will pose a question/scenario using research articles, case studies, et al. and ask you, as a team, to arrive at a consensus by selecting a ``best" solution out of options provided.  Your Team will need to poll each member, listen to each member's ideas and their explanation of why their idea would work, and then reach a team consensus.  At the end of your deliberation, all of the teams will share their findings, followed by a class discussion.</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%At the conclusion of each module each team will complete a graded team application exercise (GTAE) that synthesizes the concepts to date.  GTAEs are worth 25 points and will be based on dimensions of knowledge demonstration and application, communication, and team functioning.  Six (6) team exercises will be graded.  You will have the opportunity to complete one (1) ungraded TAE at the start of the semester for the purpose of practice and familiarizing yourself with the process.  The scoring rubric will be posted online and will be discussed in detail during the practice module.</span>
+<span style='color:#008000; '>%\end{enumerate}</span>
 
-\subsection{Course Communication}
-\subsubsection{Email}
-Most all course communication outside of class will take place via email.  I will routinely email you course updates and announcements to your UMHB-assigned email address.  Thus, you should check your email frequently.  Likewise, due to the nature of this class and the corresponding assignments, you will likely need to contact me with questions. I am committed to responding as quickly as possible to your questions via email. As a result, you can expect me to respond, on average, within several hours of your email---often sooner. However, in some circumstances, a personal visit during office hours or other scheduled appointment may be more efficient than email. You are welcome to call me on my office line: (254) 295-4553. This can be an even more efficient method for quick troubleshooting inquiries.
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Course Communication<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsubsection</span><span style='color:#0000ff; '>{</span>Email<span style='color:#0000ff; '>}</span>
+Most all course communication outside of class will take place via email.  I will routinely email you course updates and announcements to your UMHB-assigned email address.  Thus, you should check your email frequently.  Likewise, due to the nature of this class and the corresponding assignments, you will likely need to contact me with questions. I am committed to responding as quickly as possible to your questions via email. As a result, you can expect me to respond, on average, within several hours of your email---often sooner. However, in some circumstances, a personal visit during office hours or other scheduled appointment may be more efficient than email. You are welcome to call me on my office line: (<span style='color:#800000; '>254</span>) <span style='color:#800000; '>295</span><span style='color:#800000; '>-4553</span>. This can be an even more efficient method for quick troubleshooting inquiries.
 
-\subsubsection{Remind}
-Although I do not anticipate delaying or canceling any class meeting(s), there may be extenuating circumstances which require me to do so.  In these situations, I will communicate with you through a free, safe, and one-way text messaging service called Remind.  To sign up for these alerts, text {\texttt{@psyc2316a}} to 81010 and follow the instructions.  If you have trouble with this method, try texting {\texttt{@psyc2316a}} to (254) 296-8301.
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsubsection</span><span style='color:#0000ff; '>{</span>Remind<span style='color:#0000ff; '>}</span>
+Although I do not anticipate delaying or canceling any class meeting(s), there may be extenuating circumstances which require me to do so.  In these situations, I will communicate with you through a free, safe, and one-way text messaging service called Remind.  To sign up for these alerts, text <span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>texttt</span><span style='color:#0000ff; '>{</span>@psyc<span style='color:#800000; '>2316</span>a<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> to <span style='color:#800000; '>81010</span> and follow the instructions.  If you have trouble with this method, try texting <span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>texttt</span><span style='color:#0000ff; '>{</span>@psyc<span style='color:#800000; '>2316</span>a<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> to (<span style='color:#800000; '>254</span>) <span style='color:#800000; '>296</span><span style='color:#800000; '>-8301</span>.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% COURSE REQUIREMENTS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Course Requirements}
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#008000; '>% COURSE REQUIREMENTS</span>
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>section</span><span style='color:#0000ff; '>{</span>Course Requirements<span style='color:#0000ff; '>}</span>
 
-\subsection{Module Quizzes (MQs)}
-MQs are multiple choice quizzes, with up to 35 questions, that students complete individually in class.  Questions from each MQ are based on the reading and lectures from each module, outlined in the \nameref{sec:Cal}.  You will be provided with a Scantron form to complete this assignment.
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Module Quizzes (MQs)<span style='color:#0000ff; '>}</span>
+MQs are multiple choice quizzes, with up to <span style='color:#800000; '>35</span> questions, that students complete individually in class.  Questions from each MQ are based on the reading and lectures from each module, outlined in the <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>nameref</span><span style='color:#0000ff; '>{</span>sec:Cal<span style='color:#0000ff; '>}</span>.  You will be provided with a Scantron form to complete this assignment.
 
-\begin{table}[H]
-\begin{center}
-\caption{Module Quiz Dates}
-\vspace{3mm}
-\begin{tabular}{llr}
-\hline
- & {\bf{Module}} & {\bf{Due}}\\
-\hline
-1. & Introduction to Data and Probability (Chs. 1-2) & 09-17-2019\\
-2. & Foundations for Statistical Inference (Chs. 3-4) & 10-15-2019\\
-3. & Statistical Inference for Categorical and Numerical Data (Chs. 5-6) & 11-12-2019\\
-%4. & Simple and Multiple Regression (Chs. 7-8) & 05/01/2017\\%%%%%%%% WHAT AM I GOING TO DO HERE?
-\hline
-\end{tabular}
-\end{center}
-\label{iqs}
-\end{table}%
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>table</span><span style='color:#0000ff; font-weight:bold; '>}</span><span style='color:#0000ff; '>[</span>H<span style='color:#0000ff; '>]</span>
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>center</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>caption</span><span style='color:#0000ff; '>{</span>Module Quiz Dates<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>vspace</span><span style='color:#0000ff; '>{</span><span style='color:#800000; '>3</span>mm<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>tabular</span><span style='color:#0000ff; font-weight:bold; '>}</span><span style='color:#0000ff; '>{</span>llr<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+ <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Module<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Due<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+<span style='color:#800000; '>1</span>. <span style='color:#0000ff; '>&amp;</span> Introduction to Data and Probability (Chs. <span style='color:#800000; '>1</span><span style='color:#800000; '>-2</span>) <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>09</span><span style='color:#800000; '>-17</span><span style='color:#800000; '>-2019</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#800000; '>2</span>. <span style='color:#0000ff; '>&amp;</span> Foundations for Statistical Inference (Chs. <span style='color:#800000; '>3</span><span style='color:#800000; '>-4</span>) <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>10</span><span style='color:#800000; '>-15</span><span style='color:#800000; '>-2019</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#800000; '>3</span>. <span style='color:#0000ff; '>&amp;</span> Statistical Inference for Categorical and Numerical Data (Chs. <span style='color:#800000; '>5</span><span style='color:#800000; '>-6</span>) <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>11</span><span style='color:#800000; '>-12</span><span style='color:#800000; '>-2019</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#008000; '>%4. &amp; Simple and Multiple Regression (Chs. 7-8) &amp; 05/01/2017\\%%%%%%%% WHAT AM I GOING TO DO HERE?</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>tabular</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>center</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>iqs<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>table</span><span style='color:#0000ff; font-weight:bold; '>}</span><span style='color:#008000; '>%</span>
 
-\subsubsection{Individual Lab Assignments}\label{sec:labs}
-Individual lab assignments will feature a series of guided, application-based, statistical analysis problems that you will complete using RStudio Cloud. These assignments require you to apply what you've learned within each of the course modules by utilizing the RStudio statistical software to produce a comprehensive lab report.\\
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsubsection</span><span style='color:#0000ff; '>{</span>Individual Lab Assignments<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>sec:labs<span style='color:#0000ff; '>}</span>
+Individual lab assignments will feature a series of guided, application-based, statistical analysis problems that you will complete using RStudio Cloud. These assignments require you to apply what you've learned within each of the course modules by utilizing the RStudio statistical software to produce a comprehensive lab report.<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
 
-Each lab assignment will include a detailed set of directions available on the course website. You should use \href{https://rstudio.cloud/}{\texttt{RStudio Cloud}} to complete these assignments. Additionally, you will be provided a skeleton-like lab report template for each of the lab assignments. More details on completing the lab assignments will be provided in class. Table \ref{labs} below contains the topic and due date for each lab assignment. Note: These are individual assignments. Dr. Baggett is a veritable \textbf{\textsf{R}} genius and will be able to identify any student(s) who violate the academic integrity policy outlined in Section \ref{integrity}.
+Each lab assignment will include a detailed set of directions available on the course website. You should use <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>href</span><span style='color:#0000ff; '>{</span>https://rstudio.cloud/<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>texttt</span><span style='color:#0000ff; '>{</span>RStudio Cloud<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> to complete these assignments. Additionally, you will be provided a skeleton-like lab report template for each of the lab assignments. More details on completing the lab assignments will be provided in class. Table <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>ref</span><span style='color:#0000ff; '>{</span>labs<span style='color:#0000ff; '>}</span> below contains the topic and due date for each lab assignment. Note: These are individual assignments. Dr. Baggett is a veritable <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textbf</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textsf</span><span style='color:#0000ff; '>{</span>R<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> genius and will be able to identify any student(s) who violate the academic integrity policy outlined in Section <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>ref</span><span style='color:#0000ff; '>{</span>integrity<span style='color:#0000ff; '>}</span>.
 
-\begin{table}[H]
-\begin{center}
-\caption{Individual Lab Assignment Dates}
-\label{labs}
-\vspace{3mm}
-\begin{tabular}{llr}
-\hline
- & {\bf{Topic}} & {\bf{Due}}\\
-\hline
-1. & Introduction to \textbf{\textsf{R}} and RStudio & 09-08-2019\\
-2. & Introduction to Data & 09-22-2019\\
-3. & The Normal Distribution & 10-06-2019\\
-4. & Sampling Distributions and Confidence Intervals & 10-20-2019\\
-5. & Inference for Numerical Data & 11-10-2019\\
-6. & Inference for Categorical Data & 11-24-2019\\
-%7. & Simple Regression & 04/27/2019\\
-\hline
-\end{tabular}
-\end{center}
-\end{table}%
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>table</span><span style='color:#0000ff; font-weight:bold; '>}</span><span style='color:#0000ff; '>[</span>H<span style='color:#0000ff; '>]</span>
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>center</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>caption</span><span style='color:#0000ff; '>{</span>Individual Lab Assignment Dates<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>labs<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>vspace</span><span style='color:#0000ff; '>{</span><span style='color:#800000; '>3</span>mm<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>tabular</span><span style='color:#0000ff; font-weight:bold; '>}</span><span style='color:#0000ff; '>{</span>llr<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+ <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Topic<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Due<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+<span style='color:#800000; '>1</span>. <span style='color:#0000ff; '>&amp;</span> Introduction to <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textbf</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>textsf</span><span style='color:#0000ff; '>{</span>R<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> and RStudio <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>09</span><span style='color:#800000; '>-08</span><span style='color:#800000; '>-2019</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#800000; '>2</span>. <span style='color:#0000ff; '>&amp;</span> Introduction to Data <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>09</span><span style='color:#800000; '>-22</span><span style='color:#800000; '>-2019</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#800000; '>3</span>. <span style='color:#0000ff; '>&amp;</span> The Normal Distribution <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>10</span><span style='color:#800000; '>-06</span><span style='color:#800000; '>-2019</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#800000; '>4</span>. <span style='color:#0000ff; '>&amp;</span> Sampling Distributions and Confidence Intervals <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>10</span><span style='color:#800000; '>-20</span><span style='color:#800000; '>-2019</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#800000; '>5</span>. <span style='color:#0000ff; '>&amp;</span> Inference for Numerical Data <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>11</span><span style='color:#800000; '>-10</span><span style='color:#800000; '>-2019</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#800000; '>6</span>. <span style='color:#0000ff; '>&amp;</span> Inference for Categorical Data <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>11</span><span style='color:#800000; '>-24</span><span style='color:#800000; '>-2019</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#008000; '>%7. &amp; Simple Regression &amp; 04/27/2019\\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>tabular</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>center</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>table</span><span style='color:#0000ff; font-weight:bold; '>}</span><span style='color:#008000; '>%</span>
 
-\subsubsection{Final Exam}
-The final exam will consist of a cumulative multiple-choice test worth 100 points. The final exam for this section is scheduled for 10:30 AM--12:30 PM Thursday, December 12, 2019.
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsubsection</span><span style='color:#0000ff; '>{</span>Final Exam<span style='color:#0000ff; '>}</span>
+The final exam will consist of a cumulative multiple-choice test worth <span style='color:#800000; '>100</span> points. The final exam for this section is scheduled for <span style='color:#800000; '>10</span>:<span style='color:#800000; '>30</span> AM-<span style='color:#800000; '>-12</span>:<span style='color:#800000; '>30</span> PM Thursday, December <span style='color:#800000; '>12</span>, <span style='color:#800000; '>2019</span>.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% GRADING
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Grade Calculation}
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#008000; '>% GRADING</span>
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Grade Calculation<span style='color:#0000ff; '>}</span>
 
-\subsubsection{Individual and Team Performance}
-Table \ref{points} below describes all assignments, their point value, and proportion of weighted total. See to Table \ref{finalgrades} for final grade calculation and letter grade distribution.
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsubsection</span><span style='color:#0000ff; '>{</span>Individual and Team Performance<span style='color:#0000ff; '>}</span>
+Table <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>ref</span><span style='color:#0000ff; '>{</span>points<span style='color:#0000ff; '>}</span> below describes all assignments, their point value, and proportion of weighted total. See to Table <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>ref</span><span style='color:#0000ff; '>{</span>finalgrades<span style='color:#0000ff; '>}</span> for final grade calculation and letter grade distribution.
 
-\begin{table}[H]
-\centering
-\caption{Individual Assignments and Point Values}
-\vspace{3mm}
-\label{points}
-%\begin{threeparttable}
-\begin{tabular}{lllrlrr}
-\hline
-\bf{Assignment} & \bf{\em{n}} &  & \bf{Points} &  & \bf{Total} & \bf{Prop.} \\
-\hline
-Module Quizzes (MQs) & 3 & $\times$ & 31.66667 & = & 95 & .40\\
-Individual Lab Assignments & 6 & $\times$ & 10 & = & 60 & .25 \\
-Final Exam & 1 & $\times$ & 100 & = & 100 & .30 \\
-Attendance & 28 & $\times$ & 0.178571429 & = & 5 & .05 \\
-Extra Credit & 5 & $\times$ & 2 & = & 10 & .00 \\
-\multicolumn{4}{r}{\bf{Individual Performance Total}} & {\bf{=}} & {\bf{260}} & {\bf{1.00}} \\
-%\hline
-%\\
-%Team Quizzes (TQs) & 3 & $\times$ & 31.66667 & = & 95 & .20 \\
-%
-%\multicolumn{4}{r}{\bf{Team Performance Total}} & {\bf{=}} & {\bf{145}} & .{\bf{40}}\\
-\hline
-\end{tabular}
-       % \begin{tablenotes}
-         %\item {\em{Note}}: Please refer to sections \ref{sec:latework} and \ref{sec:missedexams} regarding the late submission and missed exam policies, respectively.
-       % \end{tablenotes}
-     %\end{threeparttable}
-\label{points}
-\end{table}
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>table</span><span style='color:#0000ff; font-weight:bold; '>}</span><span style='color:#0000ff; '>[</span>H<span style='color:#0000ff; '>]</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>centering</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>caption</span><span style='color:#0000ff; '>{</span>Individual Assignments and Point Values<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>vspace</span><span style='color:#0000ff; '>{</span><span style='color:#800000; '>3</span>mm<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>points<span style='color:#0000ff; '>}</span>
+<span style='color:#008000; '>%\begin{threeparttable}</span>
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>tabular</span><span style='color:#0000ff; font-weight:bold; '>}</span><span style='color:#0000ff; '>{</span>lllrlrr<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Assignment<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>em</span><span style='color:#0000ff; '>{</span>n<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span>  <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Points<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span>  <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Total<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Prop.<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+Module Quizzes (MQs) <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>3</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>$</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>times</span><span style='color:#0000ff; '>$</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>31.66667</span> <span style='color:#0000ff; '>&amp;</span> = <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>95</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>.40</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+Individual Lab Assignments <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>6</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>$</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>times</span><span style='color:#0000ff; '>$</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>10</span> <span style='color:#0000ff; '>&amp;</span> = <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>60</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>.25</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+Final Exam <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>1</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>$</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>times</span><span style='color:#0000ff; '>$</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>100</span> <span style='color:#0000ff; '>&amp;</span> = <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>100</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>.30</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+Attendance <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>28</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>$</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>times</span><span style='color:#0000ff; '>$</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>0.178571429</span> <span style='color:#0000ff; '>&amp;</span> = <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>5</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>.05</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+Extra Credit <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>5</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>$</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>times</span><span style='color:#0000ff; '>$</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>2</span> <span style='color:#0000ff; '>&amp;</span> = <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>10</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>.00</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>multicolumn</span><span style='color:#0000ff; '>{</span><span style='color:#800000; '>4</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span>r<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Individual Performance Total<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>=<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span><span style='color:#800000; '>260</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span><span style='color:#800000; '>1.00</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#008000; '>%\hline</span>
+<span style='color:#008000; '>%\\</span>
+<span style='color:#008000; '>%Team Quizzes (TQs) &amp; 3 &amp; $\times$ &amp; 31.66667 &amp; = &amp; 95 &amp; .20 \\</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%\multicolumn{4}{r}{\bf{Team Performance Total}} &amp; {\bf{=}} &amp; {\bf{145}} &amp; .{\bf{40}}\\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>tabular</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+       <span style='color:#008000; '>% \begin{tablenotes}</span>
+         <span style='color:#008000; '>%\item {\em{Note}}: Please refer to sections \ref{sec:latework} and \ref{sec:missedexams} regarding the late submission and missed exam policies, respectively.</span>
+       <span style='color:#008000; '>% \end{tablenotes}</span>
+     <span style='color:#008000; '>%\end{threeparttable}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>points<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>table</span><span style='color:#0000ff; font-weight:bold; '>}</span>
 
-%\subsubsection{Peer Evaluation}\label{sec:peereval}
-%At the end of the course, you will complete a confidential peer evaluation to assess the contribution of the other members of your team. You will be evaluating each member on their participation in team activities (e.g., Did they come to class regularly? Were they prepared for the day's activity? Did they contribute productively to the team? Respect others' ideas?, etc.) When evaluating your team members, you will distribute 100 points among the other members of your team. We will likely have teams of 3-5 students. Thus, each team member will be evaluated by the other 2-4 members of the team. The peer evaluation form will be distributed on Monday, April 30, 2019.\\
-%
-%The peer evaluation process will also be completed at the midpoint of the semester.  This allows you to practice and gain experience with the process.  More importantly, it gives you valuable feedback from your teammates about your performance as a team member. \\
-%
-%To calculate your individual peer evaluation score, the instructor will take the sum of all scores assigned to you by your peers and divide that total by 100.  The resulting quotient will be multiplied by your team's performance score in order to obtain the individual team performance score.\\
-%
-%For example, let's assume you achieved 190 of the 210 total individual points available (190/210) $\times$ .6 = 0.5428.  Let's also assume your team received 85 of the 95 points from TQs and 50 of the 60 points from lab assignments (135/145) $\times$ .4 = 0.3724.  Before factoring in your peer evaluation score, your semester grade would be (0.5428 $+$ 0.3724) $\times$ 100 = 89.11. Now, assume your individual composite performance evaluation score was .91 (91/100).  {\em{Your}} particular team performance score would be:
-%
-%\begin{equation}
-%0.3724 \times .91 = 0.3388
-%\end{equation}
-%
-%Thus, when we combine your individual point total with your share of your team's points, your final grade would be:
-%
-%\begin{equation}
-%(0.5428 + 0.3388) \times 100 = 88.16
-%\end{equation}
+<span style='color:#008000; '>%\subsubsection{Peer Evaluation}\label{sec:peereval}</span>
+<span style='color:#008000; '>%At the end of the course, you will complete a confidential peer evaluation to assess the contribution of the other members of your team. You will be evaluating each member on their participation in team activities (e.g., Did they come to class regularly? Were they prepared for the day's activity? Did they contribute productively to the team? Respect others' ideas?, etc.) When evaluating your team members, you will distribute 100 points among the other members of your team. We will likely have teams of 3-5 students. Thus, each team member will be evaluated by the other 2-4 members of the team. The peer evaluation form will be distributed on Monday, April 30, 2019.\\</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%The peer evaluation process will also be completed at the midpoint of the semester.  This allows you to practice and gain experience with the process.  More importantly, it gives you valuable feedback from your teammates about your performance as a team member. \\</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%To calculate your individual peer evaluation score, the instructor will take the sum of all scores assigned to you by your peers and divide that total by 100.  The resulting quotient will be multiplied by your team's performance score in order to obtain the individual team performance score.\\</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%For example, let's assume you achieved 190 of the 210 total individual points available (190/210) $\times$ .6 = 0.5428.  Let's also assume your team received 85 of the 95 points from TQs and 50 of the 60 points from lab assignments (135/145) $\times$ .4 = 0.3724.  Before factoring in your peer evaluation score, your semester grade would be (0.5428 $+$ 0.3724) $\times$ 100 = 89.11. Now, assume your individual composite performance evaluation score was .91 (91/100).  {\em{Your}} particular team performance score would be:</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%\begin{equation}</span>
+<span style='color:#008000; '>%0.3724 \times .91 = 0.3388</span>
+<span style='color:#008000; '>%\end{equation}</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%Thus, when we combine your individual point total with your share of your team's points, your final grade would be:</span>
+<span style='color:#008000; '>%</span>
+<span style='color:#008000; '>%\begin{equation}</span>
+<span style='color:#008000; '>%(0.5428 + 0.3388) \times 100 = 88.16</span>
+<span style='color:#008000; '>%\end{equation}</span>
 
-\subsubsection{Final Grade Calculation}
-All course grades will be posted in the gradebook in myCourses. All point totals and proportional weights listed in Table \ref{points} are reflected in myCourses. Thus, your current grade in myCourses should reflect your actual grade. Table \ref{finalgrades} below describes the point range required to achieve a given letter grade.
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsubsection</span><span style='color:#0000ff; '>{</span>Final Grade Calculation<span style='color:#0000ff; '>}</span>
+All course grades will be posted in the gradebook in myCourses. All point totals and proportional weights listed in Table <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>ref</span><span style='color:#0000ff; '>{</span>points<span style='color:#0000ff; '>}</span> are reflected in myCourses. Thus, your current grade in myCourses should reflect your actual grade. Table <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>ref</span><span style='color:#0000ff; '>{</span>finalgrades<span style='color:#0000ff; '>}</span> below describes the point range required to achieve a given letter grade.
 
-\begin{table}[H]
-\begin{center}
-\caption{Final Grade Point Range Requirements}
-\label{finalgrades}
-\vspace{3mm}
-\begin{tabular}{cccc}
-\hline
-\bf{Grade} & \bf{Point Range} & \bf{Percentage} & \bf{Grade Points}\\
-\hline
-A & 233.00 -- 260.00 & 90 -- 100 & 4.0\\ 
-B & 208.00 -- 232.00 & 80 -- 89  & 3.0\\ 
-C & 182.00 -- 207.00 & 70 -- 79  & 2.0\\ 
-D & 156.00 -- 181.00 & 60 -- 69  & 1.0\\ 
-F & 000.00 -- 155.00 & 00 -- 59  & 0.0\\
-\hline
-\end{tabular}
-\end{center}
-\end{table}
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>table</span><span style='color:#0000ff; font-weight:bold; '>}</span><span style='color:#0000ff; '>[</span>H<span style='color:#0000ff; '>]</span>
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>center</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>caption</span><span style='color:#0000ff; '>{</span>Final Grade Point Range Requirements<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>finalgrades<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>vspace</span><span style='color:#0000ff; '>{</span><span style='color:#800000; '>3</span>mm<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>tabular</span><span style='color:#0000ff; font-weight:bold; '>}</span><span style='color:#0000ff; '>{</span>cccc<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Grade<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Point Range<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Percentage<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Grade Points<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+A <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>233.00</span> -- <span style='color:#800000; '>260.00</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>90</span> -- <span style='color:#800000; '>100</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>4.0</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span> 
+B <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>208.00</span> -- <span style='color:#800000; '>232.00</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>80</span> -- <span style='color:#800000; '>89</span>  <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>3.0</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span> 
+C <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>182.00</span> -- <span style='color:#800000; '>207.00</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>70</span> -- <span style='color:#800000; '>79</span>  <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>2.0</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span> 
+D <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>156.00</span> -- <span style='color:#800000; '>181.00</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>60</span> -- <span style='color:#800000; '>69</span>  <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>1.0</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span> 
+F <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>000.00</span> -- <span style='color:#800000; '>155.00</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>00</span> -- <span style='color:#800000; '>59</span>  <span style='color:#0000ff; '>&amp;</span> <span style='color:#800000; '>0.0</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>tabular</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>center</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>table</span><span style='color:#0000ff; font-weight:bold; '>}</span>
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% POLICIES
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Policies}
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#008000; '>% POLICIES</span>
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>section</span><span style='color:#0000ff; '>{</span>Policies<span style='color:#0000ff; '>}</span>
 
-\subsection{Attendance} \label{sec:attendance}
-Your regular attendance in this course is expected. I will record and maintain attendance records for each student. Attendance is worth 5\% of your final grade. In other words, if you attend 100\% of the scheduled class meetings you will earn the complete 5\% attendance total. Any University- or otherwise-excused absence will not count toward this total. At the conclusion of the semester, the percentage of class meetings you attended will be multiplied by 0.05 to obtain your attendance grade.
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Attendance<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>sec:attendance<span style='color:#0000ff; '>}</span>
+Your regular attendance in this course is expected. I will record and maintain attendance records for each student. Attendance is worth <span style='color:#800000; '>5</span><span style='color:#0000ff; '>\%</span> of your final grade. In other words, if you attend <span style='color:#800000; '>100</span><span style='color:#0000ff; '>\%</span> of the scheduled class meetings you will earn the complete <span style='color:#800000; '>5</span><span style='color:#0000ff; '>\%</span> attendance total. Any University- or otherwise-excused absence will not count toward this total. At the conclusion of the semester, the percentage of class meetings you attended will be multiplied by <span style='color:#800000; '>0.05</span> to obtain your attendance grade.
 
-\subsection{Late Work} \label{sec:latework}
-All assignments are considered late if submitted after the date and time specified in the syllabus and/or {\em{myCourses}} site.  This policy will be enforced in the event that assignment deadlines are revised during the course of the term.  Assignments submitted late will result in a penalty of 20 percentage points per day.\\
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Late Work<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>sec:latework<span style='color:#0000ff; '>}</span>
+All assignments are considered late if submitted after the date and time specified in the syllabus and/or <span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>em</span><span style='color:#0000ff; '>{</span>myCourses<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> site.  This policy will be enforced in the event that assignment deadlines are revised during the course of the term.  Assignments submitted late will result in a penalty of <span style='color:#800000; '>20</span> percentage points per day.<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
 
-For example, if an assignment is due on October 30, 2019 and is submitted within 24 hours of the due date and time that assignment will result in an automatic deduction of 20 percentage points from the assignment raw score.  In other words, if you submit an assignment worth 10 points on October 31, 2019, and the assignment was originally due October 30, 2019, and you score a 9.5/10, then your new score would be:
+For example, if an assignment is due on October <span style='color:#800000; '>30</span>, <span style='color:#800000; '>2019</span> and is submitted within <span style='color:#800000; '>24</span> hours of the due date and time that assignment will result in an automatic deduction of <span style='color:#800000; '>20</span> percentage points from the assignment raw score.  In other words, if you submit an assignment worth <span style='color:#800000; '>10</span> points on October <span style='color:#800000; '>31</span>, <span style='color:#800000; '>2019</span>, and the assignment was originally due October <span style='color:#800000; '>30</span>, <span style='color:#800000; '>2019</span>, and you score a <span style='color:#800000; '>9.5</span>/<span style='color:#800000; '>10</span>, then your new score would be:
 
-\begin{equation}
-9.5 - (9.5)(0.20) \times 100 = 7.6.
-\end{equation}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>begin</span><span style='color:#0000ff; '>{</span>equation<span style='color:#0000ff; '>}</span>
+<span style='color:#800000; '>9.5</span> - (<span style='color:#800000; '>9.5</span>)(<span style='color:#800000; '>0.20</span>) <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>times</span> <span style='color:#800000; '>100</span> = <span style='color:#800000; '>7.6</span>.
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>end</span><span style='color:#0000ff; '>{</span>equation<span style='color:#0000ff; '>}</span>
 
-Assignments submitted more than five calendar days late will receive a grade of zero.  To ensure fairness, this policy will be strictly enforced.  Exceptions under the conditions described below in section \ref{sec:missedexams} may be made, but will require at least 24 hours advance permission from the instructor.
+Assignments submitted more than five calendar days late will receive a grade of zero.  To ensure fairness, this policy will be strictly enforced.  Exceptions under the conditions described below in section <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>ref</span><span style='color:#0000ff; '>{</span>sec:missedexams<span style='color:#0000ff; '>}</span> may be made, but will require at least <span style='color:#800000; '>24</span> hours advance permission from the instructor.
 
-\subsection{Exams and Quizzes} \label{sec:exams}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Exams and Quizzes<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>sec:exams<span style='color:#0000ff; '>}</span>
 
-\subsubsection{Exam/Quiz Day Decorum} \label{sec:decorum}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsubsection</span><span style='color:#0000ff; '>{</span>Exam/Quiz Day Decorum<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>sec:decorum<span style='color:#0000ff; '>}</span>
 Once any in-class exams or quizzes are distributed you may not leave the classroom until you have submitted your answer and test forms.
 
-\subsubsection{Tardiness on Exam/Quiz Days} \label{sec:late}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsubsection</span><span style='color:#0000ff; '>{</span>Tardiness on Exam/Quiz Days<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>sec:late<span style='color:#0000ff; '>}</span>
 Students who arrive late for class on exam/quiz days will be allowed to complete the quiz in the amount of time remaining upon their arrival.
 
-\subsubsection{Mobile Phones} \label{sec:examphones}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsubsection</span><span style='color:#0000ff; '>{</span>Mobile Phones<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>sec:examphones<span style='color:#0000ff; '>}</span>
 The use of mobile or cell phones during tests is strictly prohibited. All mobile or cell phones should be placed on airplane mode during tests.
 
-\subsubsection{Missed Exams} \label{sec:missedexams}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsubsection</span><span style='color:#0000ff; '>{</span>Missed Exams<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>sec:missedexams<span style='color:#0000ff; '>}</span>
 Missed MQs may be retaken under the following circumstances only:
-\begin{enumerate}
-\item Death in the immediate family (parent, spouse, sibling, child) within two weeks prior to the exam date.
-\item Participation in an official UMHB-sponsored academic or sporting event.
-\begin{itemize}
-\item[a.] MQs must be scheduled and completed prior to the in-class administration.
-\end{itemize}
-\item Unforeseeable medical emergency affecting yourself, your spouse, or your child (e.g., automobile accident, major sickness, et al.).
-\end{enumerate}
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>enumerate</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Death in the immediate family (parent, spouse, sibling, child) within two weeks prior to the exam date.
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Participation in an official UMHB-sponsored academic or sporting event.
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>itemize</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span><span style='color:#0000ff; '>[</span>a.<span style='color:#0000ff; '>]</span> MQs must be scheduled and completed prior to the in-class administration.
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>itemize</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>item</span> Unforeseeable medical emergency affecting yourself, your spouse, or your child (e.g., automobile accident, major sickness, et al.).
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>enumerate</span><span style='color:#0000ff; font-weight:bold; '>}</span>
 
-{\em{Note:}} Routine medical appointments or clinical visits related to minor illnesses do not qualify as an unforeseeable medical emergency.  Likewise, conflicts with a work schedule or trips not related to official UMHB events do not qualify for retaking a missed exam.  Supporting documentation may be required.
+<span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>em</span><span style='color:#0000ff; '>{</span>Note:<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span> Routine medical appointments or clinical visits related to minor illnesses do not qualify as an unforeseeable medical emergency.  Likewise, conflicts with a work schedule or trips not related to official UMHB events do not qualify for retaking a missed exam.  Supporting documentation may be required.
 
-\subsection{Miscellaneous} \label{sec:misc}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsection</span><span style='color:#0000ff; '>{</span>Miscellaneous<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>sec:misc<span style='color:#0000ff; '>}</span>
 
-\subsubsection{Food and Drink} \label{sec:food}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsubsection</span><span style='color:#0000ff; '>{</span>Food and Drink<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>sec:food<span style='color:#0000ff; '>}</span>
 No food of any kind will be allowed in the classroom. You may bring beverages into the classroom with a sealable lid or cap. Otherwise, no drinks are allowed.
 
-\subsubsection{Mobile Phones} \label{sec:phones}
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>subsubsection</span><span style='color:#0000ff; '>{</span>Mobile Phones<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>sec:phones<span style='color:#0000ff; '>}</span>
 The use of mobile or cell phones during class or tests is strictly prohibited. All mobile or cell phones should be placed on airplane mode during class and tests.
 
-\section{Disclaimer}
-Syllabus is subject to change at instructor's discretion.\\
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>section</span><span style='color:#0000ff; '>{</span>Disclaimer<span style='color:#0000ff; '>}</span>
+Syllabus is subject to change at instructor's discretion.<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
 	
-\newpage
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>newpage</span>
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% CALENDAR
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{landscape}
-\section{Tentative Course Calendar} \label{sec:Cal}
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#008000; '>% CALENDAR</span>
+<span style='color:#008000; '>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>landscape</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>section</span><span style='color:#0000ff; '>{</span>Tentative Course Calendar<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>sec:Cal<span style='color:#0000ff; '>}</span>
 
-\begin{center}
-\begin{longtable}{@{\extracolsep{\fill}}p{2in}p{.25in}lp{2.5in}lr}
-\label{tab:sched}\\
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>center</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; font-weight:bold; '>\begin{</span><span style='color:#e34adc; '>longtable</span><span style='color:#0000ff; font-weight:bold; '>}</span><span style='color:#0000ff; '>{</span>@<span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>extracolsep</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>fill</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>p<span style='color:#0000ff; '>{</span><span style='color:#800000; '>2</span>in<span style='color:#0000ff; '>}</span>p<span style='color:#0000ff; '>{</span><span style='color:#800000; '>.25</span>in<span style='color:#0000ff; '>}</span>lp<span style='color:#0000ff; '>{</span><span style='color:#800000; '>2.5</span>in<span style='color:#0000ff; '>}</span>lr<span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>label</span><span style='color:#0000ff; '>{</span>tab:sched<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
 
-%%% Header on first page
-\hline
-\bf{MODULE} & \bf{WK} & \bf{DATE} & \bf{TOPIC(S)} & \bf{READ.} & \bf{DUE}\\
-\hline
-\endfirsthead
+<span style='color:#008000; '>%%% Header on first page</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>MODULE<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>WK<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>DATE<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>TOPIC(S)<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>READ.<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>DUE<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>endfirsthead</span>
 
-%%% Header on subsequent page(s)
-\hline
-\bf{MODULE} & \bf{WK} & \bf{DATE} & \bf{TOPIC(S)} & \bf{READ.} & \bf{DUE}\\
-\hline
-\endhead
+<span style='color:#008000; '>%%% Header on subsequent page(s)</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>MODULE<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>WK<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>DATE<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>TOPIC(S)<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>READ.<span style='color:#0000ff; '>}</span> <span style='color:#0000ff; '>&amp;</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>DUE<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>endhead</span>
 
-%%% Footer on page break(s)
- \hline \\
-\multicolumn{6}{r}{{{\em{Continued on next page}}}}
-\endfoot
+<span style='color:#008000; '>%%% Footer on page break(s)</span>
+ <span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span> <span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>multicolumn</span><span style='color:#0000ff; '>{</span><span style='color:#800000; '>6</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span>r<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>em</span><span style='color:#0000ff; '>{</span>Continued on next page<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>endfoot</span>
 
-%%% Footer on last page
-\hline
-\endlastfoot
-\\
-%module		week		date		topic		reading		asign.	
-Introduction to Data and Probability	&	1	&	Tue. 27-Aug	&	Introduction to Course/Lab 01: Introduction to R and RStudio	&	Ch. 1	&	---	\\
----	&	1	&	Thu. 29-Aug	&	Lab 01: Introduction to R and RStudio, contd.	&	---	&	---	\\
----	&	2	&	Tue. 03-Sep	&	Introduction to Data I	&	---	&	---	\\
----	&	2	&	Thu. 05-Sep	&	Introduction to Data II	&	---	&	---	\\
-	&	3	&	\color{red}{\bf{Sun. 08-Sep}}	&	---	&	---	&	\color{red}{\bf{Lab 01}}	\\
-	&	3	&	Tue. 10-Sep	&	Introduction to Data III	&	---	&	---	\\
----	&	3	&	Thu. 12-Sep	&	Lab 02: Introduction to Data	&	---	&	---	\\
----	&	4	&	Tue. 17-Sep	&	---	&	---	&	{\bf{MQ 01}}	\\
-\\											
-\hline											
-\\											
-Foundations for Statistical Inference	&	4	&	Thu. 19-Sep	&	Distributions of Random Variables I	&	Ch. 3	&	---	\\
----	&	5	&	\color{red}{\bf{Sun. 22-Sep}}	&	---	&	---	&	\color{red}{\bf{Lab 02}}	\\
----	&	5	&	Tue. 24-Sep	&	Distributions of Random Variables II	&	---	&	---	\\
----	&	5	&	Thu. 26-Sep	&	Lab 03: The Normal Distribution	&	---	&	---	\\
----	&	6	&	Tue. 01-Oct	&	Foundations for Inference I	&	Ch. 4	&	---	\\
----	&	6	&	Thu. 03-Oct	&	Foundations for Inference II	&	---	&		\\
----	&	7	&	\color{red}{\bf{Sun. 06-Oct}}	&	---	&	---	&	\color{red}{\bf{Lab 03}}	\\
----	&	7	&	Tue. 08-Oct	&	Foundations for Inference III	&	---	&	---	\\
----	&	7	&	Thu. 10-Oct	&	Lab 04: Foundations for Statistical Inference	&	---	&	---	\\
----	&	8	&	Tue. 15-Oct	&	---	&	---	&	\color{red}{\bf{MQ 02}}	\\
-\\											
-\hline											
-\\											
-Statistical Inference for Categorical and Numerical Data	&	8	&	Thu. 17-Oct	&	Inference for Numerical Data I	&	Ch. 5	&	---	\\
----	&	9	&	\color{red}{\bf{Sun. 20-Oct}}	&	---	&	---	&	\color{red}{\bf{Lab 04}}	\\
----	&	9	&	Tue. 22-Oct	&	Inference for Numerical Data II	&	---	&	---	\\
----	&	9	&	Thu. 24-Oct	&	Inference for Numerical Data III	&	---	&	---	\\
----	&	10	&	Tue. 29-Oct	&	Lab 05: Inference for Numerical Data	&	---	&	---	\\
----	&	10	&	Thu. 31-Oct	&	Inference for Categorical Data I	&	Ch. 6	&	---	\\
----	&	11	&	Tue. 05-Nov	&	Inference for Categorical Data II	&	---	&	---	\\
----	&	11	&	Thu. 07-Nov	&	Lab 06: Inference for Categorical Data	&	---	&	---	\\
----	&	12	&	\color{red}{\bf{Sun. 10-Nov}}	&	---	&	---	&	\color{red}{\bf{Lab 05}}	\\
----	&	12	&	Tue. 12-Nov	&	---	&	---	&	\color{red}{\bf{MQ 03}}	\\
-\\											
-\hline											
-\\											
-Simple and Multiple Regression	&	12	&	Thu. 14-Nov	&	Introduction to Linear Regression I	&	Ch. 7	&	---	\\
----	&	12	&	Tue. 19-Nov	&	Introduction to Linear Regression II	&	---	&	---	\\
----	&	13	&	Thu. 21-Nov	&	Multiple and Logistic Regression I	&	Ch. 8	&	---	\\
----	&	14	&	\color{red}{\bf{Sun. 24-Nov}}	&	---	&	---	&	\color{red}{\bf{Lab 06}}	\\
----	&	14	&	Tue. 26-Nov	&	Catch-Up/Lab Day	&	---	&	---	\\
----	&	14	&	Thu. 28-Nov	&	\color{red}{\bf{HOLIDAY}}	&	---	&	---	\\
----	&	15	&	Tue. 03-Dec	&	Multiple and Logistic Regression II	&	---	&	---	\\
----	&	15	&	Thu. 05-Dec	&	Final Exam Review	&	---	&	---	\\
-\\											
-\hline											
-\\											
----	&	16	&	Thur. 12-Dec	&	\color{red}{\bf{\em{FINAL EXAM, 10:30 AM}}}	&	---	&	---	\\
-\end{longtable}
-\end{center}
+<span style='color:#008000; '>%%% Footer on last page</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>endlastfoot</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#008000; '>%module		week		date		topic		reading		asign.	</span>
+Introduction to Data and Probability	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>1</span>	<span style='color:#0000ff; '>&amp;</span>	Tue. <span style='color:#800000; '>27</span>-Aug	<span style='color:#0000ff; '>&amp;</span>	Introduction to Course/Lab <span style='color:#800000; '>01</span>: Introduction to R and RStudio	<span style='color:#0000ff; '>&amp;</span>	Ch. <span style='color:#800000; '>1</span>	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>1</span>	<span style='color:#0000ff; '>&amp;</span>	Thu. <span style='color:#800000; '>29</span>-Aug	<span style='color:#0000ff; '>&amp;</span>	Lab <span style='color:#800000; '>01</span>: Introduction to R and RStudio, contd.	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>2</span>	<span style='color:#0000ff; '>&amp;</span>	Tue. <span style='color:#800000; '>03</span>-Sep	<span style='color:#0000ff; '>&amp;</span>	Introduction to Data I	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>2</span>	<span style='color:#0000ff; '>&amp;</span>	Thu. <span style='color:#800000; '>05</span>-Sep	<span style='color:#0000ff; '>&amp;</span>	Introduction to Data II	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>3</span>	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Sun. <span style='color:#800000; '>08</span>-Sep<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Lab <span style='color:#800000; '>01</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>3</span>	<span style='color:#0000ff; '>&amp;</span>	Tue. <span style='color:#800000; '>10</span>-Sep	<span style='color:#0000ff; '>&amp;</span>	Introduction to Data III	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>3</span>	<span style='color:#0000ff; '>&amp;</span>	Thu. <span style='color:#800000; '>12</span>-Sep	<span style='color:#0000ff; '>&amp;</span>	Lab <span style='color:#800000; '>02</span>: Introduction to Data	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>4</span>	<span style='color:#0000ff; '>&amp;</span>	Tue. <span style='color:#800000; '>17</span>-Sep	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>MQ <span style='color:#800000; '>01</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>											
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>											
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>											
+Foundations for Statistical Inference	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>4</span>	<span style='color:#0000ff; '>&amp;</span>	Thu. <span style='color:#800000; '>19</span>-Sep	<span style='color:#0000ff; '>&amp;</span>	Distributions of Random Variables I	<span style='color:#0000ff; '>&amp;</span>	Ch. <span style='color:#800000; '>3</span>	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>5</span>	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Sun. <span style='color:#800000; '>22</span>-Sep<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Lab <span style='color:#800000; '>02</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>5</span>	<span style='color:#0000ff; '>&amp;</span>	Tue. <span style='color:#800000; '>24</span>-Sep	<span style='color:#0000ff; '>&amp;</span>	Distributions of Random Variables II	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>5</span>	<span style='color:#0000ff; '>&amp;</span>	Thu. <span style='color:#800000; '>26</span>-Sep	<span style='color:#0000ff; '>&amp;</span>	Lab <span style='color:#800000; '>03</span>: The Normal Distribution	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>6</span>	<span style='color:#0000ff; '>&amp;</span>	Tue. <span style='color:#800000; '>01</span>-Oct	<span style='color:#0000ff; '>&amp;</span>	Foundations for Inference I	<span style='color:#0000ff; '>&amp;</span>	Ch. <span style='color:#800000; '>4</span>	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>6</span>	<span style='color:#0000ff; '>&amp;</span>	Thu. <span style='color:#800000; '>03</span>-Oct	<span style='color:#0000ff; '>&amp;</span>	Foundations for Inference II	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>		<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>7</span>	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Sun. <span style='color:#800000; '>06</span>-Oct<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Lab <span style='color:#800000; '>03</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>7</span>	<span style='color:#0000ff; '>&amp;</span>	Tue. <span style='color:#800000; '>08</span>-Oct	<span style='color:#0000ff; '>&amp;</span>	Foundations for Inference III	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>7</span>	<span style='color:#0000ff; '>&amp;</span>	Thu. <span style='color:#800000; '>10</span>-Oct	<span style='color:#0000ff; '>&amp;</span>	Lab <span style='color:#800000; '>04</span>: Foundations for Statistical Inference	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>8</span>	<span style='color:#0000ff; '>&amp;</span>	Tue. <span style='color:#800000; '>15</span>-Oct	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>MQ <span style='color:#800000; '>02</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>											
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>											
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>											
+Statistical Inference for Categorical and Numerical Data	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>8</span>	<span style='color:#0000ff; '>&amp;</span>	Thu. <span style='color:#800000; '>17</span>-Oct	<span style='color:#0000ff; '>&amp;</span>	Inference for Numerical Data I	<span style='color:#0000ff; '>&amp;</span>	Ch. <span style='color:#800000; '>5</span>	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>9</span>	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Sun. <span style='color:#800000; '>20</span>-Oct<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Lab <span style='color:#800000; '>04</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>9</span>	<span style='color:#0000ff; '>&amp;</span>	Tue. <span style='color:#800000; '>22</span>-Oct	<span style='color:#0000ff; '>&amp;</span>	Inference for Numerical Data II	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>9</span>	<span style='color:#0000ff; '>&amp;</span>	Thu. <span style='color:#800000; '>24</span>-Oct	<span style='color:#0000ff; '>&amp;</span>	Inference for Numerical Data III	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>10</span>	<span style='color:#0000ff; '>&amp;</span>	Tue. <span style='color:#800000; '>29</span>-Oct	<span style='color:#0000ff; '>&amp;</span>	Lab <span style='color:#800000; '>05</span>: Inference for Numerical Data	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>10</span>	<span style='color:#0000ff; '>&amp;</span>	Thu. <span style='color:#800000; '>31</span>-Oct	<span style='color:#0000ff; '>&amp;</span>	Inference for Categorical Data I	<span style='color:#0000ff; '>&amp;</span>	Ch. <span style='color:#800000; '>6</span>	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>11</span>	<span style='color:#0000ff; '>&amp;</span>	Tue. <span style='color:#800000; '>05</span>-Nov	<span style='color:#0000ff; '>&amp;</span>	Inference for Categorical Data II	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>11</span>	<span style='color:#0000ff; '>&amp;</span>	Thu. <span style='color:#800000; '>07</span>-Nov	<span style='color:#0000ff; '>&amp;</span>	Lab <span style='color:#800000; '>06</span>: Inference for Categorical Data	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>12</span>	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Sun. <span style='color:#800000; '>10</span>-Nov<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Lab <span style='color:#800000; '>05</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>12</span>	<span style='color:#0000ff; '>&amp;</span>	Tue. <span style='color:#800000; '>12</span>-Nov	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>MQ <span style='color:#800000; '>03</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>											
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>											
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>											
+Simple and Multiple Regression	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>12</span>	<span style='color:#0000ff; '>&amp;</span>	Thu. <span style='color:#800000; '>14</span>-Nov	<span style='color:#0000ff; '>&amp;</span>	Introduction to Linear Regression I	<span style='color:#0000ff; '>&amp;</span>	Ch. <span style='color:#800000; '>7</span>	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>12</span>	<span style='color:#0000ff; '>&amp;</span>	Tue. <span style='color:#800000; '>19</span>-Nov	<span style='color:#0000ff; '>&amp;</span>	Introduction to Linear Regression II	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>13</span>	<span style='color:#0000ff; '>&amp;</span>	Thu. <span style='color:#800000; '>21</span>-Nov	<span style='color:#0000ff; '>&amp;</span>	Multiple and Logistic Regression I	<span style='color:#0000ff; '>&amp;</span>	Ch. <span style='color:#800000; '>8</span>	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>14</span>	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Sun. <span style='color:#800000; '>24</span>-Nov<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>Lab <span style='color:#800000; '>06</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>14</span>	<span style='color:#0000ff; '>&amp;</span>	Tue. <span style='color:#800000; '>26</span>-Nov	<span style='color:#0000ff; '>&amp;</span>	Catch-Up/Lab Day	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>14</span>	<span style='color:#0000ff; '>&amp;</span>	Thu. <span style='color:#800000; '>28</span>-Nov	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span>HOLIDAY<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>15</span>	<span style='color:#0000ff; '>&amp;</span>	Tue. <span style='color:#800000; '>03</span>-Dec	<span style='color:#0000ff; '>&amp;</span>	Multiple and Logistic Regression II	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>15</span>	<span style='color:#0000ff; '>&amp;</span>	Thu. <span style='color:#800000; '>05</span>-Dec	<span style='color:#0000ff; '>&amp;</span>	Final Exam Review	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>											
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>hline</span>											
+<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>											
+---	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#800000; '>16</span>	<span style='color:#0000ff; '>&amp;</span>	Thur. <span style='color:#800000; '>12</span>-Dec	<span style='color:#0000ff; '>&amp;</span>	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>color</span><span style='color:#0000ff; '>{</span>red<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>bf</span><span style='color:#0000ff; '>{</span><span style='color:#0000ff; '>\</span><span style='color:#0000ff; font-weight:bold; '>em</span><span style='color:#0000ff; '>{</span>FINAL EXAM, <span style='color:#800000; '>10</span>:<span style='color:#800000; '>30</span> AM<span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span><span style='color:#0000ff; '>}</span>	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>&amp;</span>	---	<span style='color:#0000ff; '>\</span><span style='color:#0000ff; '>\</span>
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>longtable</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>center</span><span style='color:#0000ff; font-weight:bold; '>}</span>
 
-\end{landscape}
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>landscape</span><span style='color:#0000ff; font-weight:bold; '>}</span>
 
-\end{document}
-
-```
-
+<span style='color:#0000ff; font-weight:bold; '>\end{</span><span style='color:#e34adc; '>document</span><span style='color:#0000ff; font-weight:bold; '>}</span>
+</pre>
+<!--Created using ToHtml.com on 2020-10-01 03:20:17 UTC -->
