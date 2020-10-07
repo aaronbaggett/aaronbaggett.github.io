@@ -11,7 +11,7 @@ output:
  <thead>
   <tr>
    <th style="text-align:right;"> Term </th>
-   <th style="text-align:right;"> Full </th>
+   <th style="text-align:right;"> Course </th>
    <th style="text-align:right;"> Score </th>
    <th style="text-align:right;"> Category </th>
    <th style="text-align:right;"> Report </th>
