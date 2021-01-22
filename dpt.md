@@ -16,7 +16,7 @@ WEEK 1: Foundations of Statistical Inference: Measuring Uncertainty
 </h4>
 
 ##### Lecture Slides
-- <a href="http://aaronbaggett.com/files/Foundations_of_Inference.pdf" target="_blank">PDF</a>
+- <a href="http://aaronbaggett.com/files/01_Foundations_of_Inference.pdf" target="_blank">PDF</a>
 
 ##### Data
   - Excel: <a href="http://aaronbaggett.com/data/baby_wt.csv" target="_blank">Low birth weight example</a>
@@ -95,7 +95,6 @@ Miscellaneous
 </h4>
 
 ##### Links and Handouts
-- <a href="https://stats.idre.ucla.edu/other/mult-pkg/whatstat/" target="_blank">Choosing the correct statistical test</a>
-
+- <a href="http://aaronbaggett.com/files/Statistical_Decision_Making_Tree.pdf" target="_blank">Choosing the correct statistical test</a>
 
 
