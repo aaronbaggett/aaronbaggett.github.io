@@ -217,6 +217,54 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 </script>
+<style type="text/css">
+a.anchor-section {margin-left: 10px; visibility: hidden; color: inherit;}
+a.anchor-section::before {content: '#';}
+.hasAnchor:hover a.anchor-section {visibility: visible;}
+</style>
+<script>// Anchor sections v1.0 written by Atsushi Yasumoto on Oct 3rd, 2020.
+document.addEventListener('DOMContentLoaded', function() {
+  // Do nothing if AnchorJS is used
+  if (typeof window.anchors === 'object' && anchors.hasOwnProperty('hasAnchorJSLink')) {
+    return;
+  }
+
+  const h = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+
+  // Do nothing if sections are already anchored
+  if (Array.from(h).some(x => x.classList.contains('hasAnchor'))) {
+    return null;
+  }
+
+  // Use section id when pandoc runs with --section-divs
+  const section_id = function(x) {
+    return ((x.classList.contains('section') || (x.tagName === 'SECTION'))
+            ? x.id : '');
+  };
+
+  // Add anchors
+  h.forEach(function(x) {
+    const id = x.id || section_id(x.parentElement);
+    if (id === '') {
+      return null;
+    }
+    let anchor = document.createElement('a');
+    anchor.href = '#' + id;
+    anchor.classList = ['anchor-section'];
+    x.classList.add('hasAnchor');
+    x.appendChild(anchor);
+  });
+});
+</script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -372,7 +420,7 @@ summary {
 <p>During my time in that program I formed a close bond with our department chair and professor, Dr. Robert Barnes. At that time already in his mid to late 70s and confined to a motorized scooter as a result of suffering from post-polio syndrome, Dr. Bob, as we called him, asked me to come to his office one evening after class. I had just finished delivering a major presentation and he wanted to speak with me in private. What he told me, I believe, changed the trajectory of my life. Looking right into my eyes with the conviction of a preacher and the compassion of a grandfather he said, “When you finish here, you need to go on and work on your doctoral degree. You can do it.” Thanks to Dr. Bob and countless others, I have been able to fulfill an amazing goal and dream.</p>
 <p>It really is heartening to look back on the various stages and periods of development I have experienced and consider the blessing it is to be here doing what I enjoy. If there is one thing I hope you take away from my portfolio is the fact that I have worked hard, very hard during my time thus far at UMHB. I have taken on some of the more traditionally challenging courses in both psychology and education, volunteered my skills on campus in several leadership roles, and invested in contributing to my discipline. Like many at this stage of career reflection, I suppose at times my IDEA scores could or should have been a little higher. Maybe I could have been a little more organized at times during certain semesters. Maybe I could have published one or two more peer-reviewed papers. Regardless, I believe my record of commitment to and accomplishments within the profession and University are reflected in the sections to follow.</p>
 <p>One note regarding my timeline at UMHB to consider when evaluating my body of work: Prior to the Spring 2020 term, I was stationed exclusively in psychology while also assisting the College of Education’s doctoral program in educational leadership by teaching one course per semester. During the Spring 2020 semester I was awarded a joint appointment in both the Department of Psychology and College of Education, which I currently carry. Being that this change is fresh and not necessarily newsworthy, I felt the need to inform and/or remind the committee.</p>
-<p>Before you begin reviwing, I wanted to make sure you had a copy of my current <a href="https://bit.ly/3jWGNNw">C.V.</a>. Thank you in advance for your friendship and thoughtful consideration.</p>
+<p>Before you begin reviewing, I wanted to make sure you had a copy of my current <a href="https://bit.ly/3jWGNNw">C.V.</a>. Thank you in advance for your friendship and thoughtful consideration.</p>
 <p>Aaron</p>
 
 
@@ -384,7 +432,7 @@ summary {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
