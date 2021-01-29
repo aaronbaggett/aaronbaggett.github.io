@@ -44,7 +44,7 @@ WEEK 2: Foundations of Statistical Decision Making: Comparing Multiple Groups
 </h4>
 
 ##### Lecture Slides
-- <a href="http://aaronbaggett.com/files/01_Foundations_of_Decisions.pdf" target="_blank">PDF</a>
+- <a href="http://aaronbaggett.com/files/02_Foundations_of_Decisions.pdf" target="_blank">PDF</a>
 
 ##### Data
   - Excel: <a href="http://aaronbaggett.com/data/fitness.csv" target="_blank">Attitudes toward fitness intensity example</a>
@@ -77,7 +77,7 @@ WEEK 3: Foundations of Statistical Decision Making: Relationships and Prediction
 </h4>
 
 ##### Lecture Slides
-- <a href="http://aaronbaggett.com/files/02_Foundations_of_Predictions.pdf" target="_blank">PDF</a>
+- <a href="http://aaronbaggett.com/files/Foundations_of_Predictions.pdf" target="_blank">PDF</a>
 
 ##### Data
   - Excel: <a href="http://aaronbaggett.com/data/nels.csv" target="_blank">Early childhood longitudinal study example</a>
