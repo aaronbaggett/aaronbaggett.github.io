@@ -77,7 +77,7 @@ WEEK 3: Foundations of Statistical Decision Making: Relationships and Prediction
 </h4>
 
 ##### Lecture Slides
-- <a href="http://aaronbaggett.com/files/Foundations_of_Predictions.pdf" target="_blank">PDF</a>
+- <a href="http://aaronbaggett.com/files/03_Foundations_of_Predictions.pdf" target="_blank">PDF</a>
 
 ##### Data
   - Excel: <a href="http://aaronbaggett.com/data/nels.csv" target="_blank">Early childhood longitudinal study example</a>
