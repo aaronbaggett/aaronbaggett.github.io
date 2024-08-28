@@ -9,9 +9,9 @@ library(xtable)
 library(car)
 
 # Read in data
-bwt <- read.csv("http://aaronbaggett.com/data/baby_wt.csv")
+bwt <- readr::read_csv("http://aaronbaggett.com/data/baby_wt.csv")
 
-# Summary of birth weigt by mother's smoking status
+# Summary of birth weight by mother's smoking status
 (bwt_summ <- bwt %>% 
   group_by(mom_smokes) %>% 
   summarize(n = length(baby_bwt),
@@ -30,7 +30,7 @@ ggplot(data = bwt, aes(x = baby_bwt)) +
     name = "\nBaby Birth Weight") +
   scale_y_continuous(limits = c(0, 20), breaks = seq(0, 20, 2),
     name = "Frequency\n") + 
-  facet_grid(. ~ mom_smokes) +
+  facet_grid(. ~ mom_smokes) + theme_bw() +
   theme(strip.text.x = element_text(size=12, face="bold"),
     axis.title.x = element_text(size=10, face="bold"),
     axis.text.x = element_text(size=10),
