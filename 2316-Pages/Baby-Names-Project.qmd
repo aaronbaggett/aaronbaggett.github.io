@@ -1,0 +1,394 @@
+---
+title: "A Gentle Introduction to R"
+subtitle: "How Unique is Your Name?"
+author: "Aaron R. Baggett, Ph.D."
+date: "Thursday, August 14, 2025"
+format: 
+  html:
+    embed-resources: true
+editor: visual
+execute:
+  echo: true
+  warning: false
+  message: false
+editor_options: 
+  chunk_output_type: console
+---
+
+# Welcome to R! 👋🏻
+
+------------------------------------------------------------------------
+
+### 1: R Basics
+
+#### Objects and the assignment operator
+
+You “name” things with `<-` and reuse them later.
+
+```{r}
+x <- 2 + 2
+x
+
+greeting <- "Hello, PSYC 2316!"
+greeting
+```
+
+#### Vectors
+
+```{r}
+nums <- c(1, 2, 3, 4, 5)
+nums
+mean(nums)
+```
+
+The option to store and interact with data logically is kind of a big deal. For lots of reasons. I can think of three:
+
+1.  **Automation**: Rinse and repeat
+2.  **Reproducibility**: If it works it works
+3.  **Flexibility**: Work only with what you want
+
+# The Glow Up ✨
+
+------------------------------------------------------------------------
+
+### 2: Packages and Data
+
+#### R Packages
+
+```{r}
+library(tidyverse)
+library(babynames)
+```
+
+#### R Data
+
+```{r}
+data(babynames)
+```
+
+`library()` and `data()` are like ordering off a menu.
+
+# What's in a Name? 👶
+
+------------------------------------------------------------------------
+
+### 3: Meet the `babynames` data
+
+The `babynames` table contains the name and number of babies born in each year, by sex between 1880 and 2017.
+
+#### Let's take a look
+
+Two fast ways to look at tables:
+
+-   `glimpse(x)` prints a compact preview in the Console.
+-   `View(x)` opens a spreadsheet‑style viewer (capital **V**).
+
+```{r}
+glimpse(babynames)
+# View(babynames)
+```
+
+You're in there!
+
+Here's what we're looking at:
+
+1.  `year`: 1880--2017
+2.  `sex`: F = female; M = male
+3.  `name`: unique name
+4.  `n`: number of babies given that name
+5.  `prop`: proportion (*p* \* 100 = %)
+
+```{r}
+latest_year <- max(babynames$year)
+latest_year
+```
+
+Now, let's analyze the data.
+
+# How Unique is a Name? 🦄
+
+------------------------------------------------------------------------
+
+### 4: How many \_\_\_\_\_\_\_\_\_\_s are there?
+
+**1. Aaron**
+
+```{r}
+babynames |> 
+  filter(name == "Aaron", sex == "M")
+```
+
+**2. Across all males born between 1880 and 2017, how many were named Aaron?**
+
+```{r}
+babynames |> 
+  filter(name == "Aaron", sex == "M") |> 
+  summarize(total = sum(n))
+```
+
+**3. What percentage of all boys born between 1880 and 2017 were named Aaron?**
+
+```{r}
+# Number of Boys
+n_boys <- babynames |> 
+  filter(sex == "M") |> 
+  summarize(total = sum(n))
+
+# Number of Aarons
+all_aarons <- babynames |> 
+  filter(sex == "M", name == "Aaron") |> 
+  summarize(total = sum(n))
+
+# Percentage of boys born between 1880 and 2017 named Aaron
+all_aarons / n_boys
+```
+
+Bonus:
+
+**3. Is there a trend line for male babies named Aaron?**
+
+```{r}
+aarons_by_year <- babynames |> 
+  group_by(year) |> 
+  filter(sex == "M", name == "Aaron")
+
+ggplot(data = aarons_by_year, aes(x = year, y = n)) +
+  geom_line()
+```
+
+# You Survived 🧟‍♂️
+
+------------------------------------------------------------------------
+
+### Summary
+
+-   Use `<-` to name objects\
+-   `glimpse()` previews; `View()` opens a spreadsheet view.\
+-   Core verbs: `filter()` → `group_by()` → `summarize()`; then visualize with `ggplot2`.\
+    <!-- -   Histograms show **distributions**; line plots show **trends over time**. -->
+
+<!-- We’ll use three guiding questions: -->
+
+<!-- 1.  **RQ1:** In the most recent year, what does the distribution of name frequencies look like for one sex? *(Histogram)*\ -->
+
+<!-- 2.  **RQ2:** For your chosen sex in the most recent year, which names are most common? *(Simple summary table)*\ -->
+
+<!-- 3.  **RQ3:** How has the popularity of a specific name changed over time? *(Line plot of `prop`)* -->
+
+<!-- ### A) RQ1 — Histogram of name frequencies (most recent year) -->
+
+<!-- **Worked Example (choose girls):** -->
+
+<!-- ```{r} -->
+
+<!-- girls_recent <- babynames |> -->
+
+<!--   filter(year == latest_year, sex == "F") -->
+
+<!-- glimpse(girls_recent) -->
+
+<!-- ggplot(girls_recent, aes(x = n)) + -->
+
+<!--   geom_histogram(bins = 40) + -->
+
+<!--   labs( -->
+
+<!--     title = paste0("Distribution of Name Frequencies — Girls, ", latest_year), -->
+
+<!--     x = "Number of babies with a given name (n)", -->
+
+<!--     y = "Count of names" -->
+
+<!--   ) -->
+
+<!-- ``` -->
+
+<!-- **You Try (switch to boys):** Fill the blanks to make the same plot for boys. -->
+
+<!-- # ```{r} -->
+
+<!-- # boys_recent <- babynames |> -->
+
+<!-- #   filter(year == latest_year, sex == ____) -->
+
+<!-- #  -->
+
+<!-- # ggplot(boys_recent, aes(x = ____)) + -->
+
+<!-- #   geom_histogram(bins = 40) + -->
+
+<!-- #   labs( -->
+
+<!-- #     title = paste0("Distribution of Name Frequencies — Boys, ", latest_year), -->
+
+<!-- #     x = "Number of babies with a given name (n)", -->
+
+<!-- #     y = "Count of names" -->
+
+<!-- #   ) -->
+
+<!-- # ``` -->
+
+<!-- #### Concept Check 1 (multiple choice) -->
+
+<!-- Which function groups rows before computing summaries?\ -->
+
+<!-- A) `filter()` B) `group_by()` C) `summarize()` D) `mutate()` -->
+
+<!-- *(Answer after discussion: **B**`group_by()`.)* -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ### B) RQ2 — Simple summary for the most recent year -->
+
+<!-- **Goal:** For one sex and the most recent year, summarize the **number of distinct names** and the **total number of babies** recorded. -->
+
+<!-- **Worked Example (girls):** -->
+
+<!-- ```{r} -->
+
+<!-- girls_summary <- girls_recent |> -->
+
+<!--   summarize( -->
+
+<!--     n_names = n_distinct(name), -->
+
+<!--     total_babies = sum(n) -->
+
+<!--   ) -->
+
+<!-- girls_summary -->
+
+<!-- ``` -->
+
+<!-- **You Try (boys):** -->
+
+<!-- # ```{r} -->
+
+<!-- # boys_summary <- boys_recent |> -->
+
+<!-- #   summarize( -->
+
+<!-- #     n_names = n_distinct(____), -->
+
+<!-- #     total_babies = sum(____) -->
+
+<!-- #   ) -->
+
+<!-- #  -->
+
+<!-- # boys_summary -->
+
+<!-- # ``` -->
+
+<!-- > Optional extension: To *list* the most common names, you’d sort by `n` (e.g., `arrange(desc(n))`) and then take the first 10. We’re focusing on `filter()`, `group_by()`, and `summarize()` today. -->
+
+<!-- #### Concept Check 2 (multiple choice) -->
+
+<!-- For a filtered table of one year + sex, which verb would you use to reduce **many rows** (one per name) to **one row** containing totals?\ -->
+
+<!-- A) `filter()` B) `group_by()` C) `summarize()` D) `select()` -->
+
+<!-- *(Answer after discussion: **C**`summarize()`.)* -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ### C) RQ3 — Trend over time for a single name -->
+
+<!-- We’ll make a line plot of *relative popularity* (`prop`) over time for **Aaron (M)**. -->
+
+<!-- **Worked Example (Aaron, M):** -->
+
+<!-- ```{r} -->
+
+<!-- aaron_m <- babynames |> -->
+
+<!--   filter(name == "Aaron", sex == "M") -->
+
+<!-- ggplot(aaron_m, aes(x = year, y = prop)) + -->
+
+<!--   geom_line() + -->
+
+<!--   labs( -->
+
+<!--     title = "Relative Popularity of the Name 'Aaron' (M) Over Time", -->
+
+<!--     x = "Year", -->
+
+<!--     y = "Proportion of babies given the name" -->
+
+<!--   ) -->
+
+<!-- ``` -->
+
+<!-- **You Try (choose your own name & sex):** -->
+
+<!-- # ```{r} -->
+
+<!-- # my_name   <- "____"   # e.g., "Sophia" -->
+
+<!-- # my_sex    <- "____"   # "F" or "M" -->
+
+<!-- #  -->
+
+<!-- # my_trend <- babynames |> -->
+
+<!-- #   filter(name == ____, sex == ____) -->
+
+<!-- #  -->
+
+<!-- # ggplot(my_trend, aes(x = ____, y = ____)) + -->
+
+<!-- #   geom_line() + -->
+
+<!-- #   labs( -->
+
+<!-- #     title = paste0("Relative Popularity of '", my_name, "' (", my_sex, ") Over Time"), -->
+
+<!-- #     x = "Year", -->
+
+<!-- #     y = "Proportion of babies given the name" -->
+
+<!-- #   ) -->
+
+<!-- # ``` -->
+
+<!-- #### Concept Check 3 (multiple choice) -->
+
+<!-- For a trend line of popularity over years for a single name, which two verbs did we primarily need **before** plotting?\ -->
+
+<!-- A) `select()` then `mutate()`\ -->
+
+<!-- B) `filter()` then `summarize()`\ -->
+
+<!-- C) `filter()` only\ -->
+
+<!-- D) `group_by()` then `summarize()` -->
+
+<!-- *(Best answer for our code: **C**`filter()` only — the table already has `prop` per year.)* -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ## Part 4 — Your Turn (Choose One) -->
+
+<!-- Pick **one** of these new questions and answer it using `filter()`, `group_by()`, and/or `summarize()` plus a plot. -->
+
+<!-- 1.  **Q1.** For your chosen sex, how has the **number of distinct names** changed over time? *(Hint: `group_by(year) |> summarize(n_names = n_distinct(name))` then a line plot.)* -->
+
+<!-- 2.  **Q2.** For your chosen sex, what proportion of babies received a **top‑N name** (e.g., top 5) in the most recent year? *(Hint: filter to latest year/sex, then compare `sum(n)` of top N names to `sum(n)` of all names.)* -->
+
+<!-- 3.  **Q3.** Choose two names (same sex). Which one has been **more popular on average** across the last 20 years? *(Hint: filter years, group by name, summarize the mean of `prop`.)* -->
+
+<!-- Add a short 2–3 sentence interpretation beneath your plot. -->
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- ## Summary -->
+
+<!-- -   Use `<-` to name objects; vectors with `c(...)`.\ -->
+
+<!-- -   `glimpse()` previews; `View()` opens a spreadsheet view.\ -->
+
+<!-- -   Core verbs: `filter()` → `group_by()` → `summarize()`; then visualize with `ggplot2`.\ -->
+
+<!-- -   Histograms show **distributions**; line plots show **trends over time**. -->
