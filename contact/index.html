@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4f2683">
+  <meta name="description" content="Contact Aaron R. Baggett, Ph.D., Associate Professor of Psychology at the University of Mary Hardin-Baylor.">
+  <title>Aaron R. Baggett, Ph.D. | Contact</title>
+  <link rel="canonical" href="https://aaronbaggett.com/contact/">
+  <style>
+    :root {
+      --purple: #6f3fc7;
+      --purple-bright: #8b5de0;
+      --gold: #d9a928;
+      --ink: #f7f5fb;
+      --muted: #aaa4b4;
+      --surface: #17151c;
+      --surface-raised: #211e29;
+      --line: rgba(255, 255, 255, .10);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      padding: 24px 16px;
+      display: grid;
+      place-items: center;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 20% 0%, rgba(111, 63, 199, .25), transparent 34rem),
+        linear-gradient(145deg, #111015 0%, #1a1720 100%);
+      font-family: "Avenir Next", Avenir, Inter, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.45;
+    }
+
+    .card {
+      width: min(100%, 430px);
+      overflow: hidden;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 28px 80px rgba(0, 0, 0, .42);
+    }
+
+    .accent { height: 4px; background: linear-gradient(90deg, var(--purple) 0 82%, var(--gold) 82%); }
+
+    main { padding: 32px 28px 28px; }
+
+    .portrait {
+      width: 112px;
+      height: 112px;
+      display: block;
+      margin: 0 auto 20px;
+      border: 3px solid var(--surface);
+      border-radius: 50%;
+      box-shadow: 0 0 0 2px var(--purple-bright), 0 12px 30px rgba(0, 0, 0, .38);
+      object-fit: cover;
+    }
+
+    header { text-align: center; }
+
+    h1 {
+      margin: 0;
+      color: var(--ink);
+      font-size: clamp(1.65rem, 7vw, 2.05rem);
+      font-weight: 700;
+      line-height: 1.15;
+      letter-spacing: -.035em;
+    }
+
+    .title { margin: 11px 0 3px; color: #ded9e7; font-size: .98rem; font-weight: 600; }
+    .institution { margin: 0; color: var(--muted); font-size: .94rem; }
+
+    .actions {
+      display: grid;
+      gap: 10px;
+      margin: 26px 0 22px;
+    }
+
+    .button {
+      min-height: 50px;
+      padding: 13px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      color: var(--ink);
+      background: var(--surface-raised);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      font-weight: 650;
+      text-align: center;
+      text-decoration: none;
+      transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+    }
+
+    .button.primary { color: #fff; background: var(--purple); border-color: var(--purple-bright); }
+    .button:hover { transform: translateY(-1px); background: #2b2734; box-shadow: 0 9px 22px rgba(0, 0, 0, .22); }
+    .button.primary:hover { background: var(--purple-bright); }
+    .button:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+
+    .contact-list {
+      margin: 0;
+      padding: 20px 0 0;
+      border-top: 1px solid var(--line);
+      list-style: none;
+    }
+
+    .contact-list li { display: grid; grid-template-columns: 26px 1fr; gap: 10px; padding: 7px 0; }
+    .contact-list .icon { color: var(--purple-bright); font-weight: 800; text-align: center; }
+    .contact-list a { color: var(--ink); text-decoration-color: rgba(139, 93, 224, .6); text-underline-offset: 3px; }
+    address { font-style: normal; }
+
+    footer {
+      padding: 15px 20px;
+      color: var(--muted);
+      background: #121116;
+      border-top: 1px solid var(--line);
+      font-size: .78rem;
+      text-align: center;
+    }
+
+    @media (min-width: 390px) {
+      .actions.secondary { grid-template-columns: 1fr 1fr; }
+      .actions.secondary .button { padding-inline: 10px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) { .button { transition: none; } }
+  </style>
+</head>
+<body>
+  <article class="card" aria-labelledby="name">
+    <div class="accent" aria-hidden="true"></div>
+    <main>
+      <header>
+        <img class="portrait" src="/contact/profile.png" alt="Portrait of Aaron R. Baggett">
+        <h1 id="name">Aaron R. Baggett, Ph.D.</h1>
+        <p class="title">Associate Professor of Psychology</p>
+        <p class="institution">University of Mary Hardin-Baylor</p>
+      </header>
+
+      <div class="actions">
+        <a class="button primary" href="https://umhb.campus.eab.com/pal/Pt8PGWsHmp">Schedule an Appointment</a>
+      </div>
+
+      <div class="actions secondary">
+        <a class="button" href="mailto:abaggett@umhb.edu">Email Me</a>
+        <a class="button" href="tel:+12542954553">Call My Office</a>
+        <a class="button" href="/contact/Aaron-R-Baggett.vcf" download>Save to Contacts</a>
+        <a class="button" href="https://www.umhb.edu/resources/hr/directory/aaron-baggett">Faculty Profile</a>
+      </div>
+
+      <ul class="contact-list" aria-label="Contact details">
+        <li><span class="icon" aria-hidden="true">@</span><a href="mailto:abaggett@umhb.edu">abaggett@umhb.edu</a></li>
+        <li><span class="icon" aria-hidden="true">T</span><a href="tel:+12542954553">(254) 295-4553</a></li>
+        <li><span class="icon" aria-hidden="true">P</span><address>Wells Science Hall #125<br>Box 8014-B<br>Belton, TX 76513</address></li>
+      </ul>
+    </main>
+    <footer>University of Mary Hardin-Baylor · Belton, Texas</footer>
+  </article>
+</body>
+</html>
